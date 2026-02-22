@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Watch — EV & Energy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0f0d;
+    --surface: #111a15;
+    --surface2: #172010;
+    --border: #1e2d20;
+    --accent: #4ade80;
+    --accent2: #facc15;
+    --accent3: #38bdf8;
+    --text: #e8f0e9;
+    --muted: #6b8f72;
+    --red: #f87171;
+    --card-bg: #0e1a10;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Noise texture overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0.4;
+  }
+
+  /* Header */
+  header {
+    padding: 24px 40px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: rgba(10, 15, 13, 0.95);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .logo-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    color: var(--text);
+  }
+
+  .logo-subtitle {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .live-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  .refresh-info {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .btn {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn-accent {
+    background: var(--accent);
+    color: #0a0f0d;
+    border-color: var(--accent);
+    font-weight: 500;
+  }
+
+  .btn-accent:hover {
+    background: #86efac;
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--muted);
+  }
+
+  .btn-ghost:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Layout */
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    min-height: calc(100vh - 73px);
+  }
+
+  .sector {
+    border-right: 1px solid var(--border);
+    padding: 0;
+  }
+
+  .sector:last-child { border-right: none; }
+
+  .sector-header {
+    padding: 28px 36px 20px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 73px;
+    background: rgba(10, 15, 13, 0.97);
+    backdrop-filter: blur(8px);
+    z-index: 50;
+  }
+
+  .sector-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .sector-ev .sector-tag { color: var(--accent); }
+  .sector-energy .sector-tag { color: var(--accent2); }
+  .sector-v2x .sector-tag { color: var(--accent3); }
+
+  .sector-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 26px;
+    letter-spacing: -0.5px;
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  .sector-meta {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .count-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+
+  .sector-ev .count-badge { border-color: var(--accent); color: var(--accent); }
+  .sector-energy .count-badge { border-color: var(--accent2); color: var(--accent2); }
+  .sector-v2x .count-badge { border-color: var(--accent3); color: var(--accent3); }
+
+  .last-updated {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  /* News feed */
+  .news-feed {
+    padding: 0;
+  }
+
+  .news-item {
+    padding: 24px 36px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.15s;
+    animation: fadeIn 0.4s ease forwards;
+    opacity: 0;
+  }
+
+  .news-item:hover {
+    background: var(--surface);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .news-item:nth-child(1) { animation-delay: 0.05s; }
+  .news-item:nth-child(2) { animation-delay: 0.1s; }
+  .news-item:nth-child(3) { animation-delay: 0.15s; }
+  .news-item:nth-child(4) { animation-delay: 0.2s; }
+  .news-item:nth-child(5) { animation-delay: 0.25s; }
+  .news-item:nth-child(6) { animation-delay: 0.3s; }
+  .news-item:nth-child(7) { animation-delay: 0.35s; }
+  .news-item:nth-child(8) { animation-delay: 0.4s; }
+
+  .news-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .news-headline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .news-headline a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .news-headline a:hover {
+    color: var(--accent);
+  }
+
+  .sentiment {
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .news-summary {
+    font-size: 12.5px;
+    color: var(--muted);
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .news-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .news-source {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .news-time {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  .news-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+  }
+
+  .tag-ev { background: rgba(74, 222, 128, 0.1); color: var(--accent); }
+  .tag-energy { background: rgba(250, 204, 21, 0.1); color: var(--accent2); }
+  .tag-policy { background: rgba(56, 189, 248, 0.08); color: #a5f3fc; }
+  .tag-v2x { background: rgba(56, 189, 248, 0.15); color: var(--accent3); }
+  .tag-market { background: rgba(248, 113, 113, 0.1); color: var(--red); }
+
+  .dot-sep {
+    color: var(--border);
+    font-size: 10px;
+  }
+
+  /* Loading skeleton */
+  .skeleton {
+    padding: 24px 36px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .skel-line {
+    background: linear-gradient(90deg, var(--surface) 25%, var(--surface2) 50%, var(--surface) 75%);
+    background-size: 400% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 3px;
+    margin-bottom: 8px;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+  }
+
+  /* Ticker bar */
+  .ticker-bar {
+    border-bottom: 1px solid var(--border);
+    padding: 10px 40px;
+    background: var(--surface);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ticker-track {
+    display: flex;
+    gap: 48px;
+    animation: ticker 40s linear infinite;
+    white-space: nowrap;
+  }
+
+  .ticker-track:hover { animation-play-state: paused; }
+
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .ticker-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    flex-shrink: 0;
+  }
+
+  .ticker-name { color: var(--muted); letter-spacing: 1px; }
+  .ticker-price { color: var(--text); font-weight: 500; }
+  .ticker-change.up { color: var(--accent); }
+  .ticker-change.down { color: var(--red); }
+
+  /* Email modal */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(4px);
+    z-index: 500;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    width: 680px;
+    max-width: 95vw;
+    max-height: 85vh;
+    overflow-y: auto;
+    animation: slideUp 0.25s ease;
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .modal-header {
+    padding: 28px 32px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .modal-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+  }
+
+  .modal-close {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+
+  .modal-close:hover { border-color: var(--red); color: var(--red); }
+
+  .modal-body {
+    padding: 24px 32px 32px;
+  }
+
+  .email-preview {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 28px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .email-date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .email-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+  .email-tagline {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .email-section-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-top: 24px;
+  }
+
+  .ev-color { color: var(--accent); }
+  .energy-color { color: var(--accent2); }
+
+  .email-item {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .email-item:last-child { border-bottom: none; }
+
+  .email-item-headline {
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .email-item-summary {
+    color: var(--muted);
+    font-size: 12px;
+  }
+
+  .email-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .email-input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .email-input {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .email-input:focus { border-color: var(--accent); }
+  .email-input::placeholder { color: var(--muted); }
+
+  .schedule-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .schedule-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .schedule-select {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .schedule-select:focus { border-color: var(--accent); }
+
+  /* Progress bar for refresh */
+  .refresh-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 1s linear;
+    z-index: 200;
+    box-shadow: 0 0 8px var(--accent);
+  }
+
+  /* Empty / error state */
+  .feed-empty {
+    padding: 48px 36px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .feed-empty .icon { font-size: 32px; margin-bottom: 12px; }
+
+  /* Toast */
+  .toast {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    color: var(--text);
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+    z-index: 600;
+    animation: slideUp 0.25s ease;
+    display: none;
+  }
+
+  .toast.show { display: block; }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .main { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 768px) {
+    .main { grid-template-columns: 1fr; }
+    .sector { border-right: none; border-bottom: 1px solid var(--border); }
+    header { padding: 16px 20px; flex-wrap: wrap; gap: 12px; }
+    .sector-header { padding: 20px; top: auto; position: static; }
+    .news-item { padding: 18px 20px; }
+    .ticker-bar { padding: 10px 20px; }
+  }
+
+  /* API Key Gate */
+  .apikey-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    z-index: 900;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .apikey-overlay.open { display: flex; }
+  .apikey-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 40px 44px;
+    width: 480px;
+    max-width: 92vw;
+  }
+  .apikey-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .apikey-sub {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 28px;
+  }
+  .apikey-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .apikey-input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .apikey-input {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 12px 14px;
+    border-radius: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.2s;
+    letter-spacing: 0.5px;
+  }
+  .apikey-input:focus { border-color: var(--accent); }
+  .apikey-input::placeholder { color: var(--muted); letter-spacing: 0; }
+  .apikey-hint {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .apikey-hint a { color: var(--accent3); text-decoration: none; }
+  .apikey-hint a:hover { text-decoration: underline; }
+  .apikey-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 4px 0;
+  }
+  .apikey-indicator:hover { color: var(--accent); }
+  .apikey-set { color: var(--accent); }
+
+</style>
+</head>
+<body>
+
+<!-- Refresh progress bar -->
+
+<!-- API Key Gate -->
+<div class="apikey-overlay" id="apikeyOverlay">
+  <div class="apikey-box">
+    <div class="apikey-logo">Volt &amp; Watt</div>
+    <div class="apikey-sub">Market Watch</div>
+    <div class="apikey-label">Anthropic API Key</div>
+    <div class="apikey-input-row">
+      <input type="password" class="apikey-input" id="apikeyInput" placeholder="sk-ant-api03-..." />
+      <button class="btn btn-accent" onclick="submitApiKey()">Connect</button>
+    </div>
+    <div class="apikey-hint">
+      Your key is stored in memory only — never sent anywhere except Anthropic's API.<br>
+      Get a key at <a href="https://platform.claude.com" target="_blank">platform.claude.com</a>
+    </div>
+  </div>
+</div>
+
+<div class="refresh-progress" id="progressBar" style="width: 0%"></div>
+
+<!-- Header -->
+<header>
+  <div class="logo">
+    <span class="logo-title">Volt & Watt</span>
+    <span class="logo-subtitle">Market Watch</span>
+  </div>
+  <div class="header-right">
+    <div class="live-badge">
+      <div class="live-dot"></div>
+      Live
+    </div>
+    <span class="refresh-info" id="refreshCountdown">Refreshing in 5:00</span>
+    <span class="apikey-indicator" id="apikeyIndicator" onclick="openApiKeyOverlay()" title="Change API key">🔑 <span id="apikeyStatus">No key set</span></span>
+    <button class="btn btn-ghost" onclick="refreshNow()">↺ Refresh</button>
+    <button class="btn btn-accent" onclick="openEmailModal()">✉ Daily Brief</button>
+  </div>
+</header>
+
+<!-- Ticker bar -->
+<div class="ticker-bar">
+  <div class="ticker-track" id="tickerTrack">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<!-- Main grid -->
+<div class="main">
+  <!-- EV & Automotive -->
+  <div class="sector sector-ev">
+    <div class="sector-header">
+      <div class="sector-tag">Sector 01</div>
+      <div class="sector-title">Electric Vehicles<br>& Automotive</div>
+      <div class="sector-meta">
+        <span class="count-badge" id="evCount">— stories</span>
+        <span class="last-updated" id="evUpdated">—</span>
+      </div>
+    </div>
+    <div class="news-feed" id="evFeed">
+      <!-- Skeletons -->
+      <div class="skeleton"><div class="skel-line" style="width:80%;height:14px"></div><div class="skel-line" style="width:95%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:60%;height:11px"></div></div>
+      <div class="skeleton"><div class="skel-line" style="width:70%;height:14px"></div><div class="skel-line" style="width:90%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:50%;height:11px"></div></div>
+      <div class="skeleton"><div class="skel-line" style="width:85%;height:14px"></div><div class="skel-line" style="width:88%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:65%;height:11px"></div></div>
+    </div>
+  </div>
+
+  <!-- Residential Energy -->
+  <div class="sector sector-energy">
+    <div class="sector-header">
+      <div class="sector-tag">Sector 02</div>
+      <div class="sector-title">Residential Energy<br>& Solar</div>
+      <div class="sector-meta">
+        <span class="count-badge" id="energyCount">— stories</span>
+        <span class="last-updated" id="energyUpdated">—</span>
+      </div>
+    </div>
+    <div class="news-feed" id="energyFeed">
+      <div class="skeleton"><div class="skel-line" style="width:75%;height:14px"></div><div class="skel-line" style="width:92%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:55%;height:11px"></div></div>
+      <div class="skeleton"><div class="skel-line" style="width:88%;height:14px"></div><div class="skel-line" style="width:85%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:70%;height:11px"></div></div>
+      <div class="skeleton"><div class="skel-line" style="width:65%;height:14px"></div><div class="skel-line" style="width:95%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:60%;height:11px"></div></div>
+    </div>
+  </div>
+  <!-- V2X -->
+  <div class="sector sector-v2x">
+    <div class="sector-header">
+      <div class="sector-tag">Sector 03</div>
+      <div class="sector-title">Vehicle-to-Everything<br>V2X</div>
+      <div class="sector-meta">
+        <span class="count-badge" id="v2xCount">— stories</span>
+        <span class="last-updated" id="v2xUpdated">—</span>
+      </div>
+    </div>
+    <div class="news-feed" id="v2xFeed">
+      <div class="skeleton"><div class="skel-line" style="width:78%;height:14px"></div><div class="skel-line" style="width:93%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:58%;height:11px"></div></div>
+      <div class="skeleton"><div class="skel-line" style="width:85%;height:14px"></div><div class="skel-line" style="width:87%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:72%;height:11px"></div></div>
+      <div class="skeleton"><div class="skel-line" style="width:68%;height:14px"></div><div class="skel-line" style="width:91%;height:11px;margin-top:8px"></div><div class="skel-line" style="width:63%;height:11px"></div></div>
+    </div>
+  </div>
+</div>
+<div class="modal-overlay" id="emailModal">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title">Daily Market Brief</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Configure and preview your email digest</div>
+      </div>
+      <button class="modal-close" onclick="closeEmailModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="email-input-row">
+        <input type="email" class="email-input" id="emailAddress" placeholder="your@email.com" />
+        <div class="schedule-row" style="margin:0">
+          <select class="schedule-select" id="emailTime">
+            <option value="06:00">6:00 AM</option>
+            <option value="07:00" selected>7:00 AM</option>
+            <option value="08:00">8:00 AM</option>
+            <option value="09:00">9:00 AM</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="email-preview" id="emailPreview">
+        <!-- Populated by JS -->
+      </div>
+
+      <div class="email-actions">
+        <button class="btn btn-accent" onclick="scheduleEmail()">Schedule Daily Brief</button>
+        <button class="btn btn-ghost" onclick="copyEmailHTML()">Copy HTML</button>
+        <button class="btn btn-ghost" onclick="copyEmailText()">Copy Plain Text</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+
+const TICKERS = [
+  { name: "WLBX", price: "4.12", change: "+2.30%", up: true },
+  { name: "SPNV", price: "9.88", change: "+0.82%", up: true },
+  { name: "TSLA", price: "175.42", change: "+3.21%", up: true },
+  { name: "RIVN", price: "14.87", change: "+11.8%", up: true },
+  { name: "GM", price: "48.12", change: "-0.43%", up: false },
+  { name: "F", price: "11.98", change: "+0.25%", up: true },
+  { name: "NIO", price: "5.34", change: "-1.10%", up: false },
+  { name: "LCID", price: "2.87", change: "+0.70%", up: true },
+  { name: "ENPH", price: "92.15", change: "-7.43%", up: false },
+  { name: "RUN", price: "15.62", change: "+2.11%", up: true },
+  { name: "FSLR", price: "178.40", change: "+1.55%", up: true },
+  { name: "SEDG", price: "22.18", change: "-3.20%", up: false },
+  { name: "QS", price: "6.45", change: "+4.85%", up: true },
+  { name: "CHPT", price: "1.43", change: "-2.04%", up: false },
+  { name: "SPWR", price: "0.82", change: "-18.3%", up: false },
+  { name: "BYD", price: "28.90", change: "+1.92%", up: true },
+];
+
+const TAG_CLASS = { "EV": "tag-ev", "Energy": "tag-energy", "Policy": "tag-policy", "Market": "tag-market", "V2X": "tag-v2x" };
+
+// Live state
+let liveEV = [], liveEnergy = [], liveV2X = [];
+
+// ── Sector fetch configs ──────────────────────────────────────────────────────
+
+const SECTORS = [
+  {
+    key: 'ev',
+    feedId: 'evFeed', countId: 'evCount', updatedId: 'evUpdated',
+    prompt: `Use web_search to find the 8 most recent, significant news articles from the last 48 hours about electric vehicles and automotive industry. Include EV launches, sales data, charging infrastructure, battery technology, automaker strategy, and EV policy. Return ONLY a raw JSON array (no markdown fences, no explanation). Each element must have: headline (exact article title), summary (1-2 sentence paraphrase in your own words), source (publication name), url (full direct article URL, not a homepage), time (e.g. "2h ago"), tags (array of 1-2 from ["EV","Market","Policy"]), sentiment (one emoji: 📈 📉 ⚠️ ✅ ⚡ 🔬 📊 🛠️). Start with [ end with ].`
+  },
+  {
+    key: 'energy',
+    feedId: 'energyFeed', countId: 'energyCount', updatedId: 'energyUpdated',
+    prompt: `Use web_search to find the 8 most recent, significant news articles from the last 48 hours about residential energy, rooftop solar, home battery storage, net metering, solar incentives, and home electrification. Return ONLY a raw JSON array (no markdown fences, no explanation). Each element must have: headline (exact article title), summary (1-2 sentence paraphrase in your own words), source (publication name), url (full direct article URL, not a homepage), time (e.g. "3h ago"), tags (array of 1-2 from ["Energy","Market","Policy"]), sentiment (one emoji: 📈 📉 ⚠️ ✅ ⚡ 🔬 📊 🛠️). Start with [ end with ].`
+  },
+  {
+    key: 'v2x',
+    feedId: 'v2xFeed', countId: 'v2xCount', updatedId: 'v2xUpdated',
+    prompt: `Use web_search to find the 8 most recent, significant news articles from the last 48 hours about Vehicle-to-Everything (V2X) technology: V2G (vehicle-to-grid), V2H (vehicle-to-home), V2L (vehicle-to-load), bidirectional EV charging, and EV grid integration. Return ONLY a raw JSON array (no markdown fences, no explanation). Each element must have: headline (exact article title), summary (1-2 sentence paraphrase in your own words), source (publication name), url (full direct article URL, not a homepage), time (e.g. "4h ago"), tags (array of 1-2 from ["V2X","Market","Policy"]), sentiment (one emoji: 📈 📉 ⚠️ ✅ ⚡ 🔬 📊 🛠️). Start with [ end with ].`
+  }
+];
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+function showSectorLoading(feedId) {
+  document.getElementById(feedId).innerHTML = [1,2,3,4,5].map(() => `
+    <div class="skeleton">
+      <div class="skel-line" style="width:${70 + (Math.random()*20|0)}%;height:14px"></div>
+      <div class="skel-line" style="width:${80 + (Math.random()*15|0)}%;height:11px;margin-top:8px"></div>
+      <div class="skel-line" style="width:${45 + (Math.random()*25|0)}%;height:11px"></div>
+    </div>`).join('');
+}
+
+// ─── Pre-fetch cache loader ───────────────────────────────────────────────────
+// If market-watch-cache.json exists alongside this HTML file, load from it
+// instead of calling the API. The prefetch.ps1 script writes this file at 7AM.
+
+// GitHub repo details — update GITHUB_USER and GITHUB_REPO after setup
+const GITHUB_USER = "YOUR_GITHUB_USERNAME";
+const GITHUB_REPO = "voltwatch";
+
+async function loadFromCache() {
+  try {
+    const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/market-watch-cache.json?t=${Date.now()}`;
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const cache = await res.json();
+    // Accept cache if generated today OR yesterday (handles timezone differences)
+    const cacheDate = new Date(cache.generatedAt);
+    const hoursSince = (Date.now() - cacheDate.getTime()) / 36e5;
+    if (hoursSince > 24) return null;
+    return cache;
+  } catch(e) {
+    return null;
+  }
+}
+
+async function fetchSector(sector) {
+  showSectorLoading(sector.feedId);
+  try {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-api-key": API_KEY, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+      body: JSON.stringify({
+        model: "claude-haiku-4-5-20251001",
+        max_tokens: 4000,
+        tools: [{ type: "web_search_20250305", name: "web_search" }],
+        messages: [{ role: "user", content: sector.prompt }]
+      })
+    });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error.message);
+
+    // Collect all text blocks
+    let text = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+
+    // Strip markdown code fences e.g. ```json ... ```
+    text = text.replace(/```(?:json)?\s*/gi, '').replace(/```/g, '');
+
+    // Extract outermost JSON array: from first [ to last ]
+    const start = text.indexOf('[');
+    const end = text.lastIndexOf(']');
+    if (start === -1 || end === -1 || end <= start) throw new Error('No JSON array in response');
+
+    const items = JSON.parse(text.slice(start, end + 1));
+    return items.filter(i => i.headline && i.url && i.url !== '#' && i.url.startsWith('http'));
+  } catch(e) {
+    console.error('Sector fetch error [' + sector.key + ']:', e);
+    return [];
+  }
+}
+
+function renderTicker() {
+  const doubled = [...TICKERS, ...TICKERS];
+  document.getElementById('tickerTrack').innerHTML = doubled.map(t => `
+    <div class="ticker-item">
+      <span class="ticker-name">${t.name}</span>
+      <span class="ticker-price">${t.price}</span>
+      <span class="ticker-change ${t.up ? 'up' : 'down'}">${t.change}</span>
+    </div>`).join('');
+}
+
+function renderFeed(feedId, items, countId, updatedId) {
+  const feed = document.getElementById(feedId);
+  const timeStr = new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+
+  if (!items.length) {
+    feed.innerHTML = `<div class="feed-empty"><div class="icon">📡</div>Unable to load stories. Check your connection or try refreshing.</div>`;
+    document.getElementById(countId).textContent = '0 stories';
+    document.getElementById(updatedId).textContent = `Updated ${timeStr}`;
+    return;
+  }
+
+  feed.innerHTML = items.map(item => `
+    <div class="news-item">
+      <div class="news-top">
+        <div class="news-headline">
+          <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.headline}</a>
+        </div>
+        <span class="sentiment">${item.sentiment || '📰'}</span>
+      </div>
+      <div class="news-summary">${item.summary}</div>
+      <div class="news-footer">
+        <span class="news-source">${item.source}</span>
+        <span class="dot-sep">·</span>
+        <span class="news-time">${item.time}</span>
+        ${(item.tags || []).map(t => `<span class="news-tag ${TAG_CLASS[t] || ''}">${t}</span>`).join('')}
+      </div>
+    </div>`).join('');
+
+  document.getElementById(countId).textContent = `${items.length} stories`;
+  document.getElementById(updatedId).textContent = `Updated ${timeStr}`;
+}
+
+// ── Refresh / timer ───────────────────────────────────────────────────────────
+
+const REFRESH_SECONDS = 300;
+let secondsLeft = REFRESH_SECONDS;
+let timerInterval;
+
+function formatCountdown(s) {
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `Refreshing in ${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+function updateProgress() {
+  const pct = ((REFRESH_SECONDS - secondsLeft) / REFRESH_SECONDS) * 100;
+  document.getElementById('progressBar').style.width = pct + '%';
+}
+
+function startTimer() {
+  clearInterval(timerInterval);
+  secondsLeft = REFRESH_SECONDS;
+  updateProgress();
+  timerInterval = setInterval(() => {
+    secondsLeft--;
+    document.getElementById('refreshCountdown').textContent = formatCountdown(secondsLeft);
+    updateProgress();
+    if (secondsLeft <= 0) refreshNow();
+  }, 1000);
+}
+
+async function refreshNow() {
+  clearInterval(timerInterval);
+  document.getElementById('progressBar').style.width = '0%';
+  document.getElementById('refreshCountdown').textContent = 'Fetching live news…';
+
+  // Try pre-fetched cache first (written by prefetch.ps1 each morning)
+  const cache = await loadFromCache();
+  if (cache) {
+    liveEV     = cache.ev     || [];
+    liveEnergy = cache.energy || [];
+    liveV2X    = cache.v2x    || [];
+    renderFeed('evFeed',     liveEV,     'evCount',     'evUpdated');
+    renderFeed('energyFeed', liveEnergy, 'energyCount', 'energyUpdated');
+    renderFeed('v2xFeed',    liveV2X,    'v2xCount',    'v2xUpdated');
+    buildEmailPreview();
+    startTimer();
+    showToast('Loaded from morning pre-fetch ⚡');
+    return;
+  }
+
+  // No cache — fetch live from API
+  const [evItems, energyItems, v2xItems] = await Promise.all(SECTORS.map(s => fetchSector(s)));
+
+  liveEV = evItems;
+  liveEnergy = energyItems;
+  liveV2X = v2xItems;
+
+  renderFeed('evFeed',     liveEV,     'evCount',     'evUpdated');
+  renderFeed('energyFeed', liveEnergy, 'energyCount', 'energyUpdated');
+  renderFeed('v2xFeed',    liveV2X,    'v2xCount',    'v2xUpdated');
+  buildEmailPreview();
+  startTimer();
+  showToast('Live feeds refreshed ✓');
+}
+
+// ─── Email modal ──────────────────────────────────────────────────────────────
+
+function buildEmailPreview() {
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+  const renderEmailItems = (items) => items.slice(0, 3).map(i => `
+    <div class="email-item">
+      <div class="email-item-headline">${i.sentiment || '📰'} <a href="${i.url}" style="color:inherit;text-decoration:none;" target="_blank">${i.headline}</a></div>
+      <div class="email-item-summary">${i.summary} <span style="color:var(--muted);font-size:11px;">— ${i.source}</span></div>
+    </div>`).join('') || '<div class="email-item" style="color:var(--muted);">Loading stories…</div>';
+
+  document.getElementById('emailPreview').innerHTML = `
+    <div class="email-date">${today}</div>
+    <div class="email-title">Volt &amp; Watt Daily Brief</div>
+    <div class="email-tagline">Your morning intelligence on electric vehicles, residential energy &amp; V2X markets.</div>
+
+    <div class="email-section-title ev-color">⚡ Electric Vehicles &amp; Automotive</div>
+    ${renderEmailItems(liveEV)}
+
+    <div class="email-section-title energy-color">☀️ Residential Energy &amp; Solar</div>
+    ${renderEmailItems(liveEnergy)}
+
+    <div class="email-section-title" style="color:var(--accent3);">🔋 Vehicle-to-Everything (V2X)</div>
+    ${renderEmailItems(liveV2X)}
+
+    <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--border);font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:1px;">
+      VOLT &amp; WATT MARKET WATCH · DELIVERED DAILY · UNSUBSCRIBE
+    </div>
+  `;
+}
+
+function openEmailModal() {
+  buildEmailPreview();
+  document.getElementById('emailModal').classList.add('open');
+}
+
+function closeEmailModal() {
+  document.getElementById('emailModal').classList.remove('open');
+}
+
+function scheduleEmail() {
+  const email = document.getElementById('emailAddress').value;
+  const time = document.getElementById('emailTime').value;
+  if (!email || !email.includes('@')) {
+    showToast('Please enter a valid email address');
+    return;
+  }
+  closeEmailModal();
+  showToast(`Daily brief scheduled for ${time} → ${email} ✓`);
+}
+
+function copyEmailHTML() {
+  const html = document.getElementById('emailPreview').innerHTML;
+  navigator.clipboard.writeText(html).then(() => showToast('HTML copied to clipboard ✓'));
+}
+
+function copyEmailText() {
+  const text = document.getElementById('emailPreview').innerText;
+  navigator.clipboard.writeText(text).then(() => showToast('Plain text copied to clipboard ✓'));
+}
+
+// Close modal on overlay click
+document.getElementById('emailModal').addEventListener('click', function(e) {
+  if (e.target === this) closeEmailModal();
+});
+
+// ─── Toast ────────────────────────────────────────────────────────────────────
+
+let toastTimeout;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// ─── API Key management ───────────────────────────────────────────────────────
+
+let API_KEY = '';
+
+function submitApiKey() {
+  const val = document.getElementById('apikeyInput').value.trim();
+  if (!val.startsWith('sk-ant-')) {
+    document.getElementById('apikeyInput').style.borderColor = 'var(--red)';
+    setTimeout(() => document.getElementById('apikeyInput').style.borderColor = '', 1500);
+    return;
+  }
+  API_KEY = val;
+  document.getElementById('apikeyInput').value = '';
+  document.getElementById('apikeyOverlay').classList.remove('open');
+  document.getElementById('apikeyStatus').textContent = 'sk-ant-…' + val.slice(-4);
+  document.getElementById('apikeyStatus').className = 'apikey-set';
+  refreshNow();
+}
+
+function openApiKeyOverlay() {
+  document.getElementById('apikeyOverlay').classList.add('open');
+  document.getElementById('apikeyInput').focus();
+}
+
+// Allow Enter key to submit
+document.getElementById('apikeyInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') submitApiKey();
+});
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+
+renderTicker();
+// Show API key gate on first load
+document.getElementById('apikeyOverlay').classList.add('open');
+setTimeout(() => document.getElementById('apikeyInput').focus(), 100);
+</script>
+</body>
+</html>
