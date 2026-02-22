@@ -1,0 +1,29 @@
+name: Volt & Watt Daily Pre-fetch
+
+on:
+  schedule:
+    - cron: '0 11 * * 1-5'   # 7:00 AM EST (UTC-4) Mon–Fri
+                               # Change to '0 12 * * 1-5' if you're on EST in winter (UTC-5)
+  workflow_dispatch:           # Also allows manual trigger from GitHub UI
+
+jobs:
+  prefetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch news from Anthropic API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 prefetch.py
+
+      - name: Commit and push cache file
+        run: |
+          git config user.name  "Volt & Watt Bot"
+          git config user.email "bot@voltwatch"
+          git add market-watch-cache.json
+          git diff --staged --quiet || git commit -m "chore: daily news cache $(date +'%Y-%m-%d')"
+          git push
