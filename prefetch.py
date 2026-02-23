@@ -6,7 +6,7 @@ Fetches EV, Energy, and V2X news via Anthropic API + web search,
 writes market-watch-cache.json for the HTML page to consume.
 """
 
-import os, json, re, urllib.request, urllib.error
+import os, json, re, urllib.request, urllib.error, time
 from datetime import datetime, timezone
 
 API_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -69,7 +69,7 @@ SECTORS = [
 ]
 
 
-def fetch_sector(sector):
+def fetch_sector(sector, retries=3):
     print(f"Fetching sector: {sector['key']}...")
 
     payload = json.dumps({
@@ -90,40 +90,57 @@ def fetch_sector(sector):
         method="POST"
     )
 
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
 
-        # Extract text blocks only
-        text = "".join(b["text"] for b in data.get("content", []) if b.get("type") == "text")
+            # Extract text blocks only
+            text = "".join(b["text"] for b in data.get("content", []) if b.get("type") == "text")
 
-        # Strip markdown fences
-        text = re.sub(r'```json\s*', '', text, flags=re.IGNORECASE)
-        text = re.sub(r'```', '', text)
+            # Strip markdown fences
+            text = re.sub(r'```json\s*', '', text, flags=re.IGNORECASE)
+            text = re.sub(r'```', '', text)
 
-        # Extract outermost JSON array
-        start = text.find('[')
-        end   = text.rfind(']')
-        if start == -1 or end == -1 or end <= start:
-            print(f"  ERROR: No JSON array found")
+            # Extract outermost JSON array
+            start = text.find('[')
+            end   = text.rfind(']')
+            if start == -1 or end == -1 or end <= start:
+                print(f"  ERROR: No JSON array found in response. Raw text: {text[:300]}")
+                return []
+
+            items = json.loads(text[start:end+1])
+            valid = [i for i in items if i.get("headline") and i.get("url", "").startswith("http")]
+            print(f"  OK: {len(valid)} articles")
+            return valid
+
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries - 1:
+                wait = 30 * (attempt + 1)
+                print(f"  Rate limited (429). Waiting {wait}s before retry {attempt+2}/{retries}...")
+                time.sleep(wait)
+            else:
+                print(f"  ERROR: {e}")
+                return []
+        except Exception as e:
+            print(f"  ERROR: {e}")
             return []
-
-        items = json.loads(text[start:end+1])
-        valid = [i for i in items if i.get("headline") and i.get("url", "").startswith("http")]
-        print(f"  OK: {len(valid)} articles")
-        return valid
-
-    except Exception as e:
-        print(f"  ERROR: {e}")
-        return []
+    return []
 
 
 def main():
+    results = {}
+    for i, sector in enumerate(SECTORS):
+        if i > 0:
+            print(f"  Waiting 15s before next sector...")
+            time.sleep(15)
+        results[sector["key"]] = fetch_sector(sector)
+
     cache = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "ev":     fetch_sector(SECTORS[0]),
-        "energy": fetch_sector(SECTORS[1]),
-        "v2x":    fetch_sector(SECTORS[2]),
+        "ev":     results.get("ev", []),
+        "energy": results.get("energy", []),
+        "v2x":    results.get("v2x", []),
     }
 
     with open("market-watch-cache.json", "w", encoding="utf-8") as f:
