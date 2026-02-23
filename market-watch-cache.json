@@ -1,25 +1,266 @@
 {
-  "generatedAt": "2026-02-23T18:58:53.810792+00:00",
-  "ev": [],
-  "energy": [],
+  "generatedAt": "2026-02-23T19:42:03.470626+00:00",
+  "ev": [
+    {
+      "headline": "Lucid Motors Cuts Hundreds of Jobs Globally to Streamline Operations",
+      "summary": "EV maker Lucid announced workforce reductions affecting 12% of its global workforce as it works to improve gross profit margins and long-term growth following a difficult 2025.",
+      "source": "Automotive News",
+      "url": "https://www.autonews.com/lucid-motors/an-lucid-job-cuts-0223/",
+      "time": "2h ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Ferrari Reveals First Electric Car Lucea with 1,000 HP and Apple-Inspired Design",
+      "summary": "Ferrari unveiled its first electric vehicle with four electric motors producing approximately 1,000 HP, featuring retro design elements inspired by Apple and 0-100 km/h acceleration in 2.5 seconds.",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/consumerism/article-887112",
+      "time": "3d ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "🚀"
+    },
+    {
+      "headline": "Pennsylvania Invests $100 Million in Community EV Charging Infrastructure",
+      "summary": "Pennsylvania announced $100 million in federal funding directed toward public EV chargers in communities rather than highways, expanding charging access beyond major corridors.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "1d ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Nio Battery Swap System Hits Record with 165,000+ Swaps in Single Day",
+      "summary": "Chinese EV maker Nio's battery-swap system reached a new milestone with customers performing over 165,000 battery swaps in a single day, demonstrating the viability of battery swap technology at scale.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "1d ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Ford Targets $30,000 EV with Redesigned Battery Strategy for 2027",
+      "summary": "Ford aims to launch a $30,000 electric pickup in 2027 by cutting battery size, reducing structural components from 146 to just 2, and improving aerodynamics to achieve 15% weight savings.",
+      "source": "CBT News",
+      "url": "https://www.cbtnews.com/ford-targets-30000-ev-with-new-battery-strategy",
+      "time": "5d ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Sodium-Ion Batteries Enter Mass Production as Dual-Chemistry Era Begins",
+      "summary": "Changan Automobile and CATL unveiled the first mass-production sodium-ion battery passenger vehicle due for sale mid-2026, with CATL's Naxtra cells offering 175 Wh/kg energy density and 20-40% lower costs than lithium.",
+      "source": "Electric & Hybrid Vehicle Technology International",
+      "url": "https://www.electrichybridvehicletechnology.com/news/changan-and-catl-unveil-first-mass-production-sodium-ion-battery-passenger-ev.html",
+      "time": "1w ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Mercedes-Benz Begins Road Testing Solid-State Battery in Production Vehicle",
+      "summary": "Mercedes-Benz announced it successfully integrated a lithium-metal solid-state battery into a production EV platform and began road testing, marking the first car with solid-state battery on the road.",
+      "source": "Military.com",
+      "url": "https://www.military.com/off-duty/autos/solid-state-battery-breakthroughs-lab-road-ready.html",
+      "time": "Dec 26, 2025",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "🚀"
+    },
+    {
+      "headline": "Hyundai Unveils IONIQ 6 N Electric Performance Sedan at Canadian Auto Show",
+      "summary": "Hyundai unveiled the 641-hp IONIQ 6 N electric performance sedan and CRATER Concept electric off-road SUV at the 2026 Canadian International AutoShow, showcasing advanced EV performance and design.",
+      "source": "The EV Report",
+      "url": "https://theevreport.com/",
+      "time": "Feb 22, 2026",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "🚀"
+    }
+  ],
+  "energy": [
+    {
+      "headline": "Residential Solar Market Faces Sharp Downturn After Federal Tax Credit Expiration",
+      "summary": "The U.S. residential solar market is experiencing significant contraction following the expiration of the 30% federal tax credit at the end of 2025, with major installers cutting jobs and some filing for bankruptcy.",
+      "source": "Sunhub News",
+      "url": "https://news.sunhub.com/residential-solar-installers-job-cuts-2026/",
+      "time": "3 days ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Tesla Launches New Solar Panel Manufacturing in Buffalo Amid Industry Downturn",
+      "summary": "Tesla unveiled its first fully designed and manufactured solar panel, beginning production at its Buffalo facility with capacity for over 300 megawatts annually, even as the residential solar market faces headwinds.",
+      "source": "Canary Media",
+      "url": "https://www.canarymedia.com/articles/solar/tesla-launches-own-solar-panel-ev-business",
+      "time": "4 weeks ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "⚡"
+    },
+    {
+      "headline": "HNU Energy Launches HiVE Gen 2 Home Battery with Expanded 45 kWh Storage Capacity",
+      "summary": "Hawaii-based HNU Energy introduced its upgraded HiVE Gen 2 residential battery system featuring 45 kilowatt-hours of storage capacity in a compact, stackable design optimized for household backup power and extended outages.",
+      "source": "Maui Now",
+      "url": "https://mauinow.com/2026/01/04/hnu-energy-launches-hive-gen-2-home-battery-with-expanded-storage-capacity/",
+      "time": "January 5, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Battery Storage Technology Outlook Shifts Toward Longer-Duration and Alternative Chemistries in 2026",
+      "summary": "The energy storage industry faces pressure for longer-duration storage, safer chemistries, and resilient supply chains, with alternative battery technologies gaining attention beyond traditional lithium-ion.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/01/02/battery-technology-outlook-for-2026-sharpens-beyond-lithium-ion/",
+      "time": "January 2, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "⚡"
+    },
+    {
+      "headline": "U.S. Approaching Battery Supply Surplus as EV Manufacturers Pivot to Stationary Storage Production",
+      "summary": "EV battery manufacturers are retooling production lines for stationary energy storage systems, positioning the U.S. to meet domestic battery demand with potential 10% surplus capacity in 2026.",
+      "source": "Solar Power World Online",
+      "url": "https://www.solarpowerworldonline.com/2026/01/almost-overnight-the-us-became-an-oversupply-market-for-ess-battery-cells/",
+      "time": "January 8, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Net Metering Policy Revisions Accelerate Across U.S. States in Q1 2025",
+      "summary": "Approximately one-third of states are offering alternatives to traditional net metering or making significant revisions, reshaping how utilities compensate solar customers for excess energy.",
+      "source": "NC Clean Energy Technology Center",
+      "url": "https://nccleantech.ncsu.edu/2025/04/16/the-50-states-of-solar-states-revamp-net-metering-successors-and-community-solar-in-q1-2025/",
+      "time": "April 16, 2025",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "New England States Advance Plug-in Solar Legislation for Renters and Apartment Dwellers",
+      "summary": "More than two dozen states, led by New England legislatures, are considering bills to allow small plug-in solar units, offering a more accessible entry point for renters priced out of traditional rooftop systems.",
+      "source": "Inside Climate News",
+      "url": "https://insideclimatenews.org/news/18022026/new-england-plug-in-solar-legislation/",
+      "time": "5 days ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Rising Electricity Costs Drive Home Electrification Adoption as Heat Pumps and Battery Storage Gain Momentum",
+      "summary": "Homeowners increasingly view electrification as a pathway to control rising energy costs, with heat pumps, battery storage, and renewable integration emerging as key technologies for energy-independent homes.",
+      "source": "RMI",
+      "url": "https://rmi.org/fast-efficient-solutions-to-meet-electricity-demand-growth/",
+      "time": "5 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    }
+  ],
   "v2x": [
     {
-      "headline": "The Mobility House Unveils New Vehicle-to-Grid Integration Platform for Utilities",
-      "summary": "The Mobility House North America launched Cascade EV Aggregator, an optimization platform for bidirectional V2G charging across residential and fleet operations.",
-      "source": "Charged EVs",
-      "url": "https://chargedevs.com/newswire/the-mobility-house-unveils-new-vehicle-to-grid-integration-platform-for-utilities/",
-      "time": "15 days ago",
+      "headline": "GM Energy Plans Leasing Program to Make EV Home Backup Power More Affordable",
+      "summary": "GM Energy is launching a leasing program for vehicle-to-home charging systems to reduce barriers for U.S. homeowners, with PG&E offering up to $4,500 in incentives for eligible participants. The program makes bidirectional EV charging technology more accessible when full system costs typically range from $15,297 to $26,997.",
+      "source": "Electric Cars Report",
+      "url": "https://electriccarsreport.com/2026/02/gm-energy-to-launch-leasing-program-for-ev-home-backup-power-systems/",
+      "time": "3 days ago",
       "tags": [
         "V2X"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Electric Vehicle Charging Infrastructure Market: The Transition from Plug-In to Power Grid Integration",
-      "summary": "Market analysis reveals the EV charging sector is shifting from hardware-focused deployment to sophisticated energy orchestration with V2G becoming central to grid management strategies.",
-      "source": "OpenPR",
-      "url": "https://www.openpr.com/news/4398304/electric-vehicle-charging-infrastructure-market",
-      "time": "3 days ago",
+      "headline": "The Mobility House Unveils New Vehicle-to-Grid Integration Platform for Utilities",
+      "summary": "The Mobility House North America launched Cascade EV Aggregator, a V2G integration platform enabling charging and discharging optimization across home chargers to electric school bus fleets. The platform leverages forecast showing total U.S. EV battery capacity will reach 4 TWh in the next decade, positioning them as the largest distributed energy resource if aggregated.",
+      "source": "Charged EVs",
+      "url": "https://chargedevs.com/newswire/the-mobility-house-unveils-new-vehicle-to-grid-integration-platform-for-utilities/",
+      "time": "2 weeks ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Retired EV Batteries Score a New Gig: Bolstering Texas' Grid",
+      "summary": "B2U Storage Solutions is repurposing retired EV batteries from General Motors vehicles for grid storage applications near San Antonio, charging during low-price midday hours and discharging when prices increase. The project demonstrates second-life battery economics at under $200 per kilowatt-hour, with potential lifespan up to 15 years.",
+      "source": "Inside Climate News",
+      "url": "https://insideclimatenews.org/news/17022026/retired-ev-batteries-bolster-texas-grid/",
+      "time": "1 week ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Vehicle-to-Home V2H Charging: A Practical Guide to Using Your EV as Home UPS",
+      "summary": "In 2026, vehicle-to-home charging is becoming more practical as additional EV models and bidirectional chargers support the technology. The article explains how V2H systems work, costs, and benefits while noting that most new EVs in 2026 provide some form of bidirectional capability.",
+      "source": "TechTimes",
+      "url": "https://www.techtimes.com/articles/314652/20260216/vehiclehome-v2h-charging-practical-guide-using-your-ev-home-ups-ev-battery-home-backup.htm",
+      "time": "1 week ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Nissan to Launch Affordable Bi-directional Charging in 2026",
+      "summary": "Nissan announced it will launch affordable bidirectional charging on selected electric vehicles in 2026, enabling owners to store electricity in their car batteries and sell it back to the grid or power their homes. The technology supports renewable energy integration and creates new revenue streams for EV owners.",
+      "source": "Nissan News",
+      "url": "https://global.nissannews.com/en/releases/nissan-to-launch-affordable-vehicle-to-grid-technology-in-2026",
+      "time": "4 months ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Massachusetts Launches First Statewide Vehicle-to-Everything Pilot Program",
+      "summary": "Massachusetts is deploying 100 bidirectional chargers across homes, school buses, and commercial fleets in a two-year V2X pilot program backed by the Massachusetts Clean Energy Center. The initiative makes free V2X chargers available to participants as the state advances grid integration technology.",
+      "source": "Electrek",
+      "url": "https://electrek.co/guides/vehicle-to-grid/",
+      "time": "3 weeks ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Hyundai Advances EV Energy Strategy with V2G Pilot and V2H Expansion",
+      "summary": "Hyundai Motor Group is launching V2G and V2H services globally including Korea's first V2G pilot on Jeju Island starting end of 2025, a commercialized V2G program in the Netherlands, and V2H capabilities for U.S. customers. The expansion deepens EV integration with energy systems for grid flexibility and customer value.",
+      "source": "CBT News",
+      "url": "https://www.cbtnews.com/hyundai-advances-ev-energy-strategy-with-v2g-pilot-and-v2h-expansion/",
+      "time": "2 months ago",
       "tags": [
         "V2X"
       ],
