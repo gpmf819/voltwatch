@@ -21,13 +21,14 @@ SECTORS = [
     {
         "key": "ev",
         "prompt": (
-            "Search the web for recent electric vehicle and automotive industry news from the last 7 days. "
-            "Find up to 8 articles about EV launches, sales, charging infrastructure, battery technology, automaker strategy, or EV policy. "
-            "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
+            "Search the web for electric vehicle and automotive industry news. "
+            "Find up to 25 articles, PRIORITIZING the most recent from the last 24-72 hours first, "
+            "then filling remaining slots with articles from the past 7 days. "
+            "Sort results newest first. Topics: EV launches, sales, charging infrastructure, battery technology, automaker strategy, EV policy. "
             "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
             "Start your response with [ and end with ]. "
             'Each object must have: headline (string), summary (string, 1-2 sentences), source (string), '
-            'url (string, full URL starting with https), time (string, e.g. "2h ago"), '
+            'url (string, full URL starting with https), time (string, e.g. "2h ago" or "3 days ago"), '
             'tags (array of 1-2 from ["EV","Market","Policy"]), sentiment (string, one emoji). '
             "Example format: " + EXAMPLE_JSON
         )
@@ -35,13 +36,14 @@ SECTORS = [
     {
         "key": "energy",
         "prompt": (
-            "Search the web for recent residential energy and solar news from the last 7 days. "
-            "Find up to 8 articles about rooftop solar, home battery storage, net metering, solar incentives, or home electrification. "
-            "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
+            "Search the web for residential energy and solar news. "
+            "Find up to 25 articles, PRIORITIZING the most recent from the last 24-72 hours first, "
+            "then filling remaining slots with articles from the past 7 days. "
+            "Sort results newest first. Topics: rooftop solar, home battery storage, net metering, solar incentives, home electrification. "
             "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
             "Start your response with [ and end with ]. "
             'Each object must have: headline (string), summary (string, 1-2 sentences), source (string), '
-            'url (string, full URL starting with https), time (string, e.g. "3h ago"), '
+            'url (string, full URL starting with https), time (string, e.g. "3h ago" or "2 days ago"), '
             'tags (array of 1-2 from ["Energy","Market","Policy"]), sentiment (string, one emoji). '
             "Example format: " + EXAMPLE_JSON
         )
@@ -49,13 +51,15 @@ SECTORS = [
     {
         "key": "v2x",
         "prompt": (
-            "Search the web for recent news about bidirectional EV charging, vehicle-to-grid V2G, "
-            "vehicle-to-home V2H, and EV battery grid integration from the last 7 days. "
-            "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
+            "Search the web for news about bidirectional EV charging, vehicle-to-grid V2G, "
+            "vehicle-to-home V2H, and EV battery grid integration. "
+            "Find up to 25 articles, PRIORITIZING the most recent from the last 24-72 hours first, "
+            "then filling remaining slots with articles from the past 7 days. "
+            "Sort results newest first. "
             "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
             "Start your response with [ and end with ]. "
             'Each object must have: headline (string), summary (string, 1-2 sentences), source (string), '
-            'url (string, full URL starting with https), time (string, e.g. "2h ago"), '
+            'url (string, full URL starting with https), time (string, e.g. "2h ago" or "5 days ago"), '
             'tags (array with one value: "V2X"), sentiment (string, one emoji). '
             "Example format: " + EXAMPLE_JSON
         )
@@ -68,7 +72,7 @@ def fetch_sector(sector, retries=3):
 
     payload = json.dumps({
         "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 4000,
+        "max_tokens": 8000,
         "tools": [{"type": "web_search_20250305", "name": "web_search"}],
         "messages": [{"role": "user", "content": sector["prompt"]}]
     }).encode("utf-8")
@@ -86,17 +90,13 @@ def fetch_sector(sector, retries=3):
 
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=90) as resp:
+            with urllib.request.urlopen(req, timeout=120) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
 
-            # Extract text blocks only
             text = "".join(b["text"] for b in data.get("content", []) if b.get("type") == "text")
-
-            # Strip markdown fences
             text = re.sub(r'```json\s*', '', text, flags=re.IGNORECASE)
             text = re.sub(r'```', '', text)
 
-            # Extract outermost JSON array
             start = text.find('[')
             end   = text.rfind(']')
             if start == -1 or end == -1 or end <= start:
