@@ -623,109 +623,12 @@
     .ticker-bar { padding: 10px 20px; }
   }
 
-  /* API Key Gate */
-  .apikey-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: var(--bg);
-    z-index: 900;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .apikey-overlay.open { display: flex; }
-  .apikey-box {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 40px 44px;
-    width: 480px;
-    max-width: 92vw;
-  }
-  .apikey-logo {
-    font-family: 'DM Serif Display', serif;
-    font-size: 24px;
-    margin-bottom: 4px;
-  }
-  .apikey-sub {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 28px;
-  }
-  .apikey-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 10px;
-  }
-  .apikey-input-row {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 14px;
-  }
-  .apikey-input {
-    flex: 1;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 12px 14px;
-    border-radius: 4px;
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    outline: none;
-    transition: border-color 0.2s;
-    letter-spacing: 0.5px;
-  }
-  .apikey-input:focus { border-color: var(--accent); }
-  .apikey-input::placeholder { color: var(--muted); letter-spacing: 0; }
-  .apikey-hint {
-    font-size: 11px;
-    color: var(--muted);
-    line-height: 1.6;
-  }
-  .apikey-hint a { color: var(--accent3); text-decoration: none; }
-  .apikey-hint a:hover { text-decoration: underline; }
-  .apikey-indicator {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
-    cursor: pointer;
-    padding: 4px 0;
-  }
-  .apikey-indicator:hover { color: var(--accent); }
-  .apikey-set { color: var(--accent); }
 
 </style>
 </head>
 <body>
 
 <!-- Refresh progress bar -->
-
-<!-- API Key Gate -->
-<div class="apikey-overlay" id="apikeyOverlay">
-  <div class="apikey-box">
-    <div class="apikey-logo">Volt &amp; Watt</div>
-    <div class="apikey-sub">Market Watch</div>
-    <div class="apikey-label">Anthropic API Key</div>
-    <div class="apikey-input-row">
-      <input type="password" class="apikey-input" id="apikeyInput" placeholder="sk-ant-api03-..." />
-      <button class="btn btn-accent" onclick="submitApiKey()">Connect</button>
-    </div>
-    <div class="apikey-hint">
-      Your key is stored in memory only — never sent anywhere except Anthropic's API.<br>
-      Get a key at <a href="https://platform.claude.com" target="_blank">platform.claude.com</a>
-    </div>
-  </div>
-</div>
 
 <div class="refresh-progress" id="progressBar" style="width: 0%"></div>
 
@@ -741,7 +644,6 @@
       Live
     </div>
     <span class="refresh-info" id="refreshCountdown">Refreshing in 5:00</span>
-    <span class="apikey-indicator" id="apikeyIndicator" onclick="openApiKeyOverlay()" title="Change API key">🔑 <span id="apikeyStatus">No key set</span></span>
     <button class="btn btn-ghost" onclick="refreshNow()">↺ Refresh</button>
     <button class="btn btn-accent" onclick="openEmailModal()">✉ Daily Brief</button>
   </div>
@@ -907,7 +809,7 @@ function showSectorLoading(feedId) {
 // instead of calling the API. The prefetch.ps1 script writes this file at 7AM.
 
 // GitHub repo details — update GITHUB_USER and GITHUB_REPO after setup
-const GITHUB_USER = "YOUR_GITHUB_USERNAME";
+const GITHUB_USER = "gpmf819";
 const GITHUB_REPO = "voltwatch";
 
 async function loadFromCache() {
@@ -1052,7 +954,11 @@ async function refreshNow() {
     return;
   }
 
-  // No cache — fetch live from API
+  // No cache — need API key to fetch live
+  if (!API_KEY) {
+    promptForApiKey(() => refreshNow());
+    return;
+  }
   const [evItems, energyItems, v2xItems] = await Promise.all(SECTORS.map(s => fetchSector(s)));
 
   liveEV = evItems;
@@ -1145,40 +1051,21 @@ function showToast(msg) {
 }
 
 // ─── API Key management ───────────────────────────────────────────────────────
-
+// Key is only needed if loading live (no cache). Enter via the refresh prompt.
 let API_KEY = '';
 
-function submitApiKey() {
-  const val = document.getElementById('apikeyInput').value.trim();
-  if (!val.startsWith('sk-ant-')) {
-    document.getElementById('apikeyInput').style.borderColor = 'var(--red)';
-    setTimeout(() => document.getElementById('apikeyInput').style.borderColor = '', 1500);
-    return;
+function promptForApiKey(callback) {
+  const key = prompt('Enter your Anthropic API key to fetch live news:\n(Not needed if pre-fetched cache is available)');
+  if (key && key.startsWith('sk-ant-')) {
+    API_KEY = key;
+    if (callback) callback();
   }
-  API_KEY = val;
-  document.getElementById('apikeyInput').value = '';
-  document.getElementById('apikeyOverlay').classList.remove('open');
-  document.getElementById('apikeyStatus').textContent = 'sk-ant-…' + val.slice(-4);
-  document.getElementById('apikeyStatus').className = 'apikey-set';
-  refreshNow();
 }
-
-function openApiKeyOverlay() {
-  document.getElementById('apikeyOverlay').classList.add('open');
-  document.getElementById('apikeyInput').focus();
-}
-
-// Allow Enter key to submit
-document.getElementById('apikeyInput').addEventListener('keydown', e => {
-  if (e.key === 'Enter') submitApiKey();
-});
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 renderTicker();
-// Show API key gate on first load
-document.getElementById('apikeyOverlay').classList.add('open');
-setTimeout(() => document.getElementById('apikeyInput').focus(), 100);
+refreshNow(); // Loads from GitHub cache — no key needed for normal daily use
 </script>
 </body>
 </html>
