@@ -1,6 +1,191 @@
 {
-  "generatedAt": "2026-02-23T18:27:51.773709+00:00",
-  "ev": [],
+  "generatedAt": "2026-02-23T18:38:05.831547+00:00",
+  "ev": [
+    {
+      "headline": "Toyota Prius Outselling Every Battery-Electric Vehicle In America but Two",
+      "summary": "Despite EV industry growth expectations, the 2026 Toyota Prius is outselling nearly every battery-electric vehicle in the U.S. market as consumers increasingly favor hybrids over pure electric options.",
+      "source": "Torque News",
+      "url": "https://www.torquenews.com/1083/heading-2026-toyota-prius-outselling-every-battery-electric-vehicle-america-two-dont-call-it",
+      "time": "1h ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Lucid Motors Cuts 12% of U.S. Salaried Workforce",
+      "summary": "Lucid Motors announced layoffs affecting 12% of its U.S. salaried workforce across multiple states and facilities, reflecting ongoing challenges in the EV startup sector.",
+      "source": "Electric Vehicles",
+      "url": "https://eletric-vehicles.com/",
+      "time": "1d ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Nio Sets New Battery Swap Record for Fourth Consecutive Day",
+      "summary": "Chinese EV maker Nio completed 175,976 battery swap services on February 21, achieving its fourth consecutive daily record and demonstrating the viability of battery-as-a-service infrastructure.",
+      "source": "CnEVPost",
+      "url": "https://cnevpost.com/",
+      "time": "2d ago",
+      "tags": [
+        "Technology",
+        "EV"
+      ],
+      "sentiment": "✅"
+    },
+    {
+      "headline": "Tesla Cybertruck Dual-Motor AWD Model Arrives at $59,990, Elon Musk Signals Limited Availability",
+      "summary": "Tesla launched a new dual-motor all-wheel-drive Cybertruck starting at $59,990, but CEO Elon Musk indicated the model will only be available for the next 10 days, creating urgency for buyers.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "2d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "⚡"
+    },
+    {
+      "headline": "Court Rules Trump Administration Unlawfully Suspended EV Infrastructure Funding",
+      "summary": "A federal judge blocked the Trump administration's suspension of the $5 billion National Electric Vehicle Infrastructure program, allowing states to access funds for charging infrastructure expansion.",
+      "source": "Battery Technology Online",
+      "url": "https://www.batterytechonline.com/charging/a-bright-moment-for-america-s-ev-charging-expansion",
+      "time": "3w ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "✅"
+    },
+    {
+      "headline": "Automakers Face Over $50 Billion in EV Strategy Writedowns Amid Market Slowdown",
+      "summary": "Major automakers including Stellantis ($26B), Ford ($19.5B), GM ($6B), and Volkswagen ($6B) have announced massive EV-related writedowns as they pivot away from aggressive electrification targets.",
+      "source": "Dealership Guy",
+      "url": "https://news.dealershipguy.com/p/ev-strategy-resets-are-costing-global-automakers-over-50-billion-2026-02-09",
+      "time": "2w ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "BYD Super-e Platform Delivers 400km Range in 5 Minutes with 1MW Charging",
+      "summary": "BYD's new Super-e platform achieved a charging benchmark of approximately 400 kilometers of range in just 5 minutes using next-generation silicon carbide chips and 1000V architecture.",
+      "source": "IEA Global EV Outlook 2025",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-charging",
+      "time": "3w ago",
+      "tags": [
+        "Technology",
+        "EV"
+      ],
+      "sentiment": "🔬"
+    },
+    {
+      "headline": "Rivian Achieves First Full-Year Gross Profit with $144 Million in 2025",
+      "summary": "Rivian announced its first annual gross profit of $144 million, representing a $1.3 billion improvement, as the company completes R2 manufacturing validation ahead of Q2 2026 deliveries.",
+      "source": "The EV Report",
+      "url": "https://theevreport.com/",
+      "time": "2w ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📈"
+    }
+  ],
   "energy": [],
-  "v2x": []
+  "v2x": [
+    {
+      "headline": "Hyundai Motor Group Accelerates V2X Rollout with V2H and V2G Services",
+      "summary": "Hyundai Motor Group is expanding Vehicle-to-Everything services worldwide, launching V2H services in the US starting with IONIQ 9 and EV6 models, while offering V2G in Korea and Europe.",
+      "source": "Hyundai Motor Group",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-expands-ev-energy-services-with-vehicle-to-grid-and-vehicle-to-home-0000001077",
+      "time": "1 month ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "GM Energy Pursues Vehicle-to-Grid Certification with Positive Testing Results",
+      "summary": "General Motors reports positive internal testing of V2G capability and is working to certify it with local utilities, moving closer to grid integration. The company sold over 246,000 V2H-capable vehicles in 2025.",
+      "source": "General Motors",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/feb/0219-GM-leads-charge-vehicle-to-home-EVs.html",
+      "time": "4 days ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Massachusetts Deploys Free Bidirectional EV Chargers in First-of-Its-Kind V2X Program",
+      "summary": "Massachusetts is installing 100 free bidirectional V2X chargers across schools, municipalities and residents, expected to add 1.5 MW of distributed storage by summer 2026 with comprehensive V2X guidebook publication.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/03/free-v2x-chargers-will-let-massachusetts-evs-power-the-grid/",
+      "time": "3 weeks ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "V2H Charging Could Save EV Owners Thousands and Slash Emissions Study Finds",
+      "summary": "First large-scale national study shows V2H charging can save owners $2,400-$5,600 over vehicle lifetime and reduce greenhouse gas emissions by 70-250%, potentially making EVs net-negative on household carbon.",
+      "source": "Anthropocene Magazine",
+      "url": "https://www.anthropocenemagazine.org/2025/12/evs-arent-just-cars-anymore-they-can-power-your-home-slashing-emissions-and-bills/",
+      "time": "2 months ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "UK V2G Market Faces Challenges with CCS Testing Failures, But Progress Continues",
+      "summary": "UK's CCS-based V2G remains in development with 11 of 14 type-testing applications failing, though Nissan's AC-based approach gained official grid certification after University of Nottingham trial.",
+      "source": "The Electric Car Scheme",
+      "url": "https://www.electriccarscheme.com/blog/what-is-vehicle-to-grid-v2g",
+      "time": "5 days ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Enphase Energy Unveils IQ Bidirectional EV Charger for V2H and V2G Integration",
+      "summary": "Enphase Energy introduced its IQ Bidirectional EV Charger architecture for home backup and grid services, designed to be cost-effective and compatible with existing home electrical systems.",
+      "source": "Enphase Energy",
+      "url": "https://investor.enphase.com/news-releases/news-release-details/enphase-energy-unveils-new-iq-bidirectional-ev-charger",
+      "time": "2 months ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Honda Announces Bidirectional V2X Capability for Upcoming Acura RSX",
+      "summary": "Honda announced its upcoming Acura RSX will feature bidirectional home charging, previewing future support for V2H and V2G across Honda's global EV platform.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/17/yes-an-ev-really-can-power-your-home-if-its-one-of-these/",
+      "time": "1 week ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Bidirectional Charging Technology Reaches Mainstream Adoption in 2026",
+      "summary": "Bidirectional charging is achieving mainstream adoption in 2026 with growing manufacturer support, new economic incentives from utilities, and established models like Ford F-150 Lightning providing full V2X capabilities.",
+      "source": "EcoFlow",
+      "url": "https://www.ecoflow.com/us/blog/bidirectional-charging-v2g-cars",
+      "time": "5 days ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    }
+  ]
 }
