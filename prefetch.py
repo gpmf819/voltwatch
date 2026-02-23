@@ -11,59 +11,53 @@ from datetime import datetime, timezone
 
 API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
+EXAMPLE_JSON = (
+    '[{"headline": "Title here", "summary": "Summary here.", '
+    '"source": "Reuters", "url": "https://example.com/article", '
+    '"time": "3h ago", "tags": ["EV"], "sentiment": "📈"}]'
+)
+
 SECTORS = [
     {
         "key": "ev",
         "prompt": (
-            "Use web_search to find the 8 most recent, significant news articles "
-            "from the last 48 hours about electric vehicles and automotive industry. "
-            "Include EV launches, sales data, charging infrastructure, battery technology, "
-            "automaker strategy, and EV policy. "
-            "Return ONLY a raw JSON array (no markdown fences, no explanation). "
-            "Each element must have: headline (exact article title), "
-            "summary (1-2 sentence paraphrase in your own words), "
-            "source (publication name), "
-            "url (full direct article URL, not a homepage), "
-            "time (e.g. '2h ago'), "
-            "tags (array of 1-2 from [\"EV\",\"Market\",\"Policy\"]), "
-            "sentiment (one emoji: 📈 📉 ⚠️ ✅ ⚡ 🔬 📊 🛠️). "
-            "Start with [ end with ]."
+            "Search the web for recent electric vehicle and automotive industry news from the last 7 days. "
+            "Find up to 8 articles about EV launches, sales, charging infrastructure, battery technology, automaker strategy, or EV policy. "
+            "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
+            "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
+            "Start your response with [ and end with ]. "
+            'Each object must have: headline (string), summary (string, 1-2 sentences), source (string), '
+            'url (string, full URL starting with https), time (string, e.g. "2h ago"), '
+            'tags (array of 1-2 from ["EV","Market","Policy"]), sentiment (string, one emoji). '
+            "Example format: " + EXAMPLE_JSON
         )
     },
     {
         "key": "energy",
         "prompt": (
-            "Use web_search to find the 8 most recent, significant news articles "
-            "from the last 48 hours about residential energy, rooftop solar, "
-            "home battery storage, net metering, solar incentives, and home electrification. "
-            "Return ONLY a raw JSON array (no markdown fences, no explanation). "
-            "Each element must have: headline (exact article title), "
-            "summary (1-2 sentence paraphrase in your own words), "
-            "source (publication name), "
-            "url (full direct article URL, not a homepage), "
-            "time (e.g. '3h ago'), "
-            "tags (array of 1-2 from [\"Energy\",\"Market\",\"Policy\"]), "
-            "sentiment (one emoji: 📈 📉 ⚠️ ✅ ⚡ 🔬 📊 🛠️). "
-            "Start with [ end with ]."
+            "Search the web for recent residential energy and solar news from the last 7 days. "
+            "Find up to 8 articles about rooftop solar, home battery storage, net metering, solar incentives, or home electrification. "
+            "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
+            "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
+            "Start your response with [ and end with ]. "
+            'Each object must have: headline (string), summary (string, 1-2 sentences), source (string), '
+            'url (string, full URL starting with https), time (string, e.g. "3h ago"), '
+            'tags (array of 1-2 from ["Energy","Market","Policy"]), sentiment (string, one emoji). '
+            "Example format: " + EXAMPLE_JSON
         )
     },
     {
         "key": "v2x",
         "prompt": (
             "Search the web for recent news about bidirectional EV charging, vehicle-to-grid V2G, "
-            "vehicle-to-home V2H, and EV battery grid integration. "
-            "Find up to 8 articles from the last 7 days. "
+            "vehicle-to-home V2H, and EV battery grid integration from the last 7 days. "
             "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
             "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
             "Start your response with [ and end with ]. "
-            "Each object in the array must have these exact keys: "
-            "headline (string), summary (string, 1-2 sentences), source (string), "
-            "url (string, full URL starting with https), time (string, e.g. 2h ago), "
-            "tags (array with one value: V2X), sentiment (string, one emoji). "
-            "Example of correct format: "
-            "[{\"headline\": \"Title here\", \"summary\": \"Summary here.\", "
-            "\"source\": \"Reuters\", \"url\": \"https://example.com/article\", "
-            "\"time\": \"3h ago\", \"tags\": [\"V2X\"], \"sentiment\": \"📈\"}]"
+            'Each object must have: headline (string), summary (string, 1-2 sentences), source (string), '
+            'url (string, full URL starting with https), time (string, e.g. "2h ago"), '
+            'tags (array with one value: "V2X"), sentiment (string, one emoji). '
+            "Example format: " + EXAMPLE_JSON
         )
     }
 ]
@@ -106,7 +100,7 @@ def fetch_sector(sector, retries=3):
             start = text.find('[')
             end   = text.rfind(']')
             if start == -1 or end == -1 or end <= start:
-                print(f"  ERROR: No JSON array found in response. Raw text: {text[:300]}")
+                print(f"  ERROR: No JSON array found. Raw text: {text[:400]}")
                 return []
 
             items = json.loads(text[start:end+1])
@@ -116,7 +110,7 @@ def fetch_sector(sector, retries=3):
 
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < retries - 1:
-                wait = 30 * (attempt + 1)
+                wait = 45 * (attempt + 1)
                 print(f"  Rate limited (429). Waiting {wait}s before retry {attempt+2}/{retries}...")
                 time.sleep(wait)
             else:
@@ -132,8 +126,8 @@ def main():
     results = {}
     for i, sector in enumerate(SECTORS):
         if i > 0:
-            print(f"  Waiting 15s before next sector...")
-            time.sleep(15)
+            print(f"  Waiting 45s before next sector...")
+            time.sleep(45)
         results[sector["key"]] = fetch_sector(sector)
 
     cache = {
