@@ -1,6 +1,209 @@
 {
-  "generatedAt": "2026-02-23T13:33:53.776069+00:00",
-  "ev": [],
-  "energy": [],
+  "generatedAt": "2026-02-23T13:48:31.688916+00:00",
+  "ev": [
+    {
+      "headline": "Tesla Launches Most Affordable Cybertruck With $59,990 AWD Model",
+      "summary": "Tesla introduced a new dual-motor all-wheel-drive Cybertruck at reduced starting price with Elon Musk signaling limited availability of 10 days.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "2d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "⚡"
+    },
+    {
+      "headline": "Ganfeng Lithium Begins Mass Production of Semi-Solid-State Batteries",
+      "summary": "The world's largest lithium metal producer started manufacturing semi-solid-state batteries with 650 Wh/kg energy density for Tesla, Volkswagen, Hyundai and other major automakers.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "2d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "🔬"
+    },
+    {
+      "headline": "Ford Targets $30,000 Electric Pickup Launch in 2027",
+      "summary": "Ford announced plans for an affordable electric pickup using a redesigned platform with reduced battery size, aluminum castings, and 48-volt system to cut manufacturing costs by 15-20%.",
+      "source": "CBT News",
+      "url": "https://www.cbtnews.com/ford-targets-30000-ev-with-new-battery-strategy",
+      "time": "5d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Stellantis Takes €22 Billion Charge as Big Three EV Losses Hit $52.1 Billion",
+      "summary": "Stellantis announced a $26 billion write-down for business restructuring, bringing cumulative EV strategy reversals by Detroit's Big Three automakers to $52.1 billion amid declining sales.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/06/stellantis-reset-business-electric-vehicles.html",
+      "time": "2w ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Trump Administration Finalizes Repeal of 2009 Greenhouse Gas Finding",
+      "summary": "The EPA finalized rescission of the Endangerment Finding that enabled greenhouse gas regulations, removing legal basis for federal EV emission mandates and reducing average new vehicle costs by approximately $2,400.",
+      "source": "234Drive",
+      "url": "https://234drive.com/the-great-american-deregulation/",
+      "time": "3d ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Rivian Completes R2 Manufacturing Validation Ahead of Q2 2026 Deliveries",
+      "summary": "Rivian achieved first full-year gross profit of $144 million in 2025, with R2 SUV production validation completed for planned second-quarter 2026 launch at around $45,000.",
+      "source": "The EV Report",
+      "url": "https://theevreport.com/",
+      "time": "1w ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "✅"
+    },
+    {
+      "headline": "China EV Market Shifts Focus to High-Tech Innovations and Solid-State Batteries",
+      "summary": "Chinese automakers are pivoting to advanced technologies including all-solid-state batteries planned for 2026 launch, fast-charging stations, and battery swapping to attract consumers after price floor regulation.",
+      "source": "EV Infrastructure News",
+      "url": "https://www.evinfrastructurenews.com/ev-technology/china-ev-market-high-tech-focus-2026-price-floor-ends-subsidy-wars",
+      "time": "1mo ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "⚡"
+    },
+    {
+      "headline": "Federal EV Tax Credits Expire; Charging Incentive Ends June 30, 2026",
+      "summary": "Trump administration eliminated federal EV purchase tax credits after September 2025 and repealed charging installation tax credits effective June 30, 2026, removing key federal support mechanisms.",
+      "source": "Plug In America",
+      "url": "https://pluginamerica.org/policy/federal-ev-policy-timeline/",
+      "time": "3w ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "BYD's $14,000 EV Signals Competitive Threat as Ford Explores Geely Partnership",
+      "summary": "Chinese automaker BYD unveiled a fully electric crossover SUV at $14,000, prompting Detroit trade group to warn of extinction-level threat while Ford explores potential collaboration with Chinese EV maker Geely.",
+      "source": "Automotive Manufacturing Solutions",
+      "url": "https://www.automotivemanufacturingsolutions.com/strategy/chinese-automakers-circle-the-last-market-they-cannot-enter/",
+      "time": "6d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📊"
+    }
+  ],
+  "energy": [
+    {
+      "headline": "Grid Battery Installations Soared to Record High in 2025",
+      "summary": "More than 13 gigawatts of energy storage was installed across the U.S. in 2025, up from roughly 12 GW in 2024, driven by abundant solar power, rising energy demand, and declining battery costs.",
+      "source": "Canary Media",
+      "url": "https://www.canarymedia.com/articles/batteries/chart-grid-battery-installations-soared-2025",
+      "time": "3 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Battery Storage Costs Hit Record Lows as Costs of Other Clean Power Technologies Increased",
+      "summary": "BloombergNEF reports that battery storage project costs fell 27% year-on-year to $78 per megawatt-hour in 2025, a record low, while developers added 87 gigawatts of combined solar and storage delivering power at $57/MWh.",
+      "source": "BloombergNEF",
+      "url": "https://about.bnef.com/insights/clean-energy/battery-storage-costs-hit-record-lows-as-costs-of-other-clean-power-technologies-increased-bloombergnef/",
+      "time": "5 days ago",
+      "tags": [
+        "Market",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Lunar Energy Raises $232 Million for AI-Powered Residential Energy Storage Expansion",
+      "summary": "The startup Lunar Energy announced $232 million in Series C and D financing to expand its AI-powered home energy storage systems and challenge Tesla Powerwall's market dominance with support from major investor Sunrun.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/02/08/us-energy-storage-startup-moves-in-on-the-residential-market-with-another-232-million/",
+      "time": "1 week ago",
+      "tags": [
+        "Market",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Federal Solar Incentives End: What Homeowners Need to Know About 2026 Changes",
+      "summary": "The One Big Beautiful Bill ended the 30% federal solar tax credit for homeowners purchasing systems with cash or loans after December 31, 2025, though leases and PPAs remain eligible through 2027 with new domestic content requirements.",
+      "source": "Enphase",
+      "url": "https://enphase.com/blog/homeowners/solar-tax-credit-updates-obbb",
+      "time": "3 weeks ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Net Metering Policy Revisions Accelerate Across 47 States in Q1 2025",
+      "summary": "The NC Clean Energy Technology Center reports that 47 states plus D.C. took solar policy actions in Q1 2025, with 55 addressing net metering policies, while California's 80% compensation cut led to an 80% drop in installations.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2025/04/18/net-metering-policies-see-significant-revision-in-states-across-the-u-s/",
+      "time": "10 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "California Battery Storage Adoption Surpasses 30% for Residential Solar",
+      "summary": "Solar-plus-battery installations in California surpassed 30% attachment rates in 2023 following net metering reforms and wildfire-related outages, establishing battery storage as a critical trend driver.",
+      "source": "Sol-Ark",
+      "url": "https://sol-ark.com/news/retrofitting-energy-storage-existing-solar-homes/",
+      "time": "2 months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "U.S. Faces ESS Battery Cell Oversupply as FEOC Rules Reshape Manufacturing",
+      "summary": "The U.S. is headed for approximately 10% FEOC-compliant energy storage system battery cell capacity surplus in 2026, with Korean suppliers accounting for over 80% of compliant capacity amid shifting foreign entity of concern regulations.",
+      "source": "Solar Power World Online",
+      "url": "https://www.solarpowerworldonline.com/2026/01/almost-overnight-the-us-became-an-oversupply-market-for-ess-battery-cells/",
+      "time": "6 weeks ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Ohio's Largest Utility Pushes to Slash Rooftop Solar Compensation in 2026",
+      "summary": "American Electric Power seeks to eliminate Ohio's net metering rules and implement less lucrative compensation for existing and future rooftop solar customers, facing significant pushback from environmental and consumer advocates.",
+      "source": "Canary Media",
+      "url": "https://www.canarymedia.com/articles/solar/ohio-utility-slash-rooftop-solar-compensation",
+      "time": "7 weeks ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    }
+  ],
   "v2x": []
 }
