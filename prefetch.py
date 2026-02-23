@@ -50,19 +50,20 @@ SECTORS = [
     {
         "key": "v2x",
         "prompt": (
-            "Use web_search to find the 8 most recent, significant news articles "
-            "from the last 48 hours about Vehicle-to-Everything (V2X) technology: "
-            "V2G (vehicle-to-grid), V2H (vehicle-to-home), V2L (vehicle-to-load), "
-            "bidirectional EV charging, and EV grid integration. "
-            "Return ONLY a raw JSON array (no markdown fences, no explanation). "
-            "Each element must have: headline (exact article title), "
-            "summary (1-2 sentence paraphrase in your own words), "
-            "source (publication name), "
-            "url (full direct article URL, not a homepage), "
-            "time (e.g. '4h ago'), "
-            "tags (array of 1-2 from [\"V2X\",\"Market\",\"Policy\"]), "
-            "sentiment (one emoji: 📈 📉 ⚠️ ✅ ⚡ 🔬 📊 🛠️). "
-            "Start with [ end with ]."
+            "Search the web for recent news about bidirectional EV charging, vehicle-to-grid V2G, "
+            "vehicle-to-home V2H, and EV battery grid integration. "
+            "Find up to 8 articles from the last 7 days. "
+            "If fewer than 8 exist, return however many you find - even 2 or 3 is fine. "
+            "You MUST return ONLY a JSON array. No intro text, no explanation, no markdown fences. "
+            "Start your response with [ and end with ]. "
+            "Each object in the array must have these exact keys: "
+            "headline (string), summary (string, 1-2 sentences), source (string), "
+            "url (string, full URL starting with https), time (string, e.g. 2h ago), "
+            "tags (array with one value: V2X), sentiment (string, one emoji). "
+            "Example of correct format: "
+            "[{\"headline\": \"Title here\", \"summary\": \"Summary here.\", "
+            "\"source\": \"Reuters\", \"url\": \"https://example.com/article\", "
+            "\"time\": \"3h ago\", \"tags\": [\"V2X\"], \"sentiment\": \"📈\"}]"
         )
     }
 ]
