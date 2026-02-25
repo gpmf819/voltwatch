@@ -1,325 +1,240 @@
 {
-  "generatedAt": "2026-02-24T14:20:36.016273+00:00",
-  "ev": [
-    {
-      "headline": "Hyundai launches first China-made EV overseas to compete with Tesla and BYD",
-      "summary": "Hyundai is bringing its first dedicated EV for China, the Elexio, to overseas markets including Australia, positioned as an alternative to Tesla Model Y with competitive pricing.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/02/23/hyundai-launches-first-china-made-ev-overseas/",
-      "time": "1 day ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Lithium metal giant begins semi-solid-state EV battery production",
-      "summary": "Ganfeng Lithium has begun mass-producing semi-solid-state batteries with 650 Wh/kg energy density, with supply deals to Tesla, Volkswagen, Hyundai and other major OEMs for next-generation EV batteries.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/02/20/lithium-metal-giant-begins-semi-solid-state-ev-battery-production/",
-      "time": "3 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Volvo recalls 40,000 EX30 electric SUVs due to fire risk",
-      "summary": "Volvo is recalling more than 40,000 EX30 electric SUVs due to a potential fire risk, affecting a significant portion of this popular EV model.",
-      "source": "Electrek",
-      "url": "https://electrek.co/",
-      "time": "2 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Stellantis takes $26B write-down over EVs, sells stake in battery JV",
-      "summary": "Stellantis announced a $26.2 billion write-down over EV strategy shifts and sold its 49% stake in NextStar Energy battery venture to LG Energy Solution for $100, reflecting massive losses from overestimating EV demand.",
-      "source": "WardsAuto",
-      "url": "https://www.wardsauto.com/news/stellantis-takes-26b-write-down-over-evs-sells-stake-in-battery-jv-for-1/811777/",
-      "time": "4 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Polestar details plan for next four EV model launches through 2028",
-      "summary": "Polestar announced four new vehicle launches including the Polestar 5, new Polestar 4 variant, next-generation Polestar 2, and compact premium Polestar 7 SUV by 2028, with expectations for low double-digit growth in 2026.",
-      "source": "The Driven",
-      "url": "https://thedriven.io/2026/02/20/polestar-details-plan-for-its-next-four-ev-model-launches/",
-      "time": "5 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Mercedes-AMG GT XX performance EV to debut by May 2026 with 1,340 HP",
-      "summary": "Mercedes-Benz confirms its Mercedes-AMG GT XX electric performance car will debut by May 2026 with over 1,000 kW power, tri-motor AWD, and 250-mile charging capability in just 5 minutes.",
-      "source": "Top Electric SUV",
-      "url": "https://topelectricsuv.com/electric-cars/2026-2027-electric-cars-upcoming/",
-      "time": "4 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Ford unveils $30,000 electric pickup strategy with UEV platform",
-      "summary": "Ford announced plans to launch a mid-size electric pickup around 2027 starting at $30,000 using a new Universal Electric Vehicle platform designed to reduce costs through efficiency and smaller batteries.",
-      "source": "ACT News",
-      "url": "https://www.act-news.com/news/ford-unveils-30000-electric-pickup-strategy-details-uev-platform/",
-      "time": "1 week ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "GM takes $7.2B charge on EV strategy shift due to declining demand",
-      "summary": "General Motors announced a $7.2 billion special charge related to realignment of its electric vehicle strategy following declining consumer demand and policy changes.",
-      "source": "Fox Business",
-      "url": "https://www.foxbusiness.com/markets/gm-takes-7b-hit-after-shifting-ev-strategy-due-slowing-demand",
-      "time": "1 month ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "EV sales fell as hybrid vehicle sales continued to rise in 2025",
-      "summary": "Battery electric vehicle market share fell to less than 6% in Q4 2025 after peaking at 12% in September when tax credits expired, while hybrid vehicles gained increasing market share.",
-      "source": "U.S. Energy Information Administration",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67144",
-      "time": "2 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Massachusetts launches free bi-directional EV charging program",
-      "summary": "Massachusetts Clean Energy Center announced first-of-its-kind Vehicle-to-Everything (V2X) demonstration program installing free bi-directional EV chargers for school districts, municipalities, and residents by summer 2026.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/02/03/free-v2x-chargers-will-let-massachusetts-evs-power-the-grid/",
-      "time": "2 weeks ago",
-      "tags": [
-        "Market",
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "ChargePoint adds 190,000 EV chargers but still not keeping up with demand",
-      "summary": "ChargePoint reported adding 190,000 EV chargers in 2025, yet the growth still fails to keep pace with increasing demand from EV drivers.",
-      "source": "InsideEVs",
-      "url": "https://insideevs.com/news/category/charging/",
-      "time": "2 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "⚠️"
-    },
-    {
-      "headline": "The Mobility House launches Cascade EV Aggregator for vehicle-to-grid integration",
-      "summary": "The Mobility House North America unveiled Cascade EV Aggregator, a comprehensive V2G platform enabling utilities to coordinate EV charging and discharging across residential and fleet assets in the US and Canada.",
-      "source": "EV Infrastructure News",
-      "url": "https://www.evinfrastructurenews.com/ev-technology/the-mobility-house-unveils-most-versatile-ev-load-aggregation-tool-for-us-canadian-utilities",
-      "time": "3 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "McKinsey: EV battery recycling will be $70B annual business by 2035",
-      "summary": "McKinsey analysis projects EV battery recycling will become a $70 billion annual business by the end of the next decade as more EVs reach end-of-life.",
-      "source": "InsideEVs",
-      "url": "https://insideevs.com/",
-      "time": "2 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Major automakers have written off $55B after overestimating EV demand",
-      "summary": "Stellantis, Ford, GM, and other major automakers have collectively written off approximately $55 billion after overestimating EV adoption rates and facing slower-than-expected market growth.",
-      "source": "Autoblog",
-      "url": "https://www.autoblog.com/news/major-automakers-have-written-off-55-billion-after-overestimating-ev-demand",
-      "time": "2 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Trump administration resets fuel economy standards, eliminating EV incentives push",
-      "summary": "Trump administration unveiled 'Freedom Means Affordable Cars' proposal resetting CAFE standards to 34.5 mpg by 2031, reversing Biden-era EV mandates and eliminating regulatory pressure for electrification.",
-      "source": "US Department of Transportation",
-      "url": "https://www.transportation.gov/briefing-room/president-trump-transportation-secretary-sean-p-duffy-unveil-new-freedom-means",
-      "time": "1 week ago",
-      "tags": [
-        "EV",
-        "Policy"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "States continue EV support despite federal policy reversals",
-      "summary": "Environmental Defense Fund report shows all 50 US states have implemented EV-supportive policies despite federal rollbacks, with California leading with all 16 key policies in place.",
-      "source": "Environmental Defense Fund",
-      "url": "https://www.edf.org/media/new-edf-report-shows-electric-vehicle-policy-progress-across-all-50-us-states",
-      "time": "2 weeks ago",
-      "tags": [
-        "EV",
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Nissan Leaf gets new generation with 530 km WLTP range mid-2026",
-      "summary": "Nissan's third-generation Leaf, launching mid-2026, will feature the modern CMF-EV platform from the Ariya, delivering nearly double the range of the previous model at 530 km WLTP.",
-      "source": "Go-Electra",
-      "url": "https://www.go-electra.com/en/newsroom/new-electric-cars-2026/",
-      "time": "3 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "BMW iX3 2026 launches with 800+ km range and 400 kW charging",
-      "summary": "BMW's new 2026 iX3 based on Neue Klasse platform will offer over 800 km WLTP range, ultra-fast 400 kW charging, and 30% improved energy density in its batteries.",
-      "source": "Go-Electra",
-      "url": "https://www.go-electra.com/en/newsroom/new-electric-cars-2026/",
-      "time": "3 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Texas battery storage installations hit record 57.6 GWh in 2025",
-      "summary": "US battery storage installations reached a record 57.6 GWh in 2025, up 30% year-over-year, with Texas set to overtake California as the leading state for battery storage capacity.",
-      "source": "Electrek",
-      "url": "https://electrek.co/",
-      "time": "2 days ago",
-      "tags": [
-        "Market",
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "2025 second-best year for US EV sales despite federal incentive loss",
-      "summary": "US EV sales declined only 4% in 2025 despite loss of federal tax credits, making it the second-best year on record as alternative incentives and lower prices drove continued adoption.",
-      "source": "Rocky Mountain Institute",
-      "url": "https://rmi.org/ev-sales-are-growing-how-do-we-keep-the-united-states-in-the-game/",
-      "time": "3 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Kia EV4 GT opens pre-orders with electric hot hatch performance",
-      "summary": "Kia opened pre-orders for its EV4 GT, an electric hot hatch variant combining compact urban design with performance capabilities in the growing compact EV segment.",
-      "source": "Electrek",
-      "url": "https://electrek.co/",
-      "time": "2 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Toyota Hilux electric pickup to launch late 2026 in UK market",
-      "summary": "Toyota is launching an electric version of its Hilux pickup truck late 2026, offering an alternative to traditional combustion and hydrogen fuel cell variants.",
-      "source": "Electrifying",
-      "url": "https://www.electrifying.com/blog/article/what-new-electric-vehicles-are-coming-in-2026",
-      "time": "3 weeks ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Lamborghini scraps plans for Lanzador electric supercar first EV",
-      "summary": "Lamborghini has canceled its plans to build the Lanzador electric supercar, abandoning its first all-electric vehicle project.",
-      "source": "Electrek",
-      "url": "https://electrek.co/",
-      "time": "2 days ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "BYD dominates Mexico EV market with 80% share in 2024",
-      "summary": "Chinese EV maker BYD captured 80% of Mexico's EV market in 2024 and nearly 90% by December 2025, accounting for approximately two-thirds of all EVs sold in the country.",
-      "source": "Automotive Manufacturing Solutions",
-      "url": "https://www.automotivemanufacturingsolutions.com/strategy/chinese-automakers-circle-the-last-market-they-cannot-enter/2609840",
-      "time": "1 week ago",
-      "tags": [
-        "EV",
-        "Market"
-      ],
-      "sentiment": "📉"
-    }
-  ],
+  "generatedAt": "2026-02-25T12:07:49.482728+00:00",
+  "ev": [],
   "energy": [
     {
-      "headline": "Experts Predict Top Trends in U.S. Residential Solar for 2026",
-      "summary": "Industry experts forecast that solar installers will diversify into comprehensive home energy providers offering HVAC, storage, and smart home tech, while third-party ownership and virtual power plants continue to grow in importance.",
+      "headline": "PG&E Partners with SPAN to Help Customers Electrify Homes More Affordably",
+      "summary": "Pacific Gas and Electric Company announced a strategic collaboration with SPAN to deploy their SPAN Edge solution to help customers electrify their homes more affordably and efficiently.",
       "source": "pv magazine USA",
-      "url": "https://pv-magazine-usa.com/2025/12/15/experts-predict-the-top-trends-in-u-s-residential-solar-for-2026/",
-      "time": "2 months ago",
+      "url": "https://pv-magazine-usa.com/",
+      "time": "recently",
       "tags": [
-        "Market",
-        "Energy"
+        "Energy",
+        "Market"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "The 30% Solar Tax Credit is Dead — Long Live the 30% Solar Tax Credit",
-      "summary": "Following the expiration of the 25D residential solar tax credit on December 31, 2025, homeowners can still access 30% incentives through Section 48E via third-party ownership models like leases and PPAs through 2027.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/01/07/the-30-home-solar-tax-credit-is-dead-long-live-the-30-home-solar-tax-credit/",
+      "headline": "FranklinWH Achieves TIA-942 Certified Battery System, Setting Global Reliability Benchmark",
+      "summary": "FranklinWH became the world's first residential battery system to earn TIA-942 Rated 1-4 certification, bringing enterprise-grade reliability to home energy storage.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "SOLRITE Opens Battery-Only VPP Option for Homes Without Rooftop Solar",
+      "summary": "SOLRITE Energy launched a battery-only virtual power plant option enabling households without solar panels to participate in VPPs and save on utility bills.",
+      "source": "Clean Technica",
+      "url": "https://cleantechnica.com/2026/02/11/now-anyone-can-join-a-vpp-with-or-without-rooftop-solar/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "California Residents Increasingly Pair Battery Storage with Solar Installations",
+      "summary": "Over 50% of residential solar photovoltaic installations in California were paired with battery storage in April 2024, up from just over 20% in October 2023.",
+      "source": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=62524",
+      "time": "several months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Sacramento Municipal Utility District to Launch Major Battery Storage Project",
+      "summary": "SMUD will build a 160-megawatt, 640-megawatt-hour battery energy storage system on a decommissioned nuclear power plant site, with construction starting in June 2026.",
+      "source": "Strategic Partnerships, Inc.",
+      "url": "https://www.spartnerships.com/battery-storage-projects-2026/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Federal Solar Tax Credit Expires December 31, 2025; State Incentives Remain",
+      "summary": "The 30% federal residential clean energy tax credit for solar and battery systems ended on December 31, 2025, but state rebates and net metering programs continue to offer significant savings.",
+      "source": "finray.solar",
+      "url": "https://finray.solar/articles/are-there-solar-incentives-left-in-2026/",
+      "time": "3 weeks ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Battery Pack Costs Drop to $108/kWh; Further 3% Decline Expected in 2026",
+      "summary": "Bloomberg NEF reports battery pack costs fell to $108/kWh with projections for an additional 3% decline in 2026, enabling cost-effective multi-day backup power systems.",
+      "source": "Solar Power World Online",
+      "url": "https://www.solarpowerworldonline.com/2026/01/10-solar-storage-and-energy-predictions-for-2026/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Residential Solar Prices Fall to Record Low of $2.48/W",
+      "summary": "Median standalone residential solar quoted prices fell to $2.48 per watt in the first half of 2025, tying the record low from late 2024, despite market headwinds.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2025/12/19/adapt-to-thrive-managing-the-residential-solar-market-downturn/",
+      "time": "2 months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Arizona's FranklinWH Supports Both SRP and APS Virtual Power Plant Programs",
+      "summary": "FranklinWH became the first residential energy storage provider to support both Arizona's major utility VPP programs, delivering financial incentives during rising electricity costs.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "SEIA Reports 30% Year-Over-Year Growth in U.S. Battery Storage Market",
+      "summary": "The U.S. battery storage market grew 30% year-over-year despite industry bracing for supply chain restructuring and political landscape shifts.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Bifacial Solar Technology Moves to Mainstream in 2026 Commercial Installations",
+      "summary": "Bifacial technology has evolved from premium option to mainstream choice in commercial and utility installations where reflected light opportunities are plentiful.",
+      "source": "SunHub",
+      "url": "https://www.sunhub.com/blog/solar-panel-technology-2026/",
       "time": "1 month ago",
       "tags": [
-        "Policy",
-        "Energy"
+        "Energy",
+        "Market"
       ],
-      "sentiment": "🔄"
+      "sentiment": "📈"
     },
     {
-      "headline": "Trump and the Fate of the 30% Solar Tax Credit",
-      "summary": "Trump's One Big Beautiful Bill officially ended the 25D federal solar tax credit for homeowners on December 31, 2025, but homeowners can continue accessing solar incentives through third-party ownership arrangements through 2027.",
+      "headline": "Building-Integrated Photovoltaics Embedding Solar into Everyday Construction",
+      "summary": "BIPV technology embeds solar cells directly into building materials like roof tiles and façade panels, eliminating separate panel racks and integrating generation into structures.",
+      "source": "SunHub",
+      "url": "https://www.sunhub.com/blog/solar-panel-technology-2026/",
+      "time": "1 month ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Home Battery Storage Rental Model Emerges; Landlords Earn $5,000-$50,000 Annually",
+      "summary": "Property owners are increasingly renting roof space for solar and battery co-located systems, with residential properties earning $5,000-$15,000 annually and commercial buildings up to $50,000+.",
+      "source": "Migration Vis Portal",
+      "url": "https://www.migrationvisportal.com/2025/12/rent-roof-solar-storage-landlord-income-guide-2026.html",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "34 States Plus D.C. Have Mandatory Net Metering Rules in Place",
+      "summary": "Net metering remains available in 34 states plus Washington D.C. and Puerto Rico, with policies varying from full retail rate credits to reduced compensation models.",
+      "source": "SEIA",
+      "url": "https://seia.org/net-metering/",
+      "time": "recently",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "California NEM 3.0 Reduces Export Rates 75%, From 30 Cents to 8 Cents Per kWh",
+      "summary": "California's Net Energy Metering 3.0 policy, effective April 2023, slashed compensation for exported electricity by approximately 75%, increasing payback periods.",
       "source": "Solar.com",
-      "url": "https://www.solar.com/learn/trump-and-the-fate-of-the-30-solar-tax-credit/",
+      "url": "https://www.solar.com/learn/nem-3-0-proposal-and-impacts-for-california-homeowners/",
+      "time": "4 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Colorado Solar Incentives Include Property Tax Exemptions and Net Metering",
+      "summary": "Colorado homeowners benefit from property tax exemptions, widespread net metering, and utility programs supporting residential solar despite federal credit expiration.",
+      "source": "US Solar Supplier",
+      "url": "https://ussolarsupplier.com/blogs/news/colorado-solar-incentives-for-homeowners-2026",
+      "time": "2 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "SMUD Invests $25 Million Through 2030 to Incentivize Battery Storage Adoption",
+      "summary": "Sacramento Municipal Utility District committed $25 million through 2030 to incentivize battery storage adoption and transition market from rooftop solar only to solar-plus-storage.",
+      "source": "SMUD",
+      "url": "https://www.smud.org/Going-Green/Solar-for-Your-Home/Solar-customers",
+      "time": "recently",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Puerto Rico's Solar Revolution Reaches 175,000 Residential Installations with Storage",
+      "summary": "Puerto Rico's residential solar market reached 175,000 homes with solar, and 160,000 of those including battery storage, following Hurricanes Irma and Maria.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Massachusetts Low-Income Solar Program Delivers $150/Month Energy Savings on Average",
+      "summary": "A pilot program providing free solar panels and heat pumps to 55 Cape Cod and Martha's Vineyard households resulted in average monthly energy savings of $150.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
+      "time": "recently",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "California's Net Metering Subsidy Cost Surges to $8.5 Billion by End of 2024",
+      "summary": "The cost of California's net metering subsidies increased from $3.4 billion in 2021 to $8.5 billion by end of 2024, affecting non-solar customers' electricity bills.",
+      "source": "Institute for Energy Research",
+      "url": "https://www.instituteforenergyresearch.org/renewable/californias-rooftop-solar-subsidy-will-cost-about-8-5-billion-in-2024-paid-for-by-non-rooftop-solar-consumers/",
       "time": "6 months ago",
       "tags": [
         "Policy",
@@ -328,486 +243,53 @@
       "sentiment": "📉"
     },
     {
-      "headline": "President Trump Signs Bill Killing The Solar Tax Credit",
-      "summary": "President Trump signed legislation cutting the 30% residential solar tax credit nearly a decade ahead of schedule, but solar prices continue to decline with costs hitting record lows of $2.50 per watt.",
-      "source": "EnergySage",
-      "url": "https://www.energysage.com/news/congress-passes-bill-ending-residential-solar-tax-credit/",
-      "time": "6 months ago",
+      "headline": "Virtual Power Plants Dispatched 535 MW From 100,000 California Homes During Peak Demand",
+      "summary": "Sunrun's virtual power plant test dispatched 535 megawatts from over 100,000 California homes on July 29, 2025, meeting half of San Francisco's evening energy demand.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
+      "time": "recently",
       "tags": [
-        "Policy",
+        "Energy",
         "Market"
       ],
-      "sentiment": "📉"
+      "sentiment": "📈"
     },
     {
-      "headline": "Residential Solar Tax Credit Going Away In US After 2025",
-      "summary": "The 30% residential solar tax credit expires December 31, 2025, with no phase-down period, making 2025 critical for scheduling and installation to avoid missing the deadline.",
-      "source": "Greenlancer",
-      "url": "https://www.greenlancer.com/post/solar-tax-credit-ending",
-      "time": "2 months ago",
+      "headline": "Tallahassee Florida Battery Storage Project Valued at $39 Million with $28.7M DOE Grant",
+      "summary": "Tallahassee's Electric and Gas Utility announced a $39 million battery energy storage system project at Birmingham Street Substation, supported by DOE funding.",
+      "source": "Strategic Partnerships, Inc.",
+      "url": "https://www.spartnerships.com/battery-storage-projects-2026/",
+      "time": "recently",
       "tags": [
-        "Policy",
+        "Energy",
         "Market"
       ],
-      "sentiment": "⚠️"
+      "sentiment": "📈"
     },
     {
-      "headline": "What Solar Incentives Were Curtailed or Canceled?",
-      "summary": "The Trump administration's One Big Beautiful Bill ends residential solar and home electrification tax credits before 2027, with tighter commercial solar criteria and new foreign-entity constraints affecting projects.",
-      "source": "Swift Water Electrical and Solar",
-      "url": "https://www.swiftwaterelectricandsolar.com/blog/solar-incentives",
-      "time": "2 months ago",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "With Tax Credits Expiring, Home Electrification Nonprofit is Racing Against the Clock",
-      "summary": "The 25D and 25C federal tax credits for solar, batteries, and home efficiency improvements expire at year-end 2025, prompting nonprofits like Rewiring America to urge homeowners to act quickly.",
-      "source": "Utility Dive",
-      "url": "https://www.utilitydive.com/news/with-tax-credits-expiring-a-home-electrification-nonprofit-is-racing-again/759124/",
-      "time": "5 months ago",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "⚠️"
-    },
-    {
-      "headline": "2026-2027 U.S. Solar & HVAC Incentives Post-Federal Credit Era",
-      "summary": "State and utility incentives will increasingly replace federal credits, with programs like California's revised SGIP and Texas's HOMES/HEAR rebates reshaping solar and electrification financing.",
+      "headline": "Arizona Adopts 'Efficiency Arizona' Program Offering Up to $8,000 for Heat Pumps",
+      "summary": "Arizona Governor's Office launched 'Efficiency Arizona' to administer federal HOMES and HEAR rebate funds with up to $8,000 for heat pumps and $1,750 for heat pump water heaters.",
       "source": "AC Direct",
       "url": "https://www.acdirect.com/blog/2026-2027-us-solar-hvac-incentives-post-federal-credit-era/",
       "time": "3 months ago",
       "tags": [
         "Policy",
-        "Energy"
-      ],
-      "sentiment": "🔄"
-    },
-    {
-      "headline": "California Residents Increasingly Pairing Battery Storage with Solar Installations",
-      "summary": "In California, over 50% of new residential solar installations were paired with battery storage by April 2024, up from 20% in October 2023, driven by changes to net metering policies.",
-      "source": "U.S. Energy Information Administration",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=62524",
-      "time": "1 year ago",
-      "tags": [
-        "Market",
-        "Energy"
+        "Market"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Net Metering vs A Home Battery System: Which Is More Advantageous for Solar Owners?",
-      "summary": "As states phase out retail-rate net metering in favor of net billing, home batteries are gaining attention as prices decline and state incentives like California's SGIP help reduce upfront costs.",
-      "source": "FranklinWH",
-      "url": "https://www.franklinwh.com/blog/net-metering-vs-a-home-battery-system-which-is-more-advantageous-for-solar-owners",
-      "time": "1 month ago",
+      "headline": "West Virginians Successfully Defend Against AEP's Two-Thirds Net Metering Rate Cut",
+      "summary": "West Virginia residents successfully fought back against AEP's proposal to slash net metering rates by two-thirds in 2025, preserving current compensation levels.",
+      "source": "Solar United Neighbors",
+      "url": "https://solarunitedneighbors.org/resources/net-metering-what-you-need-to-know/",
+      "time": "recently",
       "tags": [
         "Policy",
         "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Net Metering vs. Batteries in 2026: Which Saves You More on Solar?",
-      "summary": "States like California and Arizona have replaced full-retail net metering with lower-compensation net billing structures, making battery storage increasingly attractive despite higher upfront costs.",
-      "source": "EcoFlow",
-      "url": "https://www.ecoflow.com/us/blog/net-metering-vs-batteries-guide",
-      "time": "1 month ago",
-      "tags": [
-        "Market",
-        "Energy"
-      ],
-      "sentiment": "🔄"
-    },
-    {
-      "headline": "How Rooftop Solar and Net Metering Works",
-      "summary": "Net metering allows rooftop solar owners to sell excess power to utilities and receive credits on their bills, though not all states offer this incentive program.",
-      "source": "Torrington Savings Bank",
-      "url": "https://learning.torringtonsavings.bank/money-management/spending/article/how-rooftop-solar-and-net-metering-works",
-      "time": "1 month ago",
-      "tags": [
-        "Energy",
-        "Policy"
-      ],
-      "sentiment": "📚"
-    },
-    {
-      "headline": "Utah Gigasite Data Center Contemplates Solar-Storage Baseload Addition",
-      "summary": "Zeo Energy is studying development of 280 MW of solar and storage generation for a multi-gigawatt data center campus in Utah, with potential for thermal, chemical, or electrochemical long-duration storage.",
-      "source": "POWER Magazine",
-      "url": "https://www.powermag.com/utah-gigasite-data-center-contemplates-solar-storage-baseload-addition/",
-      "time": "5 days ago",
-      "tags": [
-        "Energy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "FranklinWH Achieves Global Benchmark in Home Energy Reliability",
-      "summary": "FranklinWH's residential battery system became the first to earn TIA-942 Rated 1-4 certification, achieving data-center-grade reliability standards for home energy storage.",
-      "source": "pv magazine USA",
-      "url": "https://pv-magazine-usa.com/",
-      "time": "1 month ago",
-      "tags": [
-        "Energy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Virtual Power Plants Showed Up for Their Biggest Test Yet",
-      "summary": "Over 100,000 California homes in Sunrun's virtual power plant test dispatched 535 megawatts to the grid in July 2025, equivalent to half San Francisco's peak demand, demonstrating VPP potential.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
-      "time": "1 month ago",
-      "tags": [
-        "Energy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Puerto Rico's Solar Revolution Powers Grid with Battery Storage",
-      "summary": "175,000 Puerto Rican homes now have residential solar with 160,000 equipped with battery storage, dispatching 48 MW during peak demand events to keep the grid stable.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
-      "time": "6 months ago",
-      "tags": [
-        "Energy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Massachusetts Pilot Provides Free Heat Pumps and Solar with $150 Monthly Savings",
-      "summary": "A Massachusetts program provided solar panels to 55 low-income households on Cape Cod and Martha's Vineyard, resulting in average monthly energy savings of $150 combined with heat pumps.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
-      "time": "7 months ago",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "How Do Solar Rebates and Incentives Work in 2026?",
-      "summary": "Federal residential solar tax credits expired December 31, 2025, shifting focus to state and utility incentives through tax credits, property tax abatements, and performance-based rebates.",
-      "source": "Solar.com",
-      "url": "https://www.solar.com/learn/solar-rebates-incentives/",
-      "time": "1 month ago",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "🔄"
-    },
-    {
-      "headline": "Net Metering – SEIA",
-      "summary": "34 states plus Washington D.C. and Puerto Rico have mandatory net metering rules, which credit solar system owners for electricity exported to the grid and employ over 230,000 American workers.",
-      "source": "SEIA",
-      "url": "https://seia.org/net-metering/",
-      "time": "8 months ago",
-      "tags": [
-        "Policy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Residential Clean Energy Credit Tax Requirements",
-      "summary": "The 30% federal residential clean energy tax credit applies to solar, battery storage, and geothermal systems installed through December 31, 2025, with specific qualification requirements.",
-      "source": "IRS",
-      "url": "https://www.irs.gov/credits-deductions/residential-clean-energy-credit",
-      "time": "1 month ago",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📚"
-    },
-    {
-      "headline": "Net Metering vs. Batteries: What's Best for You?",
-      "summary": "While net metering avoids upfront battery costs, battery storage provides energy independence, backup power during outages, and potentially higher long-term savings in avoided peak-rate charges.",
-      "source": "Photon Brothers",
-      "url": "https://www.photonbrothers.com/blog/net-metering-vs-batteries",
-      "time": "9 months ago",
-      "tags": [
-        "Market",
-        "Energy"
-      ],
-      "sentiment": "🔄"
-    }
-  ],
-  "v2x": [
-    {
-      "headline": "Enphase Energy Unveils New IQ Bidirectional EV Charger Architecture for Home Backup and Grid Services",
-      "summary": "Enphase launched its IQ Bidirectional EV Charger for V2H and V2G capability, designed with AI-powered energy management and expected availability in H2 2026.",
-      "source": "Enphase Energy",
-      "url": "https://investor.enphase.com/news-releases/news-release-details/enphase-energy-unveils-new-iq-bidirectional-ev-charger",
-      "time": "2 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Toyota's Vehicle-to-Grid Program with Oncor Energy Demonstrates Benefits of Bidirectional BEV Charging",
-      "summary": "Toyota advanced its V2G pilot with Oncor, demonstrating how bidirectional energy flow enhances grid stability and allows customers to reduce electricity costs during peak demand periods.",
-      "source": "Toyota USA Newsroom",
-      "url": "https://pressroom.toyota.com/toyotas-vehicle-to-grid-program-with-oncor-energy-demonstrates-benefits-of-bidirectional-bev-charging/",
-      "time": "2 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Nissan to Launch Affordable Vehicle-to-Grid Technology in 2026",
-      "summary": "Nissan announced plans to launch AC-based V2H and DC-based V2G solutions in 2026, aiming to make bidirectional charging accessible at comparable prices to mono-directional chargers.",
-      "source": "Nissan",
-      "url": "https://global.nissannews.com/en/releases/nissan-to-launch-affordable-vehicle-to-grid-technology-in-2026",
-      "time": "3 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Nio Participates in Vehicle-to-Grid Demonstration Discharge with Over 100 EVs",
-      "summary": "More than 100 Nio vehicles participated in a V2G discharge demonstration in Tianjin, showcasing how EVs can supply electricity to the grid during peak demand.",
-      "source": "EV Vehicles",
-      "url": "https://eletric-vehicles.com/nio/nio-participates-in-vehicle-to-grid-demonstration-discharge-with-over-100-evs/",
-      "time": "2 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle to Grid Market Set to Reach US$ 65.84 Billion by 2035",
-      "summary": "Market analysis projects V2G sector will reach $65.84 billion by 2035 as regulatory harmonization and commercial-scale virtual power plants accelerate adoption globally.",
-      "source": "Astute Analytica/Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/vehicle-grid-market-set-reach-151100096.html",
-      "time": "2 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Retired EV Batteries Scored a New Gig: Bolstering Texas' Grid",
-      "summary": "B2U Storage Solutions is repurposing retired GM EV batteries to provide grid storage in Texas, offering cheaper power to infrastructure developers and supporting grid reliability.",
-      "source": "Inside Climate News",
-      "url": "https://insideclimatenews.org/news/17022026/retired-ev-batteries-bolster-texas-grid/",
-      "time": "1 week ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "The Mobility House Unveils New Vehicle-to-Grid Integration Platform for Utilities",
-      "summary": "The Mobility House launched Cascade EV Aggregator, an EV load aggregation tool enabling charging and discharging optimization across home chargers and electric school bus fleets.",
-      "source": "Charged EVs",
-      "url": "https://chargedevs.com/newswire/the-mobility-house-unveils-new-vehicle-to-grid-integration-platform-for-utilities/",
-      "time": "2 weeks ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Bidirectional Charging (V2G) in 2026: Which Cars Support It?",
-      "summary": "EcoFlow analysis shows 2026 as breakthrough year for bidirectional charging with major automakers like Ford, Tesla, and GM offering V2L, V2H, and V2G capabilities across their EV lines.",
-      "source": "EcoFlow",
-      "url": "https://www.ecoflow.com/us/blog/bidirectional-charging-v2g-cars",
-      "time": "Recent",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "BMW Presents First Commercial V2G Offering with E.ON for Germany",
-      "summary": "At IAA 2025, BMW announced its first commercial V2G solution for Germany with E.ON, featuring the BMW iX3 and bidirectional BMW Wallbox Professional launching spring 2026.",
-      "source": "Mobility House Energy",
-      "url": "https://mobilityhouse-energy.com/int_en/knowledge-center/article/which-cars-are-v2g-capable",
-      "time": "4 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Mercedes-Benz Announces Bidirectional Charging for 2026 with GLC Launch",
-      "summary": "Mercedes-Benz announced introduction of bidirectional charging in 2026, with the new all-electric GLC leading the way in their V2G rollout strategy.",
-      "source": "Mobility House Energy",
-      "url": "https://mobilityhouse-energy.com/int_en/knowledge-center/article/which-cars-are-v2g-capable",
-      "time": "4 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Enphase Slates Volume Production of Bidirectional EV Chargers for Q4 2026",
-      "summary": "Enphase Energy plans to begin manufacturing its IQ Bidirectional EV Charging Platform at volume production in Q4 2026 following successful product development and trials.",
-      "source": "Solar Power World Online",
-      "url": "https://www.solarpowerworldonline.com/2026/02/enphase-slates-volume-production-of-bidirectional-ev-chargers-for-q4-2026/",
-      "time": "3 weeks ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle to Grid (V2G) Technology Market Worth USD 251.16 Bn by 2034",
-      "summary": "Global V2G market projected to grow from $15.85 billion in 2025 to $251.16 billion by 2034 at 35.93% CAGR, driven by grid integration and smart technology adoption.",
-      "source": "Towards Automotive/Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/vehicle-grid-v2g-technology-market-140000102.html",
-      "time": "4 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle-to-Home V2H Charging: A Practical Guide Using Your EV as Home UPS",
-      "summary": "TechTimes explores V2H technology allowing EVs to act as flexible home energy sources, detailing how bidirectional charging provides backup power and cost savings in 2026.",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/314652/20260216/vehiclehome-v2h-charging-practical-guide-using-your-ev-home-ups-ev-battery-home-backup.htm",
-      "time": "1 week ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "These Are All The EVs That Can Power Your Home",
-      "summary": "InsideEVs reviews V2H-capable vehicles including Ford F-150 Lightning, Nissan Leaf, GM EVs, and Kia models, highlighting available bidirectional charging systems for home backup.",
-      "source": "InsideEVs",
-      "url": "https://insideevs.com/features/770430/evs-with-v2h-vehicle-to-home-power/",
-      "time": "5 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Kia EV9 Owners Gain Access to V2H Charging with Wallbox Quasar 2",
-      "summary": "Wallbox opened pre-orders for Quasar 2 charger with Power Recovery Unit for eligible Kia EV9 owners, enabling V2H capability for backup power and cost savings.",
-      "source": "Kia Media",
-      "url": "https://www.kiamedia.com/us/en/media/pressreleases/23033/vehicle-to-home-v2h-charging-technology-arrives-for-eligible-kia-ev9-drivers",
-      "time": "11 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Grid Impacts of Electric Vehicle Charging: A Review of Challenges and Mitigation Strategies",
-      "summary": "Academic review examines EV charging impacts on distribution grids and mitigation strategies including smart charging, renewable integration, and V2G optimization techniques.",
-      "source": "MDPI Energies",
-      "url": "https://www.mdpi.com/1996-1073/18/14/3807",
-      "time": "7 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Installing Bidirectional Charging Solutions: Overcoming Complexities",
-      "summary": "Qmerit explores technological and installation complexities of bidirectional charging, noting Nissan as first UL 9741 certified and GM's 2026 rollout plans.",
-      "source": "Qmerit",
-      "url": "https://qmerit.com/blog/installing-bidirectional-charging-solutions-overcoming-complexities/",
-      "time": "2 weeks ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Bidirectional EV Chargers Review - V2G & V2H",
-      "summary": "Clean Energy Reviews provides comprehensive analysis of V2G and V2H charger options including Wallbox Quasar, Sigenergy SigenStor, and upcoming Enphase offerings.",
-      "source": "Clean Energy Reviews",
-      "url": "https://www.cleanenergyreviews.info/blog/bidirectional-ev-chargers-review",
-      "time": "6 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Bidirectional Charging Future Trends & Use Cases",
-      "summary": "Driivz analysis shows Tesla planning 2025 bidirectional capability and GM 2026 standard rollout, with EV batteries capable of providing 32-62 TWh capacity by 2050.",
-      "source": "Driivz",
-      "url": "https://driivz.com/blog/emerging-trends-and-future-use-cases-for-bidirectional-charging/",
-      "time": "11 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Electric Vehicle Batteries Could Satisfy Grid Storage Demand by 2030",
-      "summary": "Nature Communications research indicates EV batteries alone could meet short-term grid storage needs by 2030 with higher participation rates and utilization levels.",
-      "source": "Nature Communications",
-      "url": "https://www.nature.com/articles/s41467-022-35393-0",
-      "time": "2 years ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle-to-Grid, Why Not? Social Acceptance and Behavioral Adoption in Utrecht",
-      "summary": "ScienceDirect study explores social dimensions of V2G adoption through interviews with BEV users in Utrecht, highlighting acceptance factors beyond technical feasibility.",
-      "source": "Science Direct",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0967070X25000666",
-      "time": "2 weeks ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Driving Energy Forward: An Introduction to Vehicle-to-Grid (V2G)",
-      "summary": "Clean Energy Works explains V2G technology, current utility pilots including National Grid and PG&E, and recommendations for federal and state support to accelerate adoption.",
-      "source": "Clean Energy Works",
-      "url": "https://www.cleanenergyworks.org/2024/12/05/driving-energy-forward-an-introduction-to-vehicle-to-grid-v2g/",
-      "time": "2 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "What Is Vehicle-to-Grid (V2G) Technology and How Does It Work?",
-      "summary": "EV Connect explores V2G fundamentals showing how bidirectional chargers convert AC to DC and back, enabling grid services while facing regulatory fragmentation challenges.",
-      "source": "EV Connect",
-      "url": "https://www.evconnect.com/blog/what-is-vehicle-to-grid-v2g-technology-and-how-does-it-work/",
-      "time": "2 weeks ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Cars With Bidirectional Charging You Can Buy In 2025",
-      "summary": "CarBuzz lists 10 bidirectional charging EVs available in 2025 including Ford F-150 Lightning, Nissan Leaf, and Hyundai models, with details on power output capabilities.",
-      "source": "CarBuzz",
-      "url": "https://carbuzz.com/cars-with-bidirectional-charging-2025/",
-      "time": "6 months ago",
-      "tags": [
-        "V2X"
       ],
       "sentiment": "📈"
     }
-  ]
+  ],
+  "v2x": []
 }
