@@ -1,6 +1,322 @@
 {
-  "generatedAt": "2026-02-27T11:59:56.668221+00:00",
+  "generatedAt": "2026-03-02T11:59:23.941028+00:00",
   "ev": [],
-  "energy": [],
+  "energy": [
+    {
+      "headline": "Solar installs surged 205% before the tax credit cut and reshaped the market",
+      "summary": "Homeowners rushed to install solar systems before the federal 30% tax credit expired on December 31, 2025, resulting in a 205% year-over-year surge in installations. The market is now shifting toward third-party ownership models like leases and PPAs that retain tax incentives through 2028.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/27/solar-installs-surged-205-before-the-tax-credit-cut-and-reshaped-the-market/",
+      "time": "3 days ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "U.S. adds record 58 GWh of new energy storage capacity in 2025, largest single year on record",
+      "summary": "The U.S. energy storage industry installed 57.6 GWh of new capacity in 2025, marking a 30% increase from the previous record with residential storage reaching 3.1 GWh (a 51% year-over-year increase). Standalone storage accounted for nearly 30 GWh while storage paired with solar represented 20 GWh.",
+      "source": "Solar Energy Industries Association",
+      "url": "https://seia.org/news/united-states-installs-58-gwh-of-new-energy-storage-in-2025/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solar and storage to lead record-breaking 86 GW of new U.S. capacity in 2026",
+      "summary": "Solar and battery storage account for 79% of the 86 GW of new utility-scale capacity planned for 2026, the largest single-year addition in over two decades. California has achieved 69% residential battery attachment rates as net billing policies shift investment toward storage.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2026/02/25/solar-and-storage-to-lead-record-breaking-86-gw-of-new-u-s-capacity-in-2026/",
+      "time": "5 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "How to thrive in the 2026 residential solar market",
+      "summary": "Solar installers must pivot from tax-credit-driven sales to service-oriented business models focused on whole-home energy solutions. Homeowners increasingly prioritize energy independence and system reliability over tax savings as federal incentives expire.",
+      "source": "Sol-Ark",
+      "url": "https://sol-ark.com/news/survive-the-2026-residential-solar-market-3-business-model-pivots/",
+      "time": "5 days ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Google building world's largest battery storage system in Minnesota",
+      "summary": "Google and Xcel Energy are developing a 300-megawatt Form Energy battery system capable of 100-hour duration storage for a Minnesota data center, marking the first hyperscaler contract for long-duration battery technology. The project demonstrates business case for multiday-duration energy storage.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/02/28/google-build-renewable-energy-minnesota-worlds-largest-battery-100-hours/",
+      "time": "2 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Tax credits for solar panels available but homeowners must lease, not own",
+      "summary": "Federal tax credits for purchased solar systems ended December 31, 2025, but remain available through leases and third-party ownership models. Industry is shifting toward prepaid leases and power purchase agreements that allow installers to claim the business tax credit through 2027.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/02/20/nx-s1-5649474/solar-panel-tax-credit",
+      "time": "5 days ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Texas on track to lead nation in energy storage as battery deployment accelerates",
+      "summary": "Texas has the fastest-growing battery storage market and is expected to surpass California for the most energy storage capacity in 2026. Growth is driven by increasing data center demand and grid resilience needs following 2021 blackouts.",
+      "source": "Houston Public Media",
+      "url": "https://www.houstonpublicmedia.org/articles/news/energy-environment/2026/02/25/544339/texas-power-energy-storage-battery-data-centers/",
+      "time": "5 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "California batteries bridged the solar gap for full 24-hour cycle",
+      "summary": "On February 1, 2026, California's residential and utility-scale batteries powered the state for 24 hours using stored solar energy from daytime generation. The achievement demonstrates grid-scale storage potential for achieving 24/7 renewable energy cycles.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/",
+      "time": "2 days ago",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Expiring incentives led to record demand and more diverse market for residential solar in 2025",
+      "summary": "EnergySage reported 205% increase in homeowner engagement as installers prioritized system availability over specifications. Battery attachment rates fell from 41% to 38% as customers rushed to install solar-only systems before the tax credit deadline.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2026/02/27/expiring-incentives-led-to-record-demand-more-diverse-market-for-residential-solar-in-2025-says-energysage/",
+      "time": "3 days ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solar companies lose court bid to restore Maine net metering incentives",
+      "summary": "A federal judge denied solar companies' motion to block Maine's rollback of net energy metering incentives, upholding new project fees despite companies' claims of retroactive policy changes. Maine lawmakers curtailed the program to offset rising electric costs for ratepayers.",
+      "source": "Bangor Daily News",
+      "url": "https://www.bangordailynews.com/2026/02/19/state/state-police-courts/solar-companies-lose-lawsuit-restore-maine-incentives/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Battery energy storage system market projected to reach $183.7 billion by 2035",
+      "summary": "The global BESS market valued at $44.12 billion in 2025 is projected to nearly quadruple by 2035 as renewable energy deployment accelerates. Lithium-ion technology continues to dominate despite emerging alternatives like sodium-ion and solid-state batteries.",
+      "source": "AltEnergyMag",
+      "url": "https://www.altenergymag.com/news/2026/02/26/battery-energy-storage-system-market-trends-growth-future-outlook-2025%E2%80%932035/46820/",
+      "time": "3 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Heat pump sales continue to outsold gas furnaces despite policy shifts",
+      "summary": "Heat pumps shipped 12% more units than gas furnaces in 2025, continuing a trend since 2021. Over the past 20 years, annual heat pump sales have increased 70% while gas furnace sales declined 7%, supporting home electrification trends alongside solar adoption.",
+      "source": "FreePress",
+      "url": "https://freepress.org/article/solar-news-week-march-1-2026",
+      "time": "1 day ago",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Senate Democrats introduce resolution to overturn IRS physical work test rule for solar tax credits",
+      "summary": "Senators Cortez Masto, Schumer, and Wyden introduced a Congressional Review Act resolution to overturn the Treasury's physical work test for solar projects, arguing it \"makes it harder for wind and solar energy companies to claim vital tax credits.\"",
+      "source": "FreePress",
+      "url": "https://freepress.org/article/solar-news-week-march-1-2026",
+      "time": "1 day ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Nevada energy storage reaches 6.3 GWh, ranks fourth nationally",
+      "summary": "Nevada deployed 1.4 gigawatt hours of battery storage in 2025 with the Gemini Solar project completion, ranking fourth nationally behind California, Texas, and Arizona. Over 600 GWh of energy storage is expected to be installed nationally by 2030.",
+      "source": "Nevada Current",
+      "url": "https://nevadacurrent.com/2026/02/25/nevada-does-its-bit-to-help-boost-record-energy-storage-in-2025/",
+      "time": "5 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Residential battery storage expected to decrease next year despite record 2025",
+      "summary": "Despite record 2025 deployment of 3.1 GWh, residential battery installations are expected to decline through 2030 due to policy pressures and federal actions targeting clean energy. Federal loan commitments for wind and solar projects were cancelled, leaving only $19 billion in renewable energy loans.",
+      "source": "Nevada Current",
+      "url": "https://nevadacurrent.com/2026/02/25/nevada-does-its-bit-to-help-boost-record-energy-storage-in-2025/",
+      "time": "5 days ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Net metering causes less than one dollar monthly cost shift to most ratepayers",
+      "summary": "A National Renewable Energy Laboratory study found that rooftop solar creates less than $1 per month impact on non-solar consumers in 38 of 44 states. Only California, Connecticut, and Hawaii showed 3-15% bill increases, offset by bill assistance programs.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2025/08/25/study-finds-net-metering-has-less-than-one-dollar-cost-shift-to-most-ratepayers/",
+      "time": "6 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Massachusetts expands solar net metering program with higher capacity limits",
+      "summary": "Massachusetts increased residential net metering capacity from 10 kW to 25 kW in February 2025, allowing homeowners to install larger systems and plan for EVs and heat pumps while maintaining retail-rate credits. A 25 kW system could generate up to 35,000 kWh annually.",
+      "source": "Valley Solar",
+      "url": "https://valleysolar.solar/resource-center/insights/massachusetts-expands-net-metering-for-homeowners-in-2025/",
+      "time": "6 months ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Experts predict 2026 turning point for domestic content and non-FEOC supply chains in solar",
+      "summary": "Industry experts expect 2026 will mark when domestic content and non-FEOC (foreign entity of concern) supply chains shift from incentive to requirement in third-party ownership markets. However, lack of final IRS guidance on \"material assistance\" is causing TPO providers to take conservative approaches.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2025/12/15/experts-predict-the-top-trends-in-u-s-residential-solar-for-2026/",
+      "time": "2 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "One-third of states making significant net metering revisions or alternatives",
+      "summary": "According to the NC Clean Energy Technology Center's Q1 2025 report, about one-third of states are offering alternatives to traditional net metering or making major revisions. Virginia, Minnesota, and multiple other states filed 193 distributed solar policy actions in Q1 2025.",
+      "source": "pv magazine USA",
+      "url": "https://www.pv-magazine.com/2025/04/21/net-metering-policies-see-significant-revision-in-states-across-the-u-s/",
+      "time": "9 months ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Virginia utilities pushing net metering changes that could eliminate solar savings",
+      "summary": "Dominion Energy and Appalachian Power are proposing changes to Virginia's net metering rules that could eliminate energy savings for solar systems installed in 2025 and beyond. Homeowners who install before final regulations take effect will be grandfathered into current retail-rate credits.",
+      "source": "EDGE Energy",
+      "url": "https://www.edge-gogreen.com/solar/virginia-net-metering-changes/",
+      "time": "3 months ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "California Supreme Court orders new review of controversial NEM 3.0 solar policy",
+      "summary": "The California Supreme Court unanimously ruled that lower courts must reconsider the NEM 3.0 net billing tariff that cuts solar compensation by 75%. The decision requires courts to determine if policy changes comply with state law while net metering changes remain in effect during review.",
+      "source": "CalMatters",
+      "url": "https://calmatters.org/economy/2025/08/california-supreme-court-rules-on-net-metering-cuts/",
+      "time": "7 months ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Solar pricing in 2026 faces headwinds but long-term economics remain favorable",
+      "summary": "Residential solar faces mixture of economic headwinds and tailwinds in 2026 with equipment costs rising for FEOC-compliant systems while non-compliant equipment available for cash purchases. Federal Reserve rate cuts may reduce financing costs by approximately $0.15 per watt installed.",
+      "source": "Solar.com",
+      "url": "https://www.solar.com/learn/solar-pricing-in-2026/",
+      "time": "6 weeks ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Solar panels and heat pumps to be more expensive in 2026 without federal tax credits",
+      "summary": "The elimination of 30% federal tax credits for residential heat pumps, solar, and batteries makes electrifying homes more expensive in 2026. New financing models like prepaid leases and PPAs help keep some costs in check while tariffs and domestic manufacturing mandates could add additional costs.",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/national/2026/01/06/853179.htm",
+      "time": "2 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Standard Solar procures 512 MW safe-harbored solar module inventory for development projects",
+      "summary": "Standard Solar strategically procured 512 megawatts of safe-harbored solar modules to provide deployment flexibility for projects needing to meet July 4, 2026 safe harbor deadline for claiming full federal investment tax credits.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/",
+      "time": "1 week ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "New Hampshire considers 70 energy and utility bills this session, 50-year solar tax exemption at risk",
+      "summary": "New Hampshire legislators are considering HB 723 to override a 50-year-old property tax exemption for solar infrastructure owners that has protected them from exorbitant taxes. Municipal exemptions totaled $142.7 million in 2024 and cover two-thirds of the state's communities.",
+      "source": "Concord Monitor",
+      "url": "https://www.concordmonitor.com/2026/02/18/renewable-energy-legislation-nh/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Residential energy storage adoption accelerates despite federal policy uncertainty",
+      "summary": "Virtual power plant programs in Massachusetts, Texas, Arizona, and Illinois are driving residential storage deployment and helping states manage peak demand while strengthening grid resilience. New York's distributed storage projected to reach 3.7 GW by 2035 with 56% winter savings.",
+      "source": "Solar Energy Industries Association",
+      "url": "https://seia.org/news/united-states-installs-58-gwh-of-new-energy-storage-in-2025/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Third-party ownership models gain market share as residential solar tax credit ends",
+      "summary": "With the 25D residential tax credit expired, third-party ownership models including leases and PPAs are gaining significant market share on EnergySage's platform. These TPO products remain eligible for the 48E commercial tax credit through 2027 and 2028 respectively.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2026/02/27/expiring-incentives-led-to-record-demand-more-diverse-market-for-residential-solar-in-2025-says-energysage/",
+      "time": "3 days ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    }
+  ],
   "v2x": []
 }
