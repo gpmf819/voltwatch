@@ -1,6 +1,554 @@
 {
-  "generatedAt": "2026-03-06T11:55:50.612564+00:00",
-  "ev": [],
-  "energy": [],
+  "generatedAt": "2026-03-09T12:04:11.321150+00:00",
+  "ev": [
+    {
+      "headline": "Lamborghini Abandons EV Plans for Hybrids Amid Weak Luxury Demand",
+      "summary": "Lamborghini has canceled its all-electric vehicle development in favor of hybrid models after facing collapsing demand among luxury customers. The company acknowledged the EV acceptance curve in its market is 'flattening and close to zero.'",
+      "source": "The Week",
+      "url": "https://theweek.com/transport/luxury-automakers-electric-vehicles",
+      "time": "5h ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "BYD Launches Seal 07 EV with Advanced Blade Battery Technology Starting at $16,990",
+      "summary": "BYD officially launched the Seal 07 EV featuring the company's new generation Blade Battery and flash-charging technology, priced between $24,600-$27,500. The mid-size sedan achieves 705 km range with energy consumption below 10 kWh per 100 km.",
+      "source": "CarNewsChina",
+      "url": "https://carnewschina.com/2026/03/06/byd-launches-seal-07-ev-with-second-generation-blade-battery-starting-at-16990-usd/",
+      "time": "3d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "GM Betting Big on Lithium-Manganese-Rich Battery Technology for Cost Advantage",
+      "summary": "General Motors is investing heavily in next-generation lithium-manganese-rich (LMR) cell chemistry that uses cheaper, more abundant metals than traditional lithium-ion. The technology could reshape EV cost structures and automaker competitiveness if successful.",
+      "source": "The Cool Down",
+      "url": "https://www.thecooldown.com/green-business/general-motors-next-generation-ev-battery-technology/",
+      "time": "1d ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Tesla Model Y L Prepares for South Korea Launch After Certification Approval",
+      "summary": "Tesla is preparing to launch the Model Y L six-seat SUV in South Korea after the vehicle received energy efficiency certification from Korea Energy Agency. Regulatory filings show the company's expansion into the South Korean EV market.",
+      "source": "Electric Vehicles",
+      "url": "https://eletric-vehicles.com/",
+      "time": "16h ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Rivian Plans Aggressive R2 Launch with 20,000-25,000 Units Target in 2026",
+      "summary": "Rivian is planning one of the fastest EV launches in U.S. history, targeting 20,000-25,000 R2 SUV sales in 2026 with production starting in June. Only Tesla Model Y achieved comparable sales velocity, demonstrating the importance of this affordable mass-market model.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/rivian-is-betting-its-future-on-one-of-the-fastest-ev-launches-in-us-history/",
+      "time": "4d ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "US EV Sales Plummet 20% in January as Market Faces Challenges Without Federal Tax Credit",
+      "summary": "EV sales in the U.S. plummeted 20% in January versus December, with market share dropping from 12% in September to 6% after federal tax credits expired. The industry faces a challenging 2026 as it searches for natural demand without government support.",
+      "source": "ABC News",
+      "url": "https://abcnews.com/Business/electric-vehicle-sales-plummeting-become-niche/story?id=130752429",
+      "time": "1d ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Big Three Automakers Face $52.1 Billion in EV-Related Write-Downs",
+      "summary": "Stellantis ($26B), Ford ($19.5B), and GM ($6.6B) have announced massive write-downs totaling $52.1 billion as they pivot away from aggressive EV strategies toward hybrids and gas-powered vehicles. The charges reflect market reality and policy reversals.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/2025-the-year-the-big-3-backed-away-from-evs-142434253.html",
+      "time": "1mo ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Hyundai and Kia EVs Delayed Indefinitely or Dropped Despite Record US Sales",
+      "summary": "Despite another record US sales month, several Hyundai and Kia electric vehicles are being delayed indefinitely or dropped altogether from future lineups. The automakers are adjusting production priorities in response to market conditions.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "4h ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Einride Swedish Trucking EV Company Advances $1.35 Billion SPAC Deal",
+      "summary": "Swedish electric and autonomous trucking group Einride has made progress on its plan to take the company public through a $1.35 billion SPAC deal with Legato Merger Corp. III following a $113 million oversubscribed capital raise.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "4h ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Changan Nevo A06 Becomes World's First Mass-Produced Sodium-Ion Battery EV",
+      "summary": "The Changan Nevo A06 has been unveiled as the world's first mass-produced passenger EV with sodium-ion batteries, offering 248-mile range and superior cold-weather performance. Sodium-ion technology provides a safer alternative to lithium-ion with more abundant materials.",
+      "source": "Live Science",
+      "url": "https://www.livescience.com/technology/electric-vehicles/china-puts-a-sodium-ion-battery-into-an-ev-for-the-first-time-it-can-drive-248-miles-on-a-single-charge",
+      "time": "2d ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "DC Fast-Charging Network Expands Strongly in 2025 Despite EV Sales Slowdown",
+      "summary": "U.S. DC fast-charging infrastructure grew significantly in 2025, expanding from 51,000 to nearly 68,000 stalls with six new locations opening daily. ChargePoint posted 7% sales growth despite new EV sales falling 40%, indicating robust infrastructure investment.",
+      "source": "EV Charging Stations",
+      "url": "https://evchargingstations.com/chargingnews/largest-dc-fast-charging-networks-jan-2026/",
+      "time": "4d ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Used EV Market Booms with 35% Year-Over-Year Growth in 2025",
+      "summary": "Used EV sales surged 35% in 2025 compared to 2024, with prices down as much as 40%. By January 2026, 56% of inventory was priced under $30,000, indicating strong demand for affordable pre-owned electric vehicles.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/02/25/electric-vehicle-adoption-is-on-the-rise-even-if-tesla-sales-are-uneven/",
+      "time": "2w ago",
+      "tags": [
+        "Market",
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Trump Administration Rolls Back Biden-Era EV Fuel Economy Standards",
+      "summary": "The Trump administration proposed new CAFE standards requiring only 34.5 mpg average fuel economy by 2031, down from Biden's 50.4 mpg target. The 'Freedom Means Affordable Cars' initiative aims to reduce vehicle prices and provide consumer choice over EVs.",
+      "source": "U.S. Department of Transportation",
+      "url": "https://www.transportation.gov/briefing-room/president-trump-transportation-secretary-sean-p-duffy-unveil-new-freedom-means",
+      "time": "3d ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "States Continue EV Support Despite Federal Policy Reversals and Frozen Funds",
+      "summary": "All 50 U.S. states have maintained EV-supportive policies despite federal policy reversals, with California leading with all 16 key policies in place. States are investing in charging infrastructure, financial incentives, and fleet electrification.",
+      "source": "Environmental Defense Fund",
+      "url": "https://www.edf.org/media/new-edf-report-shows-electric-vehicle-state-policy-progress-across-all-50-us-states",
+      "time": "2w ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Ford Targets $30,000 EV Pickup by 2027 with New 48-Volt Platform",
+      "summary": "Ford plans to launch a $30,000 electric pickup by 2027 using a new EV platform with 48-volt electrical architecture, smaller battery, and 20% fewer parts. The truck will be 15% more aerodynamic than competitors and deliver 50 miles more range than gas midsize trucks.",
+      "source": "CBT News",
+      "url": "https://www.cbtnews.com/ford-targets-30000-ev-with-new-battery-strategy",
+      "time": "3w ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "BMW Tops 2025 U.S. Vehicle Exports Despite EV Tariff and Strategy Shifts",
+      "summary": "BMW led U.S. vehicle exports by value in 2025 with nearly 200,000 vehicles worth $9 billion shipped from its South Carolina facility. The automaker navigates shifting tariff landscapes while reconsidering EV ambitions beyond 2030.",
+      "source": "Dealership Guy",
+      "url": "https://news.dealershipguy.com/p/bmw-tops-2025-u-s-vehicle-exports-amid-ongoing-tariff-and-ev-strategy-shifts",
+      "time": "4h ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Volkswagen Delivers Two Millionth EV as Group Expands Lineup with Four New 2026 Models",
+      "summary": "Volkswagen delivered its two millionth all-electric vehicle, an ID.3 from its Zwickau plant, while expanding its EV lineup with four new models planned for 2026. The milestone demonstrates the group's continued commitment to electrification.",
+      "source": "The EV Report",
+      "url": "https://theevreport.com/",
+      "time": "1w ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "EV Manufacturers Betting on Solid-State Battery Commercialization Between 2026-2028",
+      "summary": "Toyota, BMW, and Hyundai are targeting limited commercial deployment of solid-state batteries between 2026-2028, promising improved safety, longer lifespan, and higher energy density. The technology represents the next major battery evolution for EVs.",
+      "source": "GreenCars",
+      "url": "https://www.greencars.com/greencars-101/the-future-of-ev-batteries",
+      "time": "6mo ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Hybrid Vehicle Segment Expected to Account for 34% of U.S. Sales by 2034",
+      "summary": "The hybrid vehicle segment is expected to grow rapidly, accounting for 34% of all passenger vehicles sold by 2034 with sales predicted to climb to over 3 million units in the U.S. this year. Major automakers are pivoting investment toward efficient hybrid models.",
+      "source": "WardsAuto",
+      "url": "https://www.wardsauto.com/news/top-auto-industry-trends-for-2026-hybrids-software-tariffs/809053/",
+      "time": "2w ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Acura RSX EV Confirmed to Arrive at U.S. Dealers in Second Half of 2026",
+      "summary": "The Acura RSX electric midsize SUV-coupe is confirmed for U.S. dealers in H2 2026, made in Ohio with expected starting price around $50,000. The dual-motor vehicle will feature the new ASIMO operating system and sport-tuned suspension.",
+      "source": "Top Electric SUV",
+      "url": "https://topelectricsuv.com/electric-cars/2026-2027-electric-cars-upcoming/",
+      "time": "2w ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Subaru Unveils All-New 2026 Trailseeker EV SUV with 375 Horsepower",
+      "summary": "Subaru unveiled the all-new all-electric 2026 Trailseeker EV SUV at the New York International Auto Show with 375 horsepower, Subaru Symmetrical All-Wheel Drive, and NACS charging standard compatibility. The adventurous EV represents Subaru's next-generation vehicle strategy.",
+      "source": "Subaru",
+      "url": "https://www.subaru.com/vehicles/trailseeker/2026.html",
+      "time": "6mo ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Tesla Wipes Canadian Model 3 Inventory as China EV Imports Surge Under New Tariff Program",
+      "summary": "Tesla has cleared its entire Canadian Model 3 inventory and sent U.S.-built units back to the United States as Canada opened its new Chinese EV import program on March 1, allowing up to 49,000 vehicles at drastically reduced 6.1% tariff rates.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "4h ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Corporate Fleet Electrification Could Cut Operating Costs by Up to 50%",
+      "summary": "Switching from gas to electric in corporate fleets could cut costs by up to 50% according to industry analysis. Fleet operators are increasingly recognizing the total cost of ownership advantages of electric vehicles.",
+      "source": "InsideEVs",
+      "url": "https://insideevs.com/",
+      "time": "1w ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "BYD Unveils World's Most Powerful Fast Charger for EVs Modeled After Gas Stations",
+      "summary": "BYD unveiled the world's most powerful fast charger for cars, arranged like a neighborhood gas station with multiple charging stalls. The innovation represents a major infrastructure breakthrough for EV charging accessibility.",
+      "source": "InsideEVs",
+      "url": "https://insideevs.com/",
+      "time": "1w ago",
+      "tags": [
+        "EV",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Global EV Sales Expected to Reach One in Four Cars Sold in 2025",
+      "summary": "Global sales of electric vehicles continue to rise and are set to represent one in four cars sold in 2025. China dominates with over half of vehicles sold there now electric, while U.S. sales face uncertainty due to policy changes.",
+      "source": "BloombergNEF",
+      "url": "https://about.bnef.com/insights/clean-transport/electric-vehicle-outlook/",
+      "time": "4mo ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    }
+  ],
+  "energy": [
+    {
+      "headline": "Solar Installs Surged 205% Before Tax Credit Cut – Reshaping Home Electrification Market",
+      "summary": "US homeowners rushed to install solar before federal tax credits ended on December 31, 2025, driving a 205% surge in demand. Installers reached capacity by October, with solar prices staying stable at $2.49-$2.50 per watt despite historic demand.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/27/solar-installs-surged-205-before-the-tax-credit-cut-and-reshaped-the-market/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Batteries Become New Home Solar as Net Metering Evolves and Energy Prices Soar",
+      "summary": "Home energy market shifting from solar alone to solar plus battery systems as net metering policies evolve. Higher electricity bills and grid reliability concerns driving adoption of whole-home energy solutions.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/07/batteries-become-the-new-home-solar-as-net-metering-evolves-and-energy-prices-soar/",
+      "time": "2 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solar Industry Adapts After Federal Program Cancellations",
+      "summary": "Solar industry navigating changes following Trump administration's elimination of Solar for All program and federal tax credits. State-level incentives like New York's up to $7,000 in benefits helping offset losses.",
+      "source": "The National Desk",
+      "url": "https://thenationaldesk.com/news/americas-news-now/solar-industry-adapts-after-federal-program-cancellations-president-donald-trump-costs-department-energy",
+      "time": "3 days ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Solar Group Takes Revenge on Chip Roy Over Tax Credits",
+      "summary": "Solar energy executives' PAC campaigns against Republican lawmakers who voted to eliminate renewable energy tax incentives. Recent runoff forced in Texas attorney general race.",
+      "source": "E&E News by POLITICO",
+      "url": "https://www.eenews.net/articles/solar-group-takes-revenge-on-chip-roy-over-tax-credits/",
+      "time": "17 hours ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "US Energy Storage Capacity Jumps 29% in 2025, Exceeds 600 GWh Expected by 2030",
+      "summary": "U.S. battery energy storage deployments jumped 29% in 2025 to exceed 28 GW/57 GWh, driven primarily by utility-scale installations. Over 600 GWh expected by 2030 despite federal policy headwinds.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/600-gwh-of-us-energy-storage-expected-by-2030-benchmark-seia/813638/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "U.S. Adds Record 58 GWh of Energy Storage in 2025",
+      "summary": "U.S. energy storage industry installed record 57.6 GWh of new capacity in 2025, largest year on record. Residential storage grew 51% year-over-year, driven by virtual power plant expansion in key states.",
+      "source": "SEIA",
+      "url": "https://seia.org/news/united-states-installs-58-gwh-of-new-energy-storage-in-2025/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Colorado Clearing Way for Portable Plug-In Solar Panels",
+      "summary": "Colorado legislators backing bill to legalize affordable plug-in solar panels that can generate electricity on balconies. Systems with battery storage expected to cost around $2,000 when market opens.",
+      "source": "Colorado Sun",
+      "url": "https://coloradsun.com/2026/02/26/plug-in-solar-portable-colorado-at-home-legislature/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Battery Storage Costs Fall to $65/MWh Tipping Point for Solar",
+      "summary": "Utility-scale battery storage costs dropped to $65/MWh as of October 2025, making solar-plus-storage economically viable. Combined with $43/MWh solar, total cost reaches $76/MWh for dispatchable power.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2025/12/12/battery-storage-hits-65-mwh-tipping-point-solar/",
+      "time": "3 months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Net Metering Policies See Significant Revision Across US States",
+      "summary": "47 states plus DC took 193 distributed solar policy actions in Q1 2025, with 55 addressing net metering. Connecticut, Nevada, and other states implementing new compensation structures and program revisions.",
+      "source": "pv magazine",
+      "url": "https://www.pv-magazine.com/2025/04/21/net-metering-policies-see-significant-revision-in-states-across-the-u-s/",
+      "time": "11 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Rooftop Solar is Booming but Not in Communities That Need It Most",
+      "summary": "Rooftop solar concentrated in high-income neighborhoods despite 14.7% higher carbon offset potential in lower-income areas. Community solar and targeted policies needed to address equity gap.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/rooftop-solar-is-booming-but-not-in-the-communities-that-need-it-most/805488/",
+      "time": "2 months ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Artemis Spinout Aims to Revolutionize Rooftop Solar with AI-Powered Software",
+      "summary": "Monalee founder's new company Artemis brings Shopify-style approach to solar using AI and automation to reduce soft costs. Platform generates designs in seconds and automates permitting for installers.",
+      "source": "San Francisco Today",
+      "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/03/03/former-installer-aims-to-revolutionize-rooftop-solar-with-software-only-approach/",
+      "time": "5 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "PowerBank Approved for $309,720 in NYSERDA Incentives for Elmira Solar Project",
+      "summary": "PowerBank's 2.6 MW solar project in New York approved for state incentives through NY-Sun Program. Project expected to power approximately 325 homes annually as community solar installation.",
+      "source": "PowerBank Corporation",
+      "url": "https://powerbankcorp.com/powerbank-approved-for-309720-usd-from-nyserda-for-elmira-solar-project/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "California Supreme Court Advances Solar Net Metering Appeal Case",
+      "summary": "California Supreme Court heard arguments on challenge to 2022 decision that slashed net metering rates by 75%. Environmental groups argue commission excluded reliability and resilience benefits in analysis.",
+      "source": "CalMatters",
+      "url": "https://calmatters.org/economy/2025/06/solar-net-metering-at-state-supreme-court/",
+      "time": "9 months ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Rooftop Solar Could Meet 40% of EU's Long-Term Electricity Demand",
+      "summary": "EU-wide study shows rooftop solar could supply 40% of Europe's electricity by 2050. Analysis finds 2.3 TWp of solar PV capacity possible on 271 million buildings with current technology.",
+      "source": "Joint Research Centre",
+      "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/rooftop-solar-could-meet-40-eus-long-term-electricity-demand-2026-01-21_en",
+      "time": "1.5 months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Home Electrification Surge Reshapes Market Beyond Just Solar",
+      "summary": "Home electrification market evolving from individual products to integrated systems combining solar, storage, EV charging, and heat pumps. Rising electricity demand and grid concerns driving whole-home solutions.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/27/solar-installs-surged-205-before-the-tax-credit-cut-and-reshaped-the-market/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Virtual Power Plants Show Massive Potential with 535 MW Dispatch Test in California",
+      "summary": "Sunrun's VPP test with 100,000+ California homes dispatched 535 MW to grid, enough to meet half San Francisco's peak demand. Demonstrates potential of distributed solar-plus-storage systems.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
+      "time": "4 months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Puerto Rico Dispatches 70,000 Batteries to Prevent Grid Collapse",
+      "summary": "Puerto Rico's grid operator LUMA Energy dispatched 48 MW from 70,000 batteries in residential VPP during summer heat demand. Island's solar revolution now includes 175,000 homes with residential solar.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
+      "time": "4 months ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Massachusetts Expands Net Metering Program to 25 kW for Homeowners",
+      "summary": "Massachusetts Department of Public Utilities raised residential net metering cap from 10 kW to 25 kW AC, allowing homeowners to size systems for future EV and heat pump needs while receiving full retail-rate credits.",
+      "source": "Valley Solar",
+      "url": "https://valleysolar.solar/resource-center/insights/massachusetts-expands-net-metering-for-homeowners-in-2025/",
+      "time": "5 months ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Utility-Scale Solar Expected to Reach 43.4 GW in 2026, Up 60% from 2025",
+      "summary": "EIA projects 43.4 GW of utility-scale solar in 2026, 60% increase over 2025's record 27.2 GW. Texas hosts 40% of national solar construction, marking third consecutive year of record installations.",
+      "source": "ESS News",
+      "url": "https://www.ess-news.com/2026/02/26/new-us-battery-capacity-in-2026-24-3-gw-of-new-battery-storage-to-come-online/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Nevada Battery Storage Capacity Reaches 6.3 GWh, Ranks Fourth Nationally",
+      "summary": "Nevada deployed 1.4 GWh of battery storage in 2025 with Primergy's Gemini Solar project, bringing total capacity to 6.3 GWh. State ranks fourth behind California, Texas, and Arizona in battery storage.",
+      "source": "Missoula Current",
+      "url": "https://missoulacurrent.com/nevada-energy-storage/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Residential Solar Tax Credit Expired December 31, 2025 – What's Next",
+      "summary": "Federal 30% residential solar tax credit ended December 31, 2025, after One Big Beautiful Bill passed in July. Third-party ownership models via leases and PPAs remain eligible for incentives through 2028.",
+      "source": "Greenlancer",
+      "url": "https://www.greenlancer.com/post/solar-tax-credit-ending",
+      "time": "4 months ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📉"
+    }
+  ],
   "v2x": []
 }
