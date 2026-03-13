@@ -1,337 +1,241 @@
 {
-  "generatedAt": "2026-03-12T11:55:55.920185+00:00",
-  "ev": [
-    {
-      "headline": "San Francisco Expands Curbside EV Charging Infrastructure by 2030",
-      "summary": "Mayor Daniel Lurie introduced legislation to expand curbside EV charging access across San Francisco to achieve the city's net-zero emissions goals by 2040, targeting 25% of new vehicles to be electric.",
-      "source": "KQED",
-      "url": "https://www.kqed.org/news/12075892/san-francisco-moves-to-expand-curbside-electric-vehicle-charging",
-      "time": "17h ago",
-      "tags": [
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Mercedes-Benz VLE Electric Luxury Van Launches with 700 km Range and 800V Charging",
-      "summary": "Mercedes unveiled the all-electric VLE, an eight-seat grand limousine featuring 800-volt charging capability, over 700 km WLTP range, and flexible seating on the new Van Architecture platform.",
-      "source": "Electric Cars Report",
-      "url": "https://electriccarsreport.com/2026/03/mercedes-benz-vle-debuts-as-electric-grand-limousine-with-700-km-range/",
-      "time": "1d ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Rivian R2 EV Launch Set as One of Fastest Ramp-ups in US History",
-      "summary": "TD Cowen upgrades Rivian to buy ahead of R2 launch, projecting 212,335k annual units and positioning the affordable compact EV to capitalize on rebounding US market demand.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/10/rivian-is-a-buy-ahead-of-r2-electric-vehicle-launch-says-td-cowen.html",
-      "time": "1d ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Porsche Cayenne S Electric Launches at $126,300 with 657 HP and 405-Mile Range",
-      "summary": "Porsche introduced the Cayenne S Electric variant, priced $36,700 lower than the Turbo model, offering AWD performance with 657 hp and up to 405 miles WLTP range with deliveries beginning Summer 2026.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/03/10/porsche-launches-cayenne-s-electric-125000-price-tag/",
-      "time": "2d ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "ION Storage Systems Achieves First US Solid-State Battery Qualification Milestone",
-      "summary": "Maryland-based ION Storage Systems announced its Cornerstone solid-state battery cells passed customer qualification, marking a major milestone as the first US company to achieve this for cell performance with production starting 2026.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/03/10/a-us-startup-just-cleared-a-major-solid-state-battery-milestone-production-is-next/",
-      "time": "2d ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Redmond Launches Free RedLink All-Electric Shuttle Service to Light Rail",
-      "summary": "Redmond, Washington launched RedLink, a free on-demand all-electric ride service to connect residents and visitors to the Sound Transit light rail system, partnering with transportation company Circuit.",
-      "source": "GeekWire",
-      "url": "https://www.geekwire.com/2026/new-free-on-demand-ev-service-launches-in-redmond-to-shuttle-riders-to-light-rail/",
-      "time": "3d ago",
-      "tags": [
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Used EV Sales Surge 21% Year-Over-Year Despite Federal Tax Credit Elimination",
-      "summary": "Used EV sales in the US reached 31,503 units in January 2026, up 21% from a year earlier, as falling values and improved technology make second-hand electric vehicles more accessible than new cars.",
-      "source": "IndexBox",
-      "url": "https://www.indexbox.io/blog/used-electric-vehicle-sales-rise-as-prices-fall/",
-      "time": "20h ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "DC Fast-Charging Infrastructure Grew 17.8% in 2025, Adding 2,200+ Locations",
-      "summary": "The US added nearly 17,000 DC fast-charging stalls in 2025, ending the year with 68,000 stalls, averaging six new locations online daily as infrastructure expands despite policy uncertainty.",
-      "source": "EV Charging Stations",
-      "url": "https://evchargingstations.com/chargingnews/largest-dc-fast-charging-networks-jan-2026/",
-      "time": "1 month ago",
-      "tags": [
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Solid-State Battery Hits 80% Charge in 4.5 Minutes in Independent Test",
-      "summary": "Independent testing confirmed Donut Lab's solid-state battery reached 80% charge in under five minutes, addressing a key EV adoption barrier, though industry skepticism remains about commercial viability.",
-      "source": "Autoblog",
-      "url": "https://www.autoblog.com/news/solid-state-battery-hits-80-in-4-5-minutes-in-independent-test",
-      "time": "2 weeks ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Electric Vehicle Sales Plummeted 20% in January 2026 vs December",
-      "summary": "US EV sales fell sharply in January compared to December as federal tax credits remain eliminated and industry faces challenges in finding natural market demand without policy support.",
-      "source": "ABC News",
-      "url": "https://abcnews.com/Business/electric-vehicle-sales-plummeting-become-niche/story?id=130752429",
-      "time": "4d ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Ford and Major Automakers Pivot Strategy Toward Hybrids Amid EV Headwinds",
-      "summary": "Ford takes $19.5 billion charge to shift investment focus toward profitable hybrid and smaller EV models, while GM and other legacy automakers scale back EV production in favor of gas-powered trucks and SUVs.",
-      "source": "FastMarkets",
-      "url": "https://www.fastmarkets.com/insights/ev-pivot-by-automakers-will-likely-drive-2026-us-auto-production-trends-analysts/",
-      "time": "1 month ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "BYD's EV Sales Dropped 36% in Early 2026 Despite Global Leadership Position",
-      "summary": "China's BYD, world's largest EV seller, saw a 36% sales decline in early 2026 as Chinese competitors gained market share and consumer demand diversified across multiple offerings.",
-      "source": "Battery Technology",
-      "url": "https://www.batterytechonline.com/battery-news/battery-breaking-news-headlines",
-      "time": "1 week ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Toyota Targeting 2027-2028 for Solid-State Battery Mass Production",
-      "summary": "Toyota, holding over 1,000 solid-state battery patents, aims to bring solid-state batteries to mass production by 2027-2028 and integrate them into vehicles by 2028 as a key competitive advantage.",
-      "source": "EV Infrastructure News",
-      "url": "https://www.evinfrastructurenews.com/ev-battery/solid-state-battery-technology",
-      "time": "1 week ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Trump Administration Rolls Back Federal EV Fuel Economy Standards to 2022 Levels",
-      "summary": "NHTSA proposed rolling back fuel economy standards to 2022 requirements with minimal annual increases through 2031, achieving only 34.5 mpg fleet average versus 43.2 mpg in 2024.",
-      "source": "Plug In America",
-      "url": "https://pluginamerica.org/policy/federal-ev-policy-timeline/",
-      "time": "1 month ago",
-      "tags": [
-        "Policy"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Trump Administration Freezes $7.5B in EV Charging Infrastructure Funds Nationwide",
-      "summary": "Trump administration froze federal EV charging expansion funds with multiple states, including Wisconsin, now suing over the executive order halting progress on highway fast-charging corridors.",
-      "source": "Spectrum News 1",
-      "url": "https://spectrumnews1.com/wi/milwaukee/news/2025/05/30/wisconsin-ev-charging-infrastructure",
-      "time": "6 months ago",
-      "tags": [
-        "Policy"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Subaru Unveils 2026 Trailseeker EV SUV with 375 HP and 300+ Mile Range",
-      "summary": "Subaru debuted the all-electric Trailseeker EV SUV at the 2025 New York Auto Show, featuring 375 horsepower, legendary all-wheel drive, and NACS charging compatibility across 15,000+ nationwide locations.",
-      "source": "Subaru",
-      "url": "https://www.subaru.com/vehicles/trailseeker/2026.html",
-      "time": "3 months ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "43 New Electric Vehicles Expected to Debut in US Market During 2026",
-      "summary": "Industry research shows up to 43 new EV models could debut or reach US dealers in 2026, including launches from Acura, Porsche, Mercedes, and others despite ongoing market challenges and policy uncertainty.",
-      "source": "TopElectricSUV",
-      "url": "https://topelectricsuv.com/electric-cars/2026-2027-electric-cars-upcoming/",
-      "time": "6d ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Chinese Semi-Solid-State EV Battery Claims 620-Mile Range with 500 Wh/kg Density",
-      "summary": "A Chinese EV maker announced development of a semi-solid-state battery with 500+ wh/kg energy density—30% higher than lithium-ion—claiming potential for 1,000-plus mile range vehicles.",
-      "source": "Live Science",
-      "url": "https://www.livescience.com/technology/electric-vehicles/chinese-ev-maker-claims-worlds-first-semi-solid-state-ev-battery-with-huge-620-mile-range",
-      "time": "1 week ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Volkswagen Targets 80% European EV Sales by 2030 with Aggressive NEW AUTO Strategy",
-      "summary": "Volkswagen aims for approximately 80% all-electric vehicle sales in Europe by 2030 through its NEW AUTO strategy, reducing carbon footprint 30% and investing heavily in modular EV platforms.",
-      "source": "Boston Brand Media",
-      "url": "https://www.bostonbrandmedia.com/news/top-5-automotive-brands-leading-the-ev-revolution",
-      "time": "3 months ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "CaliforniaEV Drivers Secure 92% Satisfaction, Plan to Repurchase Electric Vehicles",
-      "summary": "Despite federal policy headwinds, 92% of current EV owners plan to buy another EV for their next vehicle, with used EV market expansion and high satisfaction driving continued adoption momentum.",
-      "source": "SACE",
-      "url": "https://cleanenergy.org/news/the-road-to-transportation-electrification-was-bumpy-in-2025-but-there-are-positive-signs-ahead/",
-      "time": "1 month ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "All 50 US States Adopt Multiple EV-Supportive Policies Despite Federal Rollbacks",
-      "summary": "EDF report reveals all 50 states and DC have adopted minimum four EV policies each, with California leading with all 16 EV support policies as states accelerate clean transportation despite federal uncertainty.",
-      "source": "EDF",
-      "url": "https://www.edf.org/media/new-edf-report-shows-electric-vehicle-state-policy-progress-across-all-50-us-states",
-      "time": "1 month ago",
-      "tags": [
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Karma Automotive Plans First US Mass-Production Solid-State Battery Vehicle by Late 2026",
-      "summary": "Karma Automotive announced plans to deliver the Kaveya ultra-luxury coupe equipped with Factorial solid-state batteries, offering sub-3 second 0-60 times and advanced battery technology for the US market.",
-      "source": "SlashGear",
-      "url": "https://www.slashgear.com/2101808/factorial-solid-state-ev-batteries-america/",
-      "time": "4 weeks ago",
-      "tags": [
-        "EV"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "GM and Ford Reduce EV Mandates in Response to Changing Market Dynamics and Policy Shifts",
-      "summary": "General Motors and Ford are reverting to hybrid strategies and reducing pure EV commitments as consumer demand proves less robust than anticipated and federal support diminishes dramatically.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2025/12/23/evs-gm-ford-hyundai-tesla.html",
-      "time": "3 months ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Federal Electric Vehicle Tax Credits Expire; Used EV Market Rapidly Expands to Fill Gap",
-      "summary": "With federal EV tax credits eliminated, used EV market is experiencing rapid growth as prices fall and become competitive with gas vehicles, supporting continued EV adoption among price-sensitive consumers.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/02/25/electric-vehicle-adoption-is-on-the-rise-even-if-tesla-sales-are-uneven/",
-      "time": "2 weeks ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Tesla Loses Market Share to Competitors as Global EV Competition Intensifies",
-      "summary": "Tesla's share of global battery-electric vehicle sales has declined from 20% to mid-teens as Chinese automakers, legacy OEMs, and new entrants rapidly expand EV offerings and compete on price.",
-      "source": "IEA Global EV Outlook 2024",
-      "url": "https://www.iea.org/reports/global-ev-outlook-2024/trends-in-the-electric-vehicle-industry",
-      "time": "3 months ago",
-      "tags": [
-        "Market"
-      ],
-      "sentiment": "📉"
-    }
-  ],
+  "generatedAt": "2026-03-13T12:01:42.945299+00:00",
+  "ev": [],
   "energy": [
     {
-      "headline": "California Appeals Court Upholds Reduced Solar Reimbursement Rates",
-      "summary": "A California appellate court affirmed the Public Utilities Commission decision to sharply cut compensation for homeowners and businesses exporting rooftop solar electricity to the grid.",
-      "source": "CalMatters",
-      "url": "https://calmatters.org/economy/2026/03/net-metering-defeat-for-rootftop-solar-in-california-courts/",
-      "time": "2 days ago",
-      "tags": [
-        "Policy",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Solar Panel Installations Drop 14% Amid Policy Rollbacks and Grid Demand Challenges",
-      "summary": "U.S. solar panel installations fell 14% as the Trump administration rolled back subsidies and incentives for renewable energy while managing growing grid demand.",
-      "source": "PBS News",
-      "url": "https://www.pbs.org/newshour/show/electric-grid-faces-political-roadblocks-as-it-struggles-with-data-center-demand",
+      "headline": "Easy-to-use solar panels are coming, but utilities are trying to delay them",
+      "summary": "Virginia is set to become the second state to pass legislation supporting plug-in solar panels, as 30+ similar bills are introduced nationwide. Utilities are raising safety concerns to delay votes.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/03/12/nx-s1-5737287/solar-panels-utilities-energy-saving",
       "time": "1 day ago",
       "tags": [
         "Policy",
         "Energy"
       ],
-      "sentiment": "📉"
+      "sentiment": "⚠️"
     },
     {
-      "headline": "U.S. Adds 43.2GW Solar Capacity in 2025, Down 14% from Prior Year",
-      "summary": "The U.S. installed 43.2GW of solar in 2025, a 14% decrease from 2024, though solar maintained 54% of all new electricity generation capacity added to the grid.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/us-adds-43-2gw-of-new-solar-pv-capacity-in-2025/",
+      "headline": "Sunrun installs 48% of 2025 U.S. home battery storage",
+      "summary": "Sunrun installed 1.5 GWh of residential battery storage in 2025, representing nearly half the U.S. sector and controlling 44% of all cumulative residential storage deployed. The company achieved 71% battery attachment rates in Q4 2025.",
+      "source": "Stock Titan / Globe Newswire",
+      "url": "https://www.stocktitan.net/news/RUN/sunrun-is-the-number-one-provider-of-energy-independence-for-l6gcld46o1au.html",
+      "time": "1 day ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solar Market Insight Report 2025 Year in Review",
+      "summary": "U.S. installed 43 GW of solar in 2025, marking the fifth straight year as top source of new power. Residential sector ended virtually flat due to equipment shortages and tax credit deadlines.",
+      "source": "SEIA",
+      "url": "https://seia.org/research-resources/solar-market-insight-report-2025-year-in-review/",
+      "time": "19 hours ago",
+      "tags": [
+        "Market",
+        "Energy"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Appeals court upholds California's rooftop solar rules (NEM 3.0)",
+      "summary": "California First Appellate District Court upheld controversial NEM 3.0 net metering rules that reduce compensation for rooftop solar owners. The decision thwarts environmental groups seeking to overturn the policy.",
+      "source": "San Diego Union-Tribune",
+      "url": "https://www.sandiegouniontribune.com/2026/03/10/appeals-court-upholds-californias-rooftop-solar-rules/",
+      "time": "2 days ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "😞"
+    },
+    {
+      "headline": "Arizona solar policy hinges on this year's Salt River Project elections",
+      "summary": "Landowners in SRP territory will vote between March 11-April 7 to determine solar policy at the utility serving over one-third of Arizona's electricity. Vote could profoundly affect distributed energy credits.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2026/03/09/arizona-solar-policy-hinges-on-this-years-salt-river-project-elections/",
+      "time": "4 days ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "🗳️"
+    },
+    {
+      "headline": "Base Power and CoServ launch 100 MW residential storage program",
+      "summary": "Base Power and Denton County Electric Cooperative announced a 100 MW distributed residential battery storage program across North Texas, creating one of the largest utility-led residential storage deployments.",
+      "source": "CoServ",
+      "url": "https://www.coserv.com/coserv-base-power-press-release/",
+      "time": "3 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Prepaid rooftop solar model targets 40% tax credits",
+      "summary": "SolSource Solutions and TriBeam Financial launched Propel, a prepaid third-party owned residential solar financing product that unlocks up to 40% tax credits after the federal 30% credit expired.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2026/03/04/prepaid-rooftop-solar-model-targets-40-tax-credits/",
+      "time": "1 week ago",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "💰"
+    },
+    {
+      "headline": "Hawaii rooftop solar incentives could be retooled toward lower-income households",
+      "summary": "Hawaii lawmakers may remove the $5,000 cap on the state's 35% renewable energy tax credit and set new income limits to target low and moderate-income households as federal incentives end.",
+      "source": "Hawaiʻi Public Radio",
+      "url": "https://www.hawaiipublicradio.org/local-news/2026-03-03/rooftop-solar-incentives-could-be-retooled-toward-lower-income-households",
+      "time": "1 week ago",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "✅"
+    },
+    {
+      "headline": "New US battery capacity in 2026: 24.3 GW of new battery storage to come online",
+      "summary": "86 GW of new U.S. utility-scale capacity slated for 2026 with 26.3 GW from battery storage. Solar and storage account for 79% of all planned additions, with residential battery attachment rates accelerating.",
+      "source": "ESS News",
+      "url": "https://www.ess-news.com/2026/02/26/new-us-battery-capacity-in-2026-24-3-gw-of-new-battery-storage-to-come-online/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Residential battery storage industry white paper 2026",
+      "summary": "By 2026, residential battery storage enters a scale-up phase driven by falling lithium prices and stricter carbon goals. Payback periods have shortened to 5-8 years in mature solar markets.",
+      "source": "HRESYS",
+      "url": "https://www.hresys.com/news/residential-battery-storage-industry-white-paper-2026-edition/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Long-duration energy storage deployments rose 49% in 2025",
+      "summary": "Global long-duration energy storage exceeded 15 GWh in 2025 with 49% growth, but lithium-ion batteries are outcompeting emerging technologies. China accounts for 93% of cumulative LDES installations.",
+      "source": "Utility Dive / Wood Mackenzie",
+      "url": "https://www.utilitydive.com/news/long-duration-energy-storage-deployments-rose-49-in-2025-woodmac/814336/",
+      "time": "3 days ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Pila launches Mesh Home Battery plug-in storage at $1,299",
+      "summary": "Pila introduced Mesh Home Battery, a portable 45-pound plug-in home battery that stores energy from grid or solar, offering affordable backup power at $1,299 versus $8,400-$14,400 for Tesla Powerwall.",
+      "source": "The Cool Down",
+      "url": "https://www.thecooldown.com/green-tech/home-battery-technology-pila-engineer-invention/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "💰"
+    },
+    {
+      "headline": "Energy Storage is Revolutionizing America's Power Sector",
+      "summary": "U.S. residential battery capacity grew 51% in 2025 and is expected to grow 120% by 2030. The nation added 57 GWh of energy storage capacity in 2025 and forecasts 70 GWh in 2026.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/energy-storage-is-revolutionizing-americas-power-sector/",
+      "time": "1 week ago",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Tax credits for solar panels available but requires leasing",
+      "summary": "After the 30% federal tax credit for purchased residential solar systems expired December 31, 2025, homeowners can still access incentives through solar leases and power purchase agreements through 2028.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/02/20/nx-s1-5649474/solar-panel-tax-credit",
+      "time": "2 weeks ago",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Solar installs surged 205% before the tax credit cut and reshaped the market",
+      "summary": "Homeowners rushed to install solar before December 31, 2025 deadline, creating a 205% year-over-year surge. Battery attachment rates declined as customers prioritized solar installations over storage.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/27/solar-installs-surged-205-before-the-tax-credit-cut-and-reshaped-the-market/",
+      "time": "2 weeks ago",
+      "tags": [
+        "Market",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Rooftop solar is booming but not in the communities that need it most",
+      "summary": "Despite rapid solar adoption nationwide, deployment overlooks underserved communities due to median $30,000 installation costs. Current models fail to serve high-potential, low-income areas equitably.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/rooftop-solar-is-booming-but-not-in-the-communities-that-need-it-most/805488/",
+      "time": "January 5, 2026",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "😟"
+    },
+    {
+      "headline": "Net metering policies see significant revision in states across the U.S.",
+      "summary": "About one-third of U.S. states are offering alternatives to traditional net metering or making significant revisions. Nevada and other states are shifting from monthly netting to 15-minute netting.",
+      "source": "pv magazine International",
+      "url": "https://www.pv-magazine.com/2025/04/21/net-metering-policies-see-significant-revision-in-states-across-the-u-s/",
+      "time": "April 2025",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "⚠️"
+    },
+    {
+      "headline": "Batteries become the new home solar as net metering evolves",
+      "summary": "As net metering compensation rates decline in states like California, homeowners increasingly prioritize battery storage over exporting excess solar power to the grid for lower rates.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/07/batteries-become-the-new-home-solar-as-net-metering-evolves-and-energy-prices-soar/",
+      "time": "6 days ago",
+      "tags": [
+        "Market",
+        "Energy"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Solect Energy details rooftop solar site leases for property owners",
+      "summary": "Commercial rooftop solar site leases are emerging as a practical strategy generating long-term non-operational income for property owners through 20-25 year lease agreements with developers.",
+      "source": "AltEnergyMag",
+      "url": "https://www.altenergymag.com/news/2026/03/11/solect-energy-details-how-rooftop-solar-site-leases-create-long-term-revenue-for-commercial-property-owners/46894/",
       "time": "2 days ago",
       "tags": [
         "Market",
         "Energy"
       ],
-      "sentiment": "📊"
+      "sentiment": "💼"
     },
     {
-      "headline": "Batteries Becoming 'New Solar' as Net Metering Evolves and Energy Prices Soar",
-      "summary": "As net metering policies change and electricity prices climb, homeowners increasingly prioritize storing solar energy for personal use rather than exporting excess power to the grid.",
+      "headline": "43 GW: Solar tops new U.S. power for the 5th year in a row",
+      "summary": "U.S. installed 43 GW of solar in 2025, the fifth consecutive year as top electricity source. Solar and storage together accounted for 79% of new generation capacity despite policy uncertainty.",
       "source": "Electrek",
-      "url": "https://electrek.co/2026/03/07/batteries-become-the-new-home-solar-as-net-metering-evolves-and-energy-prices-soar/",
-      "time": "5 days ago",
-      "tags": [
-        "Market",
-        "Policy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Record 86 GW of U.S. Capacity Planned for 2026, with Solar and Storage Leading",
-      "summary": "A historic 86 GW of new U.S. generating capacity is slated for 2026, with solar and battery storage accounting for 79% of planned additions, marking record expansion.",
-      "source": "pv magazine USA",
-      "url": "https://pv-magazine-usa.com/2026/02/25/solar-and-storage-to-lead-record-breaking-86-gw-of-new-u-s-capacity-in-2026/",
-      "time": "2 weeks ago",
+      "url": "https://electrek.co/2026/03/09/43-gw-solar-tops-new-us-power-for-the-5th-year-in-a-row/",
+      "time": "3 days ago",
       "tags": [
         "Energy",
         "Market"
@@ -339,119 +243,35 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Homeowners Rushed Solar Installations Before Tax Credit Expiry, Driving 205% Surge in Demand",
-      "summary": "U.S. homeowners surged to install solar before the 30% federal tax credit ended on December 31, 2025, driving a 205% increase in homeowner engagement with solar installers.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/02/27/solar-installs-surged-205-before-the-tax-credit-cut-and-reshaped-the-market/",
-      "time": "2 weeks ago",
-      "tags": [
-        "Policy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Energy Storage Deployment Surpasses 57 GWh in 2025, Up 29% Year-Over-Year",
-      "summary": "Battery energy storage installations reached record levels in 2025, surpassing 57 GWh with a 29% year-over-year increase, supporting grid reliability and renewable integration.",
-      "source": "SEIA",
-      "url": "https://seia.org/research-resources/energy-storage-market-outlook/",
-      "time": "1 week ago",
-      "tags": [
-        "Market",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Colorado Advances Portable Solar and 'Meter Collar' Installation Technology",
-      "summary": "Colorado is clearing the way for portable plug-in solar panels and meter collars that reduce installation costs from $10,000 to $500-$700, enabling more affordable residential solar access.",
-      "source": "Colorado Sun",
-      "url": "https://coloradosun.com/2026/02/26/plug-in-solar-portable-colorado-at-home-legislature/",
-      "time": "2 weeks ago",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "California Residential Battery Attachment Reaches 69% as Storage Adoption Accelerates",
-      "summary": "California's residential battery attachment rate has climbed to 69%, reflecting rising adoption of solar-plus-storage systems in response to policy changes and grid reliability concerns.",
-      "source": "pv magazine USA",
-      "url": "https://pv-magazine-usa.com/2026/02/25/solar-and-storage-to-lead-record-breaking-86-gw-of-new-u-s-capacity-in-2026/",
-      "time": "2 weeks ago",
-      "tags": [
-        "Market",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Battery Storage Expected to Grow 21% in 2026 Despite Policy Headwinds",
-      "summary": "U.S. battery storage is projected to grow 21% in 2026 despite tariffs and shifting renewable energy policies, driven by strong economics and rising electricity demand.",
-      "source": "Marketplace",
-      "url": "https://www.marketplace.org/story/2026/02/23/despite-policy-shifts-battery-storage-expected-to-grow-in-2026",
-      "time": "2 weeks ago",
-      "tags": [
-        "Market",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "US Residential Solar Enters Post-Incentive Era After Dramatic Year-End ITC Surge",
-      "summary": "As the 30% federal residential tax credit expired December 31, 2025, the U.S. residential solar market entered a new phase with battery attachment declining from 41% to 38% during the rush.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/us-residential-solar-enters-post-incentive-era-after-itc-expiry-surge/",
+      "headline": "Solar News This Week - March 8, 2026",
+      "summary": "Utah remains the only state with legalized plug-in solar kits; 29 states are considering similar legislation. Solar will provide 51% of new utility-scale electricity capacity in 2026 according to EIA.",
+      "source": "Freepress.org",
+      "url": "https://freepress.org/article/solar-news-week-march-8-2026",
       "time": "1 week ago",
       "tags": [
         "Policy",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "58 GWh of Energy Storage Capacity Installed in 2025, 4x Growth from Three Years Ago",
-      "summary": "The U.S. installed a record-breaking 58 GWh of energy storage capacity in 2025, quadrupling deployment from three years prior, with solar and storage accounting for 84% of new grid capacity.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/state-of-the-union/",
-      "time": "2 weeks ago",
-      "tags": [
-        "Energy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Arizona Shifts to Net Billing as Utilities Eliminate Full Retail Net Metering",
-      "summary": "Arizona utilities no longer offer traditional full retail net metering for new residential systems, instead operating under net billing frameworks where solar systems maximize on-site consumption.",
-      "source": "US Solar Supplier",
-      "url": "https://ussolarsupplier.com/blogs/news/solar-incentives-for-arizona-homeowners-2026",
-      "time": "January 14, 2026",
-      "tags": [
-        "Policy",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "Senate Legislation Supports Plug-In Solar DIY Systems Across Multiple States",
-      "summary": "Republican and Democratic lawmakers in more than half of U.S. states have introduced legislation boosting adoption of DIY solar systems including portable balcony solar panels.",
-      "source": "Canary Media",
-      "url": "https://www.canarymedia.com/articles/solar",
-      "time": "26 February 2026",
-      "tags": [
-        "Policy",
         "Energy"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Most U.S. Households Can Save Money and Weather Blackouts with Solar-Plus-Storage",
-      "summary": "A Stanford study found 60% of U.S. families could reduce electricity costs by 15% on average by installing a solar-battery system, while utility rate changes incentivize battery adoption.",
-      "source": "Stanford Energy",
-      "url": "https://energy.stanford.edu/news/most-us-households-can-save-money-and-weather-blackouts-solar-plus-storage",
-      "time": "2 weeks ago",
+      "headline": "Expiring solar tax credits shine a light on benefit inequities",
+      "summary": "Solar tax credits disproportionately benefit upper-income households. The elimination of 30% credits will exacerbate equity issues as lower-income families cannot access remaining incentives.",
+      "source": "Federal Reserve Bank of Dallas",
+      "url": "https://www.dallasfed.org/research/economics/2025/1120-barrett-solar",
+      "time": "November 2025",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "😞"
+    },
+    {
+      "headline": "Home electrification accelerating with integrated systems approach",
+      "summary": "Instead of purchasing individual products, homeowners are increasingly planning coordinated home energy systems combining solar, storage, and EV charging to control costs and improve resilience.",
+      "source": "Energize Capital",
+      "url": "https://www.energizecap.com/news-insights/home-electrification-insights",
+      "time": "May 2025",
       "tags": [
         "Energy",
         "Market"
@@ -459,122 +279,14 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Virtual Power Plants Dispatch 535 MW in California Test, Powering Half of San Francisco's Demand",
-      "summary": "Over 100,000 California homes participated in a virtual power plant test that successfully dispatched 535 megawatts, demonstrating the grid management potential of residential solar and storage.",
+      "headline": "U.S. residential storage market outlook Q1 2026",
+      "summary": "U.S. BESS deployments are set to increase to 70 GWh/35 GW in 2026. Behind-the-meter residential market saw strong growth as the 25D tax credit ended, with 3.1 GWh installed in 2025.",
       "source": "SEIA",
-      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
-      "time": "December 26, 2025",
-      "tags": [
-        "Energy",
-        "Market"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Federal Tax Credit Elimination Prompts Shift Toward Third-Party Solar Ownership Models",
-      "summary": "With the residential tax credit ending December 31, 2025, solar market is shifting toward third-party ownership like leases and power purchase agreements which remain eligible for incentives through 2028.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/us-residential-solar-enters-post-incentive-era-after-itc-expiry-surge/",
+      "url": "https://seia.org/research-resources/energy-storage-market-outlook-q1-2026/",
       "time": "1 week ago",
       "tags": [
-        "Policy",
+        "Energy",
         "Market"
-      ],
-      "sentiment": "📊"
-    },
-    {
-      "headline": "California Launches $280 Million Program Expanding Solar and Battery Access for Low-Income Households",
-      "summary": "The California Public Utilities Commission launched a new statewide initiative to help low-income customers install battery storage and solar systems with full cost coverage when combined with federal credits.",
-      "source": "California PUC",
-      "url": "https://www.cpuc.ca.gov/news-and-updates/all-news/$280-million-program-to-expand-battery-storage-and-solar-access-for-low-income-households",
-      "time": "June 2, 2025",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Illinois Governor Signs 2025 Clean Grid Act Expanding Battery Storage and Virtual Power Plants",
-      "summary": "Illinois Governor J.B. Pritzker signed the 2025 Clean and Reliable Grid Affordability Act, advancing statewide battery storage expansion and virtual power plant programs.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/from-sea-to-shining-sea-a-recap-of-2025-state-solar-policy-wins/",
-      "time": "January 8, 2026",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Colorado Extends Residential Energy Storage Tax Credit Through 2030",
-      "summary": "Colorado extended its residential energy storage tax credit through 2030 and approved the state's first Virtual Power Plant program with fair compensation tariffs for distributed energy resources.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/from-sea-to-shining-sea-a-recap-of-2025-state-solar-policy-wins/",
-      "time": "January 8, 2026",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Virginia Utilities Push to Reduce Net Metering Rates from $0.16 to $0.04 per kWh",
-      "summary": "Dominion Energy and Appalachian Power are proposing significant cuts to Virginia net metering rates, threatening solar economics for systems installed in 2025 and beyond.",
-      "source": "EDGE Energy",
-      "url": "https://www.edge-gogreen.com/solar/virginia-net-metering-changes/",
-      "time": "2025",
-      "tags": [
-        "Policy",
-        "Market"
-      ],
-      "sentiment": "📉"
-    },
-    {
-      "headline": "San Diego Expands Solar Battery Savings Program with Performance Incentives for Grid Support",
-      "summary": "San Diego Community Power expanded its Solar Battery Savings program offering upfront rebates and performance incentive payments when home batteries support the grid during peak demand hours.",
-      "source": "San Diego Community Power",
-      "url": "https://sdcommunitypower.org/solar-battery-savings/",
-      "time": "July 20, 2024",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Texas Passes Legislation Strengthening Rooftop Solar and Home Battery Storage Access",
-      "summary": "Texas rejected proposed restrictions on solar and storage while passing new laws strengthening homeowners' freedom to choose affordable rooftop solar and battery storage systems.",
-      "source": "SEIA",
-      "url": "https://seia.org/blog/from-sea-to-shining-sea-a-recap-of-2025-state-solar-policy-wins/",
-      "time": "January 8, 2026",
-      "tags": [
-        "Policy",
-        "Energy"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Average Lithium Home Battery Cost $7,000-$30,000 Installed in 2025",
-      "summary": "Lithium home storage battery systems averaged $1,300 per kWh after the 30% federal tax credit, with Tesla Powerwall 3 priced at $15,400-$16,500 before incentives.",
-      "source": "SolarTech Online",
-      "url": "https://solartechonline.com/blog/lithium-home-storage-battery-cost-guide-2025/",
-      "time": "5 days ago",
-      "tags": [
-        "Market",
-        "Energy"
-      ],
-      "sentiment": "📊"
-    },
-    {
-      "headline": "Residential Solar Retrofit Battery Storage Market Emerges as Growth Opportunity",
-      "summary": "Millions of U.S. homes with solar-only systems installed between 2016-2023 now represent a major opportunity for battery storage retrofits as net metering policies shift.",
-      "source": "Sol-Ark",
-      "url": "https://sol-ark.com/news/retrofitting-energy-storage-existing-solar-homes/",
-      "time": "December 31, 2025",
-      "tags": [
-        "Market",
-        "Energy"
       ],
       "sentiment": "📈"
     }
