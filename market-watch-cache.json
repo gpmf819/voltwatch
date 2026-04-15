@@ -1,99 +1,584 @@
 {
-  "generatedAt": "2026-04-14T11:57:50.959001+00:00",
-  "ev": [],
-  "energy": [],
+  "generatedAt": "2026-04-15T11:57:34.423358+00:00",
+  "ev": [
+    {
+      "headline": "Global EV Sales Hit 4M in Q1 2026, but Growth is Uneven",
+      "summary": "Global EV sales reached 4 million units in Q1 2026, down 3% year-over-year. Europe surged with record March sales while China and North America saw declines amid shifting regional dynamics.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/04/14/global-ev-sales-hit-4m-in-q1-2026-but-growth-is-uneven/",
+      "time": "14h ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "BMW iX Dead in US as Automaker Prepares Neue Klasse Launch",
+      "summary": "BMW is ending US allocations of the iX electric SUV to prepare for the next generation of electric vehicles with new technology, having served its purpose as a flagship showcase.",
+      "source": "Motor1",
+      "url": "https://www.motor1.com/news/792953/bmw-ix-electric-suv-dead-united-states/",
+      "time": "13h ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Nissan Unveils Long-Term Mobility Intelligence Vision Focused on AI EVs",
+      "summary": "Nissan revealed its AI-defined vehicle strategy with expanded electrification, combining AI-powered tech with hybrid and EV options as it streamlines its global lineup and targets market expansion.",
+      "source": "Electric Cars Report",
+      "url": "https://electriccarsreport.com/2026/04/nissan-reveals-long-term-mobility-intelligence-vision-focused-on-ai-evs-and-smarter-mobility/",
+      "time": "1d ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "EV Sales Jump in Asia as High Oil Prices Drive Market Shift",
+      "summary": "Electric vehicle sales surged in Southeast Asia as fuel price spikes from the Middle East conflict pushed buyers toward cheaper-to-operate EVs, with Chinese manufacturers seeing doubled exports in March.",
+      "source": "Asia Financial",
+      "url": "https://www.asiafinancial.com/electric-vehicle-sales-jump-in-asia-as-iran-war-pumps-up-fuel-cost",
+      "time": "19h ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Nissan Juke Electric Revealed as Brand's Latest EV Launch",
+      "summary": "Nissan unveiled the third-generation Juke as a fully electric vehicle for Europe, built on the CMF-EV platform and featuring vehicle-to-grid capabilities to compete in the growing electric crossover segment.",
+      "source": "Electric Drives",
+      "url": "https://electricdrives.tv/nissan-juke-electric-revealed-as-brands-latest-ev/",
+      "time": "1d ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "UK EV Tax Changes Create Obstacles for Mass Adoption",
+      "summary": "New Vehicle Excise Duty rates in the UK will see electric car owners pay higher taxes, marking a shift away from EV incentives toward normalizing them as price gaps with gas vehicles remain substantial.",
+      "source": "GB News",
+      "url": "https://www.gbnews.com/lifestyle/cars/rachel-reeves-electric-vehicles-car-tax",
+      "time": "1d ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Used EV Prices Drop 8.5% Year-Over-Year as Affordability Improves",
+      "summary": "Used EV average prices fell to $35,000 in February, down 8.5% year-over-year, making them increasingly competitive with gas vehicles as more lease returns hit the market.",
+      "source": "San Diego Today",
+      "url": "https://nationaltoday.com/us/ca/san-diego/news/2026/04/14/used-ev-prices-drop-as-more-drivers-switch-1/",
+      "time": "1d ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Tesla Model S and X Plaid Get Final Limited Edition 'Signature Series'",
+      "summary": "Tesla is producing a final 350-vehicle 'Signature Series' run of the Plaid Model S and Model X before flagship programs shut down, featuring exclusive Garnet Red paint and gold accents.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "13h ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "⚪"
+    },
+    {
+      "headline": "Toyota bZ EV Surges to Third Best-Selling EV in US Q1 2026",
+      "summary": "Toyota's updated bZ electric SUV jumped 79% to reach 10,042 units sold in Q1 2026, becoming the third best-selling EV behind Tesla's Model Y and Model 3, bucking industry decline trends.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/04/13/toyotas-electric-suv-third-best-selling-ev-us-q1/",
+      "time": "1d ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Mercedes-Benz Overhauled EQS Sedan Achieves 575-Mile Range",
+      "summary": "Mercedes unveiled a heavily updated EQS electric sedan with new 800-volt architecture, steer-by-wire technology, and up to 926 km WLTP range, representing the biggest upgrade since 2021 launch.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "13h ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Sodium-Ion EV Battery Delivers 11-Minute Charging and 450 km Range",
+      "summary": "BAIC Group achieved a significant breakthrough in sodium-ion battery technology with energy density over 170 Wh/kg, offering a lower-cost alternative to lithium as mass production nears.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/25/sodium-ion-ev-battery-delivers-11-min-charging-450-km-range/",
+      "time": "3d ago",
+      "tags": [
+        "Battery"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "BYD's Chief Scientist Says Solid-State EV Batteries Hit Critical Stage",
+      "summary": "BYD reported solid-state EV batteries entering a critical commercialization phase with plans for limited batches in 2027 and mass production by 2030, though challenges remain in ion stability.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/04/08/byds-chief-scientist-solid-state-ev-batteries-critical-stage/",
+      "time": "1w ago",
+      "tags": [
+        "Battery"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solid-State EV Batteries Reach 800-Mile Range Reality",
+      "summary": "Chery's Rhino series solid-state battery achieves 600 Wh/kg energy density enabling 800-mile range potential, while Factorial Energy plans to bring technology to market by 2027 with major OEM partnerships.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/18/solid-state-ev-batteries-with-800-miles-range-become-reality/",
+      "time": "1mo ago",
+      "tags": [
+        "Battery"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Slate Auto Closes $650M Series C to Bring EV Pickup to Production",
+      "summary": "Bezos-backed EV startup Slate Auto raised $650 million Series C funding, providing capital to push its affordable pickup truck into production before year-end 2026 at its Indiana facility.",
+      "source": "EV Vehicles",
+      "url": "https://eletric-vehicles.com/slate/bezos-backed-ev-startup-slate-auto-raises-650m-as-it-targets-year-end-production/",
+      "time": "1d ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Kia Plans US-Bound Pickup and Doubles Hybrid Models by 2030",
+      "summary": "Kia confirmed a body-on-frame pickup with hybrid and range-extended EV versions for the US, aiming for 1 million annual sales and 6.2% market share by 2030 with doubled hybrid lineup.",
+      "source": "WardsAuto",
+      "url": "https://www.wardsauto.com/news/kia-plans-us-bound-pickup-more-hybrids-and-robots/817157/",
+      "time": "4d ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Only 6 Auto Brands Had EV Sales Growth in Q1 2026",
+      "summary": "Out of dozens of automakers, only Toyota, Lexus, Cadillac, Rivian, Lucid, and Ram achieved year-over-year EV sales growth in Q1 2026, while most brands saw declines of 60-90%.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/04/14/only-6-auto-brands-had-ev-sales-growth-in-1st-quarter-2026/",
+      "time": "11h ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "Volvo Launches First Electric Articulated Hauler Trucks in Serial Production",
+      "summary": "Volvo began regular production of its A30 and A40 Electric articulated haul trucks, marking the first time electric articulated haulers of this size moved from pilot stage into serial production.",
+      "source": "Electrek",
+      "url": "https://electrek.co/",
+      "time": "13h ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Washington State Expands Direct EV Sales to Rivian, Lucid",
+      "summary": "Bipartisan legislation in Washington allows more EV manufacturers including Rivian and Lucid to hold dealer licenses for direct sales, estimated to increase EV adoption by 13% by 2030.",
+      "source": "Sen. Marko Liias",
+      "url": "https://senatedemocrats.wa.gov/liias/2026/03/24/liias-bill-expanding-direct-electric-vehicle-sales-in-washington-signed-into-law/",
+      "time": "3w ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Federal Government Proposes 100% US-Made EV Charger Requirement",
+      "summary": "Trump administration moves to restrict federal EV charger funding to only 100% US-made components, up from 55% requirement, aiming to boost domestic manufacturing despite potential supply challenges.",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/energy-environment/5732153-trump-administration-restricts-ev-charger-funds/",
+      "time": "Feb 10, 2026",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "⚪"
+    },
+    {
+      "headline": "California Launches $200M EV Incentive to Counter Federal Tax Credit Loss",
+      "summary": "California announced a $200 million EV incentive program designed to offset the loss of the $7,500 federal tax credit and maintain pressure on automakers to electrify their fleets.",
+      "source": "CBT News",
+      "url": "https://www.cbtnews.com/california-pushes-ahead-on-ev-mandates-as-detroit-automakers-reengage-regulators",
+      "time": "Mar 2, 2026",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Automakers Announce $60B in EV Investment Writedowns",
+      "summary": "Major automakers including Stellantis, Ford, Honda, and GM announced collectively over $60 billion in financial writedowns related to scaling back overly aggressive EV transition strategies.",
+      "source": "EnkiAI",
+      "url": "https://enkiai.com/ev/hybrid-strategy-2026-the-shocking-fallout-of-the-ev-push/",
+      "time": "1w ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📉"
+    },
+    {
+      "headline": "32 New EV Models Launching in US in 2026 Despite Market Slowdown",
+      "summary": "Automakers are launching 32 new electric vehicle models in the United States this year despite weak sales, marking the beginning of a mature EV market with greater choice across price points.",
+      "source": "InsideEVs",
+      "url": "https://insideevs.com/features/783999/every-new-electric-car-ev-2026/",
+      "time": "Jan 14, 2026",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "New EV Sales Drop 28% in Q1 2026 Despite Used EV Surge",
+      "summary": "New EV sales cratered 28% year-over-year in Q1 2026 to 212,600 units, but used EV sales surged 12% with prices now within $1,300 of gas vehicles, signaling market reset after tax credit expiration.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/27/used-ev-sales-boom-new-ev-sales-drop-28-percent-q1-2026/",
+      "time": "3w ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "⚪"
+    },
+    {
+      "headline": "Leapmotor Leads EV Startups with 50K Deliveries in March 2026",
+      "summary": "Chinese EV startup Leapmotor posted 50,029 vehicle deliveries in March 2026, up 34.87% year-over-year, with four new models launching in 2026 expected to account for 60% of annual sales.",
+      "source": "Electric Cars Report",
+      "url": "https://electriccarsreport.com/2026/04/leapmotor-leads-ev-startup-2026-as-deliveries-surge-and-new-models-launch/",
+      "time": "2w ago",
+      "tags": [
+        "EV"
+      ],
+      "sentiment": "📈"
+    }
+  ],
+  "energy": [
+    {
+      "headline": "Homeowner reviews Tesla off-grid tech claiming decades of utility bill savings",
+      "summary": "A homeowner shared their experience installing 30 solar panels and two Tesla Powerwalls, noting their system should pay for itself in 6-8 years with continued savings for decades as solar panels last 20+ years.",
+      "source": "The Cool Down",
+      "url": "https://www.thecooldown.com/green-tech/homeowner-solar-panels-batteries-savings/",
+      "time": "16h ago",
+      "tags": [
+        "Energy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "Backup power is the LEAST interesting thing your home battery can do",
+      "summary": "Home battery systems paired with solar and EVs offer energy optimization and cost arbitrage benefits beyond backup power, allowing homeowners to shift consumption from peak to low-price periods.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/04/12/backup-power-is-the-least-interesting-thing-your-home-battery-can-do/",
+      "time": "3 days ago",
+      "tags": [
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Anker Solix launches 7 kWh plug-in battery for rooftop solar retrofits",
+      "summary": "Anker Solix introduced the Solarbank Max AC, a 7 kWh modular home battery system designed to retrofit existing rooftop solar without full inverter replacement, expandable to 42 kWh with plug-in functionality.",
+      "source": "Energy Storage News",
+      "url": "https://www.ess-news.com/2026/04/09/anker-solix-launches-new-solarbank-max-ac-targets-rooftop-solar-retrofits-with-7-kwh-plug-in-system/",
+      "time": "5 days ago",
+      "tags": [
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solar installs surged 205% before tax credit deadline, reshaping home electrification market",
+      "summary": "US homeowners rushed to install solar before December 2025 deadline, driving 205% surge in demand and pushing integrated home energy systems combining solar, storage, and EV charging as the new market norm.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/27/solar-installs-surged-205-before-the-tax-credit-cut-and-reshaped-the-market/",
+      "time": "February 27, 2026",
+      "tags": [
+        "Market",
+        "Policy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Batteries become the new home solar as net metering evolves and energy prices soar",
+      "summary": "As net metering policies change like California's NEM 3.0, homeowners are increasingly choosing battery storage over grid exports, making home battery systems the centerpiece of residential energy systems alongside solar.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/07/batteries-become-the-new-home-solar-as-net-metering-evolves-and-energy-prices-soar/",
+      "time": "March 7, 2026",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Colorado clearing way for portable plug-in solar and meter collar technology",
+      "summary": "Colorado is joining dozens of states allowing DIY plug-in solar panels and meter collars that cost $500-$700 versus $10,000 electrical panel upgrades, with systems available for ~$2,000 including battery storage.",
+      "source": "Colorado Sun",
+      "url": "https://coloradosun.com/2026/02/26/plug-in-solar-portable-colorado-at-home-legislature/",
+      "time": "February 26, 2026",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "Most US households can save money and weather blackouts with solar plus storage",
+      "summary": "Stanford research finds about 60% of families could reduce electricity costs by 15% on average with solar-battery systems, with benefits varying by state and electricity costs.",
+      "source": "Stanford Energy",
+      "url": "https://energy.stanford.edu/news/most-us-households-can-save-money-and-weather-blackouts-solar-plus-storage",
+      "time": "August 1, 2025",
+      "tags": [
+        "Energy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "New Jersey leads solar incentives in 2026 with $85-90 per megawatt-hour locked rates",
+      "summary": "New Jersey's ADI program locks in roughly $90/MWh for 15 years combined with sales and property tax exemptions, making it the strongest state incentive package for residential solar in 2026.",
+      "source": "Solar Panels Network USA",
+      "url": "https://us.solarpanelsnetwork.com/blog/solar-panel-laws-by-state/",
+      "time": "2 days ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "California residents increasingly pairing battery storage with rooftop solar installations",
+      "summary": "Solar paired with battery installations now makes up about 9% of California's residential net metering capacity, with over 40,000 new installations added between October 2023 and April 2024.",
+      "source": "US Energy Information Administration",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=62524",
+      "time": "2024 Data",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Energy storage reaches record capacity amid 51% residential growth in 2025",
+      "summary": "US residential battery capacity grew 51% in 2025 and is expected to grow 120% by 2030, with home battery systems forming virtual power plants that enhance grid reliability while lowering costs for all ratepayers.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/energy-storage-is-revolutionizing-americas-power-sector/",
+      "time": "March 5, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "US enters post-incentive era for residential solar after ITC expiry surge",
+      "summary": "The 205% surge in solar installations before the December 31, 2025 deadline marked a major market shift, with third-party ownership models like leases and PPAs remaining eligible for incentives through 2028.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/us-residential-solar-enters-post-incentive-era-after-itc-expiry-surge/",
+      "time": "March 2, 2026",
+      "tags": [
+        "Policy",
+        "Market"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Colorado net metering stays strong as rates rise, boosting solar savings in 2026",
+      "summary": "Colorado law requires full retail-rate credits for exported solar power with 10% rate increases planned for 2026, making net metering more valuable yearly despite the loss of federal tax credits.",
+      "source": "Apollo Energy",
+      "url": "https://harnessoursun.com/how-colorado-net-metering-works-for-solar-homeowners-in-2026-2/",
+      "time": "2 days ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "Arizona solar incentives shift away from net metering to utility net billing framework",
+      "summary": "Arizona utilities including APS and SRP now use net billing where excess solar energy earns credits at utility-set rates rather than full retail rates, encouraging battery pairing with solar systems.",
+      "source": "US Solar Supplier",
+      "url": "https://ussolarsupplier.com/blogs/news/solar-incentives-for-arizona-homeowners-2026",
+      "time": "January 14, 2026",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "📊"
+    },
+    {
+      "headline": "Six states advance DIY plug-in solar legislation as energy affordability concerns mount",
+      "summary": "Massachusetts, Colorado, Maine and other states are rapidly advancing legislation allowing residential DIY plug-in solar panels and meter collars to reduce installation costs and barriers.",
+      "source": "Canary Media",
+      "url": "https://www.canarymedia.com/articles/solar",
+      "time": "2 weeks ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "California battery attachment reaches 69% on rooftop solar systems amid NEM 3.0 transition",
+      "summary": "As California transitions from 1:1 net metering to Net Billing, residential battery attachment rates have surged to 69%, with emerging markets like Colorado potentially unlocking 2 GWh of new capacity by 2040.",
+      "source": "Energy Storage News",
+      "url": "https://www.ess-news.com/2026/02/26/new-us-battery-capacity-in-2026-24-3-gw-of-new-battery-storage-to-come-online/",
+      "time": "March 2, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Lithium-ion dominates residential storage market with 68% share in 2026",
+      "summary": "Lithium-ion batteries account for 68.1% of residential storage market revenue in 2026 due to superior energy density, longer cycle life, and higher efficiency compared to alternative technologies.",
+      "source": "Future Market Insights",
+      "url": "https://www.futuremarketinsights.com/reports/residential-solar-energy-storage-market",
+      "time": "2 weeks ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "US battery storage expected to grow 21% in 2026 despite policy headwinds",
+      "summary": "Battery storage growth remains robust driven by energy arbitrage economics—charging at low prices and selling at peak times—despite tariffs and shifting renewable energy policies.",
+      "source": "Marketplace",
+      "url": "https://www.marketplace.org/story/2026/02/23/despite-policy-shifts-battery-storage-expected-to-grow-in-2026",
+      "time": "February 24, 2026",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "New York offers 25% state solar tax credit with property tax exemptions through 2035",
+      "summary": "New York provides a 25% state tax credit (up to $5,000) plus full net metering, sales tax exemption, and 15-year property tax exemption, creating one of the strongest incentive packages nationally.",
+      "source": "Anern",
+      "url": "https://www.anern.com/new-york-solar-incentives-2026-tax-credits-rebates-property--net-metering-rules.html",
+      "time": "1 month ago",
+      "tags": [
+        "Policy"
+      ],
+      "sentiment": "😊"
+    },
+    {
+      "headline": "US solar generation projected to grow from 290 to 420 TWh by end of 2026",
+      "summary": "With 24.3 GW of new battery storage coming online in 2026, EIA projects solar generation will surge 45% year-over-year as distributed small-scale solar grows 11% and utilities scale renewable deployments.",
+      "source": "Energy Storage News",
+      "url": "https://www.ess-news.com/2026/02/26/new-us-battery-capacity-in-2026-24-3-gw-of-new-battery-storage-to-come-online/",
+      "time": "March 2, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Global residential solar storage market projected to reach $462 billion by 2036",
+      "summary": "Residential solar energy storage market is projected to grow at 18.3% CAGR from 2026 to 2036, reaching $462.34 billion as lithium-ion technology dominates with superior performance and declining costs.",
+      "source": "Future Market Insights",
+      "url": "https://www.futuremarketinsights.com/reports/residential-solar-energy-storage-market",
+      "time": "2 weeks ago",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Virtual power plants prove capability with 100,000 California homes dispatching 535 MW to grid",
+      "summary": "Sunrun's virtual power plant test in July 2025 had over 100,000 California homes collectively dispatch 535 megawatts, demonstrating the potential of distributed residential solar and storage to meet grid peak demands.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/25-ways-solar-and-storage-met-critical-energy-demands-in-2025/",
+      "time": "December 26, 2025",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Battery storage costs drive residential adoption as economics improve across markets",
+      "summary": "Net metering policy changes and rising electricity prices are making battery storage economically viable for more homeowners, with 6-10 kW systems offering optimal cost-to-capacity balance in 2026.",
+      "source": "Coherent Market Insights",
+      "url": "https://www.coherentmarketinsights.com/market-insight/residential-battery-market-5168",
+      "time": "2 weeks ago",
+      "tags": [
+        "Market",
+        "Energy"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Solar manufacturing boom continues with 15.1 GW added capacity in 2025",
+      "summary": "US domestic solar manufacturing surged in 2025 with 15.1 GW of module capacity added, placing the US third globally for solar manufacturing and enabling full supply chain control from raw materials to recycling.",
+      "source": "SEIA",
+      "url": "https://seia.org/blog/state-of-the-union/",
+      "time": "February 24, 2026",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Bluetti launches modular 13K energy storage system for homes and small businesses",
+      "summary": "Bluetti's new EnergyPro 13K modular residential storage system starts at $7,919 with expandable capacity, offering flexibility for various home electrification needs and energy management scenarios.",
+      "source": "pv magazine USA",
+      "url": "https://pv-magazine-usa.com/2026/04/01/u-s-solar-and-storage-market-report-2026-state-rankings-and-forecasts/",
+      "time": "April 7, 2026",
+      "tags": [
+        "Energy",
+        "Market"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "US solar sector remains top new power source for fifth consecutive year at 43 GW",
+      "summary": "US installed 43.1 GW of solar capacity in 2025 despite 14% decline from 2024, remaining the dominant source of new power as residential sector ended virtually flat and community solar declined 25%.",
+      "source": "SEIA",
+      "url": "https://seia.org/research-resources/solar-market-insight-report-2025-year-in-review/",
+      "time": "March 12, 2026",
+      "tags": [
+        "Market"
+      ],
+      "sentiment": "📊"
+    }
+  ],
   "v2x": [
     {
-      "headline": "GM leads the charge in vehicle-to-home EVs: inside the home energy ecosystem",
-      "summary": "General Motors sold over 246,000 V2H-capable vehicles in 2025 and through GM Energy offers home energy management systems enabling vehicle-to-home capabilities that can provide backup power during outages.",
-      "source": "GM",
-      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/feb/0219-GM-leads-charge-vehicle-to-home-EVs.html",
-      "time": "1 day ago",
+      "headline": "Rivian and Redwood Materials Announce Energy Storage Partnership",
+      "summary": "Rivian and Redwood Materials partner to repurpose EV batteries into stationary energy storage systems, providing grid flexibility and reducing peak demand strain at Rivian's manufacturing facility.",
+      "source": "Recycling Today",
+      "url": "https://www.recyclingtoday.com/news/rivian-redwood-materials-announce-energy-storage-partnership/",
+      "time": "17h ago",
       "tags": [
         "V2X"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Battery & Electrification Technology - March/April 2026",
-      "summary": "The latest issue covers battery electrode innovations, grid-scale energy technologies, and discussions on DC fast-charging adapters as the US transitions to NACS standards.",
-      "source": "Mobility Engineering Technology",
-      "url": "https://www.mobilityengineeringtech.com/component/content/article/55029-doc-9898?catid=1779&Itemid=2211",
-      "time": "1 day ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "EVs with Vehicle to Home Charging: 2026 V2H Guide",
-      "summary": "As of early 2026, V2H is transitioning from early-stage to practical adoption with growing support from major automakers, though most solutions still require specialized hardware and professional installation.",
-      "source": "Recharged",
-      "url": "https://recharged.com/articles/evs-with-vehicle-to-home-charging",
-      "time": "1 day ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle to Home is the Bidirectional Upgrade You'll Use in 2026",
-      "summary": "V2H is becoming more viable than V2G in 2026 because it doesn't require grid permission or complex utility agreements, allowing homeowners to simply use their EV battery as backup power.",
-      "source": "Energy Matters",
-      "url": "https://www.energymatters.com.au/renewable-news/vehicle-to-home-is-the-bidirectional-upgrade-youll-use-in-2026/",
-      "time": "6 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "EV as Home Battery Backup: 2026 V2H Guide",
-      "summary": "V2H remains early-stage in 2026 with only a minority of EVs capable of powering homes, requiring extensive hardware, permitting, and professional installation beyond simple plug-and-play solutions.",
-      "source": "Recharged",
-      "url": "https://recharged.com/articles/ev-as-home-battery-backup",
-      "time": "6 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "⚠️"
-    },
-    {
-      "headline": "The Driveway Dividend and How Bidirectional V2G Technology is Turning Electric Vehicles into Mortgage-Paying Assets",
-      "summary": "The industry is transitioning from small-scale V2G pilot programs to commercial-grade Virtual Power Plants in 2026, with potential for EV owners to generate significant grid services revenue.",
-      "source": "TorqueNews",
-      "url": "https://www.torquenews.com/17995/driveway-dividend-and-how-bidirectional-v2g-technology-turning-electric-vehicles-mortgage",
-      "time": "8 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle‑to‑Home V2H Charging: A Practical Guide to Using Your EV as Home UPS",
-      "summary": "V2H charging is becoming increasingly practical in 2026 as more EV models and chargers support the technology, allowing EVs to function as flexible home energy sources for backup power and energy optimization.",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/314652/20260216/vehiclehome-v2h-charging-practical-guide-using-your-ev-home-ups-ev-battery-home-backup.htm",
-      "time": "8 days ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Steve's 2026 V2G Predictions: The Year Bidirectional Charging Reshapes the Grid",
-      "summary": "2026 marks an inflection point where V2G transitions from pilot to product phase, with electric school buses positioned for real-scale deployment and utilities beginning to incorporate mobile storage into reliability planning.",
+      "headline": "2026 V2G Predictions: School Buses and Commercial Standards to Drive Bidirectional Charging Scale",
+      "summary": "Expert predictions indicate 2026 will see electric school buses form the backbone of V2G capacity, with the first commercial V2G-AC offerings emerging for light-duty vehicles under UL certification.",
       "source": "V2G News",
       "url": "https://v2gnews.com/blog/steves-2026-v2g-predictions-the-year-bidirectional-charging-reshapes-the-grid/",
-      "time": "3 months ago",
+      "time": "4 months ago",
       "tags": [
         "V2X"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Bidirectional Charging (V2G) in 2026: Which Cars Support It?",
-      "summary": "Bidirectional charging technology is reaching mainstream adoption in 2026 with Ford F-150 Lightning, Tesla Cybertruck, GM Ultium vehicles, and Mitsubishi Outlander providing V2G, V2H, and V2L capabilities.",
+      "headline": "Bidirectional Charging in 2026: Breakthrough Year for V2H and V2G Mass Adoption",
+      "summary": "2026 marks a turning point as bidirectional charging technology reaches mainstream adoption with EcoFlow and EcoFlow reporting major EV models now supporting V2L, V2H, and V2G capabilities.",
       "source": "EcoFlow",
       "url": "https://www.ecoflow.com/us/blog/bidirectional-charging-v2g-cars",
       "time": "3 months ago",
@@ -103,65 +588,21 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Eaton and ChargePoint launch breakthrough ultrafast DC V2X chargers",
-      "summary": "Eaton and ChargePoint partnership delivers ChargePoint Express Grid delivering up to 600kW for passenger EVs with 30% lower capex and operational costs plus V2X capabilities for grid balancing.",
-      "source": "EV Infrastructure News",
-      "url": "https://www.evinfrastructurenews.com/ev-technology/eaton-chargepoint-ultrafast-dc-v2x-chargers",
-      "time": "6 months ago",
+      "headline": "Enphase Energy Unveils IQ Bidirectional EV Charger for V2H and V2G",
+      "summary": "Enphase Energy announced its new IQ Bidirectional EV Charger architecture enabling vehicle-to-home and vehicle-to-grid capabilities with AI-powered energy management, expected to launch in H2 2026.",
+      "source": "Enphase Energy",
+      "url": "https://investor.enphase.com/news-releases/news-release-details/enphase-energy-unveils-new-iq-bidirectional-ev-charger/",
+      "time": "7 months ago",
       "tags": [
         "V2X"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Massachusetts to deploy 100 bidirectional EV chargers in first-of-its-kind 'V2X' pilot",
-      "summary": "Massachusetts launched a two-year V2X pilot deploying 100 bidirectional chargers at residential, commercial, and school sites, expected to add 1.5 MW of flexible grid capacity by September 2026.",
-      "source": "Utility Dive",
-      "url": "https://www.utilitydive.com/news/massachusetts-bidirectional-ev-chargers-v2g-v2x/741525/",
-      "time": "6 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle-to-Grid technology: How bidirectional charging transforms EVs into grid assets",
-      "summary": "V2G technology enables EVs as mobile batteries for grid stability, renewable integration, and peak demand management, though technical challenges and standardization remain barriers to widespread rollout.",
-      "source": "EV Infrastructure News",
-      "url": "https://www.evinfrastructurenews.com/v2g/vehicle-to-grid-technology-how-bidirectional-charging-transforms-evs-into-grid-assets",
-      "time": "6 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Which electric cars can charge bidirectionally?",
-      "summary": "Mercedes-Benz announced V2G introduction for 2026 with the new EQS, BMW presented its first commercial V2G offering for Germany with the iX3 launching spring 2026, and multiple manufacturers are expanding bidirectional capabilities.",
-      "source": "Mobility House Energy",
-      "url": "https://mobilityhouse-energy.com/int_en/knowledge-center/article/which-cars-are-v2g-capable",
-      "time": "6 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle-to-Grid (V2G): Everything you need to know",
-      "summary": "V2G technology enables EVs to discharge power back to the grid during peak demand, with potential to utilize battery capacity 10x more efficiently than smart charging and meet short-term storage demands by 2030.",
-      "source": "Virta",
-      "url": "https://www.virta.global/vehicle-to-grid-v2g",
-      "time": "8 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "V2H Ready? The Best EVs That Can Power Your Home in 2026",
-      "summary": "Hyundai/Kia 2026 models with 800V architecture support full home integration with ultra-fast bidirectional charging, while VW has enabled bidirectional charging via software updates using ISO 15118 standard compatibility.",
-      "source": "Grid Modernist",
-      "url": "https://gridmodernist.com/v2h-ready-the-best-evs-that-can-power-your-home-in-2026/",
+      "headline": "Massachusetts Launches Statewide V2X Pilot Program with 100 Bidirectional Chargers",
+      "summary": "Massachusetts is deploying 100 bidirectional chargers to homes, schools, and towns through a MassCEC-backed two-year pilot converting EVs into grid assets for the state.",
+      "source": "Electrek",
+      "url": "https://electrek.co/guides/vehicle-to-grid/",
       "time": "3 months ago",
       "tags": [
         "V2X"
@@ -169,21 +610,21 @@
       "sentiment": "📈"
     },
     {
-      "headline": "What Is Bidirectional Charging? Understanding the Benefits for Drivers and Businesses",
-      "summary": "Bidirectional chargers enable EV owners to earn hundreds of dollars annually through V2G programs while providing backup power during outages, with 2026 seeing new product releases from Enphase and Emporia.",
-      "source": "EV Connect",
-      "url": "https://www.evconnect.com/blog/what-is-bidirectional-charging-understanding-the-benefits-for-both-drivers-and-businesses/",
-      "time": "4 months ago",
+      "headline": "Volvo and Polestar Launch Bidirectional V2H Charging in US with Dcbel Systems",
+      "summary": "Swedish brands Volvo and Polestar now offer bidirectional vehicle-to-home charging in the United States using Dcbel's Ara Home Energy Station for select models.",
+      "source": "The Driven",
+      "url": "https://thedriven.io/2025/11/26/volvo-and-polestar-launch-bi-directional-vehicle-to-home-charging-for-select-models/",
+      "time": "5 months ago",
       "tags": [
         "V2X"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "What Cars Support V2G? A Guide to Bidirectional Charging EVs",
-      "summary": "The landscape of bidirectional charging is rapidly evolving with more manufacturers exploring V2G, V2H, and V2L capabilities, making EVs integral parts of the energy ecosystem with potential homeowner and grid benefits.",
-      "source": "Bidirectional Energy",
-      "url": "https://www.bidirectional.energy/blog/what-cars-support-v2g-bidirectional-charging",
+      "headline": "Mercedes-Benz Announces Bidirectional Charging for 2026 with MB.CHARGE Home System",
+      "summary": "Mercedes-Benz revealed plans to introduce bidirectional charging in 2026 starting with the all-electric GLC, connecting vehicle, wallbox, and energy management through its MB.CHARGE Home system.",
+      "source": "Mobility House Energy",
+      "url": "https://mobilityhouse-energy.com/int_en/vehicle-to-grid-v2g/which-cars-are-v2g-capable/",
       "time": "6 months ago",
       "tags": [
         "V2X"
@@ -191,21 +632,43 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Installing Bidirectional Charging Solutions: Overcoming Complexities",
-      "summary": "V2G is being widely tapped in Europe and Asia, with more EV models supporting bidirectional charging by 2026, enabling peak shaving savings and grid participation while requiring specialized installation expertise.",
-      "source": "Qmerit",
-      "url": "https://qmerit.com/blog/installing-bidirectional-charging-solutions-overcoming-complexities/",
-      "time": "4 months ago",
+      "headline": "UC Irvine Demonstrates Mass-Market V2H Technology with Kia EV9 and Wallbox Quasar 2",
+      "summary": "Six homes in Menifee, California have been deployed with commercial V2H systems using Kia EV9 vehicles and Wallbox Quasar 2 chargers for a two-year real-world evaluation.",
+      "source": "UC Irvine News",
+      "url": "https://news.uci.edu/2025/10/27/vehicle-to-home-charging-technology-launches-for-the-mass-market/",
+      "time": "6 months ago",
       "tags": [
         "V2X"
       ],
       "sentiment": "📈"
     },
     {
-      "headline": "Bidirectional Charging: Future Trends & Use Cases",
-      "summary": "Research shows bidirectional charging could save Europe up to 22 billion euros annually by 2040 and homeowners up to 780 euros per year, with EVs potentially becoming Europe's fourth-largest power supplier by 2040.",
-      "source": "Driivz",
-      "url": "https://driivz.com/blog/emerging-trends-and-future-use-cases-for-bidirectional-charging/",
+      "headline": "Research Shows V2H Charging Can Save $2,400-$5,600 Over EV Vehicle Lifetime",
+      "summary": "A new study finds that vehicle-to-home charging can reduce household electricity costs by 40-90% and cut building emissions by 70-250% over a 15-year vehicle lifetime.",
+      "source": "Anthropocene Magazine",
+      "url": "https://www.anthropocenemagazine.org/2025/12/evs-arent-just-cars-anymore-they-can-power-your-home-slashing-emissions-and-bills/",
+      "time": "3 months ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Utilities Scale Managed Charging Programs as EV Loads Approach 7.2 Million Vehicles",
+      "summary": "US utilities are partnering with software providers and automakers to deploy managed charging programs that spread EV load and avoid peak demand peaks while deferring infrastructure upgrades.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/as-ev-load-grows-utilities-use-managed-charging-to-harness-flexibility-lo/816859/",
+      "time": "5 days ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Retired EV Batteries Bolster Texas Grid with Second-Life Storage",
+      "summary": "B2U Storage Solutions and Element Energy are repurposing end-of-life EV batteries to provide grid storage in Texas, with 500 GM batteries now serving as a flexible resource for ERCOT.",
+      "source": "Inside Climate News",
+      "url": "https://insideclimatenews.org/news/17022026/retired-ev-batteries-bolster-texas-grid/",
       "time": "2 months ago",
       "tags": [
         "V2X"
@@ -213,10 +676,21 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Battery Storage Projects Surge as Utilities Prepare for Next Grid Era in 2026",
-      "summary": "Battery energy storage has become mainstream grid infrastructure with record-setting installations, with 2026 expected to intensify deployment needs for renewable integration and grid reliability amid climate-driven extremes.",
-      "source": "Government Market News",
-      "url": "https://govmarketnews.com/battery-storage-projects-2026/",
+      "headline": "US Achieves Self-Sufficiency in Grid Battery Manufacturing for First Time",
+      "source": "The Energy Mix",
+      "url": "https://www.theenergymix.com/suddenly-the-u-s-manufactures-a-tonne-of-grid-batteries/",
+      "summary": "The United States can now meet 100% of domestic energy storage project demand with American-built batteries as grid storage becomes critical for data center expansion.",
+      "time": "2 weeks ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "EVs Could Meet Global Short-Term Grid Storage Demand by 2030",
+      "summary": "Research published in Nature Communications shows EV batteries could satisfy global short-term storage needs by 2030 with just 12-43% participation in vehicle-to-grid programs.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/electric-vehicle-grid-storage",
       "time": "3 months ago",
       "tags": [
         "V2X"
@@ -224,21 +698,87 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Battery Storage Is Reshaping the Grid; Integration Strategy Will Shape the Outcome",
-      "summary": "Utilities are transitioning from purchasing battery storage services to direct ownership, with success depending on integration strategy across operational technology, cybersecurity, and enterprise processes.",
-      "source": "Power Magazine",
-      "url": "https://www.powermag.com/battery-storage-is-reshaping-the-grid-integration-strategy-will-shape-the-outcome/",
-      "time": "2 weeks ago",
+      "headline": "Nissan Leaf Supports V2H Charging in New NACS Models",
+      "summary": "The redesigned Nissan Leaf now offers vehicle-to-home functionality through compatible energy management systems, enabling homeowners to use stored battery energy for peak shaving and outage backup.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/13/yes-an-ev-really-can-power-your-home-if-its-one-of-these/",
+      "time": "1 month ago",
       "tags": [
         "V2X"
       ],
-      "sentiment": "⚠️"
+      "sentiment": "📈"
     },
     {
-      "headline": "V2X: Vehicle-to-Everything Overview",
-      "summary": "DNV highlights V2G's potential to stabilize grids through flexibility and balancing services, with major OEMs committed to V2X-compatible vehicles this decade, though barriers include lack of standards and charging infrastructure costs.",
-      "source": "DNV",
-      "url": "https://www.dnv.com/energy-transition-outlook/v2x/",
+      "headline": "Which EV Models Support V2H: 2026 Guide from Recharged",
+      "summary": "Updated 2026 guide shows growing roster of EV models with vehicle-to-home capability including Ford F-150 Lightning, GM Ultium vehicles, Tesla Cybertruck, and Kia/Hyundai models.",
+      "source": "Recharged",
+      "url": "https://recharged.com/articles/evs-with-vehicle-to-home-charging",
+      "time": "2 days ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Battery Storage Integration in EV Charging Stations Increases Revenue and Reduces Grid Impact",
+      "summary": "Analysis shows on-site battery storage at EV charging stations can double net present value and reduce grid connection requirements by up to 80% while increasing economic viability.",
+      "source": "IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/9814040/",
+      "time": "3 years ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Advanced Battery Technologies for Smart Grids Achieved in 2025",
+      "summary": "High-energy lithium-ion systems, quasi-solid-state configurations, and sodium-ion batteries advanced significantly in 2025 to meet smart grid integration needs with enhanced energy density and safety.",
+      "source": "Nature Reviews Clean Technology",
+      "url": "https://www.nature.com/articles/s44359-025-00134-1",
+      "time": "3 months ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "V2H Battery Backup: Ford F-150 Lightning Powers Homes for Three Days During Outages",
+      "summary": "Ford's F-150 Lightning provides up to three days of home backup power using its large battery pack through the Ford Charge Station Pro and Home Integration System.",
+      "source": "American Solar Energy Society",
+      "url": "https://ases.org/v2h-vehicle-to-home-bi-directional-charging/",
+      "time": "5 days ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "V2H and V2G Technology Potential Explores in Germany's BDL Next Project",
+      "summary": "Germany's BDL Next project demonstrates how EV flexibility integrates into energy systems through bidirectional vehicles and wallboxes, with gridX managing the smart energy management architecture.",
+      "source": "gridX",
+      "url": "https://www.gridx.ai/knowledge/what-is-vehicle-to-grid-v2g-how-evs-support-the-grid",
+      "time": "1 month ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Honda Announces Acura RSX with Bidirectional V2H and V2G Support (Planned)",
+      "summary": "Honda announced plans for its upcoming Acura RSX to feature bidirectional home charging, previewing a future where all Honda EVs on the new global platform will support V2H and V2G.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/03/13/yes-an-ev-really-can-power-your-home-if-its-one-of-these/",
+      "time": "1 month ago",
+      "tags": [
+        "V2X"
+      ],
+      "sentiment": "📈"
+    },
+    {
+      "headline": "Department of Energy Releases Bidirectional Charging and EV Mobile Storage Guide",
+      "summary": "DOE outlines how bidirectional EVs provide mobile battery storage for buildings and the grid through V2B and V2G applications, offering resilience, demand response, and cost reduction benefits.",
+      "source": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/cmei/femp/bidirectional-charging-and-electric-vehicles-mobile-storage",
       "time": "6 months ago",
       "tags": [
         "V2X"
@@ -246,44 +786,11 @@
       "sentiment": "📈"
     },
     {
-      "headline": "Second-life EV batteries get tick from US data center operator",
-      "summary": "Second-life EV batteries are being repurposed for stationary energy storage in solar-plus-storage projects powering data centers as part of expanded microgrid deployments.",
-      "source": "ESS News",
-      "url": "https://www.ess-news.com/2026/03/25/second-life-ev-batteries-get-tick-from-us-data-center-operator/",
-      "time": "3 weeks ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "Vehicle-to-Grid Conference 2026",
-      "summary": "The V2G Conference (April 15-16, 2026 in Münster) brings together automotive, energy, and tech leaders to discuss bidirectional charging's future role in grid-connected mobility and new business models.",
-      "source": "Vehicle-2-Grid Conference",
-      "url": "https://www.vehicle-2-grid.eu/en/",
-      "time": "1 day ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "What is Vehicle-to-Home (V2H)? How It Works and Which EVs Support It",
-      "summary": "V2H bidirectional charging allows EVs to power homes during outages using system gateways that isolate homes from the grid, with Tesla Powershare Home Backup offering hardware and installation starting around $4,000.",
-      "source": "Tesla",
-      "url": "https://www.tesla.com/learn/bidirectional-charging-vehicle-to-home",
-      "time": "3 months ago",
-      "tags": [
-        "V2X"
-      ],
-      "sentiment": "📈"
-    },
-    {
-      "headline": "V2G: Transforming electric vehicles into rolling energy storage",
-      "summary": "GM announced plans to include V2G as a default feature by 2026, with Kia EV9 already equipped with bidirectional charging, enabling EVs to provide grid flexibility and congestion management through aggregated parking facilities.",
-      "source": "Rabobank",
-      "url": "https://www.rabobank.com/knowledge/d011424799-v2g-transforming-electric-vehicles-into-rolling-energy-storage",
-      "time": "4 months ago",
+      "headline": "Wallbox Quasar 2 V2H Charger Powers Homes with CCS1 EV Compatibility",
+      "summary": "Wallbox Quasar 2 bidirectional charger enables V2H and V2G with CCS1 vehicles, providing up to 11.5kW discharge power for home backup and grid services with managed schedules.",
+      "source": "Wallbox",
+      "url": "https://wallbox.com/en_us/quasar-2-v2h-bidirectional-ev-charger",
+      "time": "6 months ago",
       "tags": [
         "V2X"
       ],
